@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/08530e18bd5445ac9f4e276afec5c154/sfml-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/4f2001587e0cf7839fa1136ad5f9aa4c/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/ca51dcc0625a45ab83b49b09208b6516/sfml-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/ca51dcc0625a45ab83b49b09208b6516/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/ca51dcc0625a45ab83b49b09208b6516/sfml-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/ca51dcc0625a45ab83b49b09208b6516/sfml-populate-update.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/ca51dcc0625a45ab83b49b09208b6516/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/ca51dcc0625a45ab83b49b09208b6516/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/ca51dcc0625a45ab83b49b09208b6516/sfml-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/ca51dcc0625a45ab83b49b09208b6516/sfml-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

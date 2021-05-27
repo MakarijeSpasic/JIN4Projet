@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-subbuild/CMakeFiles/box2d-populate"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-subbuild/CMakeFiles/3a019f0f2926e1cc60cce5e0eec63627/box2d-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-subbuild/CMakeFiles/97ec9d5d57ff040383597ff97448a8fc/box2d-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-subbuild/CMakeFiles/fa632d71e3f5a633dcda67995ed177c4/box2d-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-subbuild/CMakeFiles/fa632d71e3f5a633dcda67995ed177c4/box2d-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-subbuild/CMakeFiles/fa632d71e3f5a633dcda67995ed177c4/box2d-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-subbuild/CMakeFiles/fa632d71e3f5a633dcda67995ed177c4/box2d-populate-update.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-subbuild/CMakeFiles/fa632d71e3f5a633dcda67995ed177c4/box2d-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-subbuild/CMakeFiles/fa632d71e3f5a633dcda67995ed177c4/box2d-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-subbuild/CMakeFiles/fa632d71e3f5a633dcda67995ed177c4/box2d-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-subbuild/CMakeFiles/fa632d71e3f5a633dcda67995ed177c4/box2d-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"box2d-populate"
+		],
+		"name" : "box2d-populate"
+	}
+}
