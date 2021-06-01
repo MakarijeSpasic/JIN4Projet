@@ -29,6 +29,9 @@ endif()
 # SOURCES at src/CMakeLists.txt:2 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/*.cpp")
 set(OLD_GLOB
+  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/Entite.cpp"
+  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/Monstre.cpp"
+  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/PersonnageJoueur.cpp"
   "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/myMain.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -39,6 +42,9 @@ endif()
 # SOURCES at src/CMakeLists.txt:2 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/*.h")
 set(OLD_GLOB
+  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/Entite.h"
+  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/Monstre.h"
+  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/PersonnageJoueur.h"
   "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/SFMLOrthogonalLayer.h"
   "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/myMain.h"
   )

@@ -265,6 +265,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\Entite.cpp" />
+    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\Entite.h" />
+    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\Monstre.cpp" />
+    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\Monstre.h" />
+    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\PersonnageJoueur.cpp" />
+    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\PersonnageJoueur.h" />
     <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\SFMLOrthogonalLayer.h" />
     <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\myMain.cpp" />
     <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\myMain.h" />
