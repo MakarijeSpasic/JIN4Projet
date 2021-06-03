@@ -65,6 +65,6 @@ void PersonnageJoueur::Lose_damage(std::string typeObstacle) {
 		this->Degats = this->Degats - 1;
 	};
 }
-void PersonnageJoueur::Hit() {
+void PersonnageJoueur::Hit(/* Hitbox : Box2D element ? */) {
 
 };
