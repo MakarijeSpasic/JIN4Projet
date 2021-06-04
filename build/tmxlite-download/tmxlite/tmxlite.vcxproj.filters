@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-mkdir.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-download.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-update.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-patch.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-configure.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-build.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-install.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-test.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\b1cb8675ce00ddb4fa4d46b802528f46\tmxlite-complete.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\dfd779979fe8b03a764eb402e812e8f3\tmxlite-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\ff3ed27dcad1e1da6613637ff427769d\tmxlite.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\830afa26f4b32544872da468e3719675\tmxlite.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite" />
+    <None Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{F7EE9908-8137-3803-A21C-31C45F45BD2D}</UniqueIdentifier>
+      <UniqueIdentifier>{910D1747-F016-3351-8150-4B1369C4B11A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

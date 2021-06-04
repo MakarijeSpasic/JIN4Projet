@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/mainLauncher
+# Install script for directory: C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/mainLauncher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

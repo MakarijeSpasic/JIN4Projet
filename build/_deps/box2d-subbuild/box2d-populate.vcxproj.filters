@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeFiles\fa632d71e3f5a633dcda67995ed177c4\box2d-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeFiles\c24d9a17e5e28e11cc5882bdbfef591f\box2d-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeFiles\fa632d71e3f5a633dcda67995ed177c4\box2d-populate-download.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeFiles\c24d9a17e5e28e11cc5882bdbfef591f\box2d-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeFiles\fa632d71e3f5a633dcda67995ed177c4\box2d-populate-update.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeFiles\c24d9a17e5e28e11cc5882bdbfef591f\box2d-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeFiles\fa632d71e3f5a633dcda67995ed177c4\box2d-populate-patch.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeFiles\c24d9a17e5e28e11cc5882bdbfef591f\box2d-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeFiles\fa632d71e3f5a633dcda67995ed177c4\box2d-populate-configure.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeFiles\c24d9a17e5e28e11cc5882bdbfef591f\box2d-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeFiles\fa632d71e3f5a633dcda67995ed177c4\box2d-populate-build.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeFiles\c24d9a17e5e28e11cc5882bdbfef591f\box2d-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeFiles\fa632d71e3f5a633dcda67995ed177c4\box2d-populate-install.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeFiles\c24d9a17e5e28e11cc5882bdbfef591f\box2d-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeFiles\fa632d71e3f5a633dcda67995ed177c4\box2d-populate-test.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeFiles\c24d9a17e5e28e11cc5882bdbfef591f\box2d-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeFiles\97ec9d5d57ff040383597ff97448a8fc\box2d-populate-complete.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeFiles\e5464c7e479978ed66e83c441b499060\box2d-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeFiles\3a019f0f2926e1cc60cce5e0eec63627\box2d-populate.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeFiles\50f9f33f50d89baa2c2f646460afda1a\box2d-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-subbuild\CMakeFiles\box2d-populate" />
+    <None Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-subbuild\CMakeFiles\box2d-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{F1101CE8-078E-333B-AC40-ACF6BCA60622}</UniqueIdentifier>
+      <UniqueIdentifier>{CBA55632-BE9A-301C-A8B4-7431A4EDA41C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A8D64181-1356-3772-8742-14B61183CE32}</ProjectGuid>
+    <ProjectGuid>{91BEAB1D-EA66-3B08-9CCF-1A5B42CD1313}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">imgui.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">imgui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">imgui.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">imgui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-build\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">imgui.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">imgui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-build\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">imgui.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">imgui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -94,10 +94,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,7 +110,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -126,10 +126,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -142,7 +142,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -158,10 +158,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -204,11 +204,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-src/extern/imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/box2d-src/extern/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-build/extern/imgui/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/box2d-build/extern/imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -216,12 +216,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-build\extern\imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-build\extern\imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-src/extern/imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/box2d-src/extern/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-build/extern/imgui/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/box2d-build/extern/imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,12 +229,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-build\extern\imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-build\extern\imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-src/extern/imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/box2d-src/extern/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-build/extern/imgui/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/box2d-build/extern/imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,12 +242,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-build\extern\imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-build\extern\imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-src/extern/imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/box2d-src/extern/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-build/extern/imgui/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/box2d-build/extern/imgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,26 +255,26 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-build\extern\imgui\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-build\extern\imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\imgui.cpp" />
-    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\imgui_demo.cpp" />
-    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\imgui_draw.cpp" />
-    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\imgui_widgets.cpp" />
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\imconfig.h" />
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\imgui.h" />
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\imgui_internal.h" />
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\imstb_rectpack.h" />
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\imstb_textedit.h" />
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\extern\imgui\imstb_truetype.h" />
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\imgui.cpp" />
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\imgui_demo.cpp" />
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\imgui_draw.cpp" />
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\imgui_widgets.cpp" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\imconfig.h" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\imgui.h" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\imgui_internal.h" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\imstb_rectpack.h" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\imstb_textedit.h" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\extern\imgui\imstb_truetype.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\ZERO_CHECK.vcxproj">
-      <Project>{C39C1E73-3866-3E8C-9A25-595E1890EB92}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\ZERO_CHECK.vcxproj">
+      <Project>{CD0A90A7-98E6-3180-A2C8-7CF8700EC5BE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

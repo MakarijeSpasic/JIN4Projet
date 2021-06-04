@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\baeb989e9f4823805b93a94ebb2149c1\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\936fa29410ab340269a2f516489bfb91\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C4DEC2EB-D5A1-31CE-A888-961F12BF0A41}</UniqueIdentifier>
+      <UniqueIdentifier>{959EF195-D4E4-34D3-95AC-1ECCE3FC3113}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

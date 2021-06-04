@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7157699F-99CE-3BAE-BE5F-1EB4B5333C73}</ProjectGuid>
+    <ProjectGuid>{F076D166-A791-3507-9D2D-58B591D6A60D}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -105,24 +105,24 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\2c924bba74d82ace1e852760aa622de6\pugixml-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\7d2c999713dc343182aed8984fda6322\pugixml-populate-mkdir.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,25 +131,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -158,25 +158,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,25 +185,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -212,21 +212,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\2c924bba74d82ace1e852760aa622de6\pugixml-populate-download.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\7d2c999713dc343182aed8984fda6322\pugixml-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,18 +234,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\pugixml-populate-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\pugixml-populate-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (git clone) for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -253,18 +253,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\pugixml-populate-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\pugixml-populate-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (git clone) for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,18 +272,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\pugixml-populate-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\pugixml-populate-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (git clone) for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -291,20 +291,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\pugixml-populate-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\pugixml-populate-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\2c924bba74d82ace1e852760aa622de6\pugixml-populate-update.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\7d2c999713dc343182aed8984fda6322\pugixml-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,17 +312,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing update step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -330,17 +330,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing update step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -348,17 +348,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing update step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/tmp/pugixml-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -366,19 +366,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\2c924bba74d82ace1e852760aa622de6\pugixml-populate-patch.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\7d2c999713dc343182aed8984fda6322\pugixml-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -386,15 +386,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -402,15 +402,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -418,15 +418,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -434,23 +434,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\2c924bba74d82ace1e852760aa622de6\pugixml-populate-configure.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\7d2c999713dc343182aed8984fda6322\pugixml-populate-configure.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -458,18 +458,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No configure step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -477,18 +477,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No configure step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -496,18 +496,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No configure step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -515,22 +515,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\2c924bba74d82ace1e852760aa622de6\pugixml-populate-build.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\7d2c999713dc343182aed8984fda6322\pugixml-populate-build.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -538,18 +538,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No build step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -557,18 +557,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No build step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -576,18 +576,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No build step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -595,22 +595,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\2c924bba74d82ace1e852760aa622de6\pugixml-populate-install.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\7d2c999713dc343182aed8984fda6322\pugixml-populate-install.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -618,18 +618,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No install step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -637,18 +637,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No install step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -656,18 +656,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No install step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -675,22 +675,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\2c924bba74d82ace1e852760aa622de6\pugixml-populate-test.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\7d2c999713dc343182aed8984fda6322\pugixml-populate-test.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -698,18 +698,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No test step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -717,18 +717,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No test step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -736,18 +736,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No test step for 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -755,20 +755,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\6b718ec79f45c2394235b3eebedb2f09\pugixml-populate-complete.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\9cf1ad40ed45a2f34d8f7b344dacbbae\pugixml-populate-complete.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)/pugixml-populate-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)/pugixml-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -776,17 +776,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)/pugixml-populate-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)/pugixml-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -794,17 +794,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)/pugixml-populate-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)/pugixml-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -812,17 +812,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'pugixml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)/pugixml-populate-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/$(Configuration)/pugixml-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/$(Configuration)/pugixml-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -830,14 +830,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\src\pugixml-populate-stamp\$(Configuration)\pugixml-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\5bd893a504ca017b21b610c09ef82700\pugixml-populate.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\ff701745e40ba21c0da70ec6fbd7340f\pugixml-populate.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -846,8 +846,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\pugixml-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\pugixml-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -858,8 +858,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\pugixml-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\pugixml-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
@@ -870,8 +870,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\pugixml-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\pugixml-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
@@ -882,18 +882,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\pugixml-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\$(Configuration)\pugixml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\pugixml-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -901,12 +901,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -914,12 +914,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -927,12 +927,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -940,18 +940,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\pugixml-populate-prefix\tmp\pugixml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\CMakeFiles\pugixml-populate">
+    <None Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\CMakeFiles\pugixml-populate">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{B62E9B43-F250-32F5-9E72-D457AD38E670}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{B2D00EFD-CA9B-3847-82C0-CE83D93D8C44}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

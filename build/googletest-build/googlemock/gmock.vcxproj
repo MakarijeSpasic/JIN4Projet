@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9715C6D4-24A3-3417-8F40-6FDDDB970F22}</ProjectGuid>
+    <ProjectGuid>{2ECD2FB8-442E-3012-BCF4-D7F2A353BC2D}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gmock.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gmockd</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gmock.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gmock</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gmock.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gmock</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gmock.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gmock</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -J -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -98,14 +98,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\bin\Debug\gmockd.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\bin\Debug\gmockd.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -118,7 +118,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -J -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>true</BufferSecurityCheck>
@@ -138,14 +138,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\bin\Release\gmock.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\bin\Release\gmock.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -158,7 +158,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -J -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>true</BufferSecurityCheck>
@@ -178,14 +178,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\bin\MinSizeRel\gmock.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\bin\MinSizeRel\gmock.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -198,7 +198,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -J -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>true</BufferSecurityCheck>
@@ -217,14 +217,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\bin\RelWithDebInfo\gmock.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\bin\RelWithDebInfo\gmock.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -236,11 +236,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/googletest-src/googlemock/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/googletest-src/googlemock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/googletest-build/googlemock/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/googletest-build/googlemock/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -248,12 +248,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/googletest-src/googlemock/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/googletest-src/googlemock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/googletest-build/googlemock/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/googletest-build/googlemock/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -261,12 +261,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/googletest-src/googlemock/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/googletest-src/googlemock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/googletest-build/googlemock/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/googletest-build/googlemock/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -274,12 +274,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/googletest-src/googlemock/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/googletest-src/googlemock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/googletest-build/googlemock/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/googletest-build/googlemock/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -287,18 +287,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googletest\src\gtest-all.cc" />
-    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-src\googlemock\src\gmock-all.cc" />
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googletest\src\gtest-all.cc" />
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-src\googlemock\src\gmock-all.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\ZERO_CHECK.vcxproj">
-      <Project>{C39C1E73-3866-3E8C-9A25-595E1890EB92}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\ZERO_CHECK.vcxproj">
+      <Project>{CD0A90A7-98E6-3180-A2C8-7CF8700EC5BE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

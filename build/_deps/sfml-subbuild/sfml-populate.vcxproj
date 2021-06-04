@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0A50211B-B908-38B7-86B5-50829B58B3E3}</ProjectGuid>
+    <ProjectGuid>{E44CC684-E9FA-3B45-842F-A1FF7C592C1A}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -105,24 +105,24 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\ca51dcc0625a45ab83b49b09208b6516\sfml-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\b0fcf4a462e3cbbc325bbd96327fafdd\sfml-populate-mkdir.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,25 +131,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -158,25 +158,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,25 +185,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -212,21 +212,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\ca51dcc0625a45ab83b49b09208b6516\sfml-populate-download.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\b0fcf4a462e3cbbc325bbd96327fafdd\sfml-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,18 +234,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (git clone) for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -253,18 +253,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (git clone) for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,18 +272,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (git clone) for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -291,20 +291,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\ca51dcc0625a45ab83b49b09208b6516\sfml-populate-update.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\b0fcf4a462e3cbbc325bbd96327fafdd\sfml-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,17 +312,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing update step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -330,17 +330,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing update step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -348,17 +348,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing update step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -366,19 +366,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\ca51dcc0625a45ab83b49b09208b6516\sfml-populate-patch.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\b0fcf4a462e3cbbc325bbd96327fafdd\sfml-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -386,15 +386,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -402,15 +402,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -418,15 +418,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -434,23 +434,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\ca51dcc0625a45ab83b49b09208b6516\sfml-populate-configure.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\b0fcf4a462e3cbbc325bbd96327fafdd\sfml-populate-configure.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -458,18 +458,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No configure step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -477,18 +477,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No configure step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -496,18 +496,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No configure step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -515,22 +515,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\ca51dcc0625a45ab83b49b09208b6516\sfml-populate-build.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\b0fcf4a462e3cbbc325bbd96327fafdd\sfml-populate-build.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -538,18 +538,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No build step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -557,18 +557,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No build step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -576,18 +576,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No build step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -595,22 +595,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\ca51dcc0625a45ab83b49b09208b6516\sfml-populate-install.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\b0fcf4a462e3cbbc325bbd96327fafdd\sfml-populate-install.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -618,18 +618,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No install step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -637,18 +637,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No install step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -656,18 +656,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No install step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -675,22 +675,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\ca51dcc0625a45ab83b49b09208b6516\sfml-populate-test.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\b0fcf4a462e3cbbc325bbd96327fafdd\sfml-populate-test.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -698,18 +698,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No test step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -717,18 +717,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No test step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -736,18 +736,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No test step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -755,20 +755,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\4f2001587e0cf7839fa1136ad5f9aa4c\sfml-populate-complete.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\e48a088ce258a998bbcbdb7069726813\sfml-populate-complete.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)/sfml-populate-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)/sfml-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -776,17 +776,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)/sfml-populate-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)/sfml-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -794,17 +794,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)/sfml-populate-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)/sfml-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -812,17 +812,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)/sfml-populate-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/$(Configuration)/sfml-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/$(Configuration)/sfml-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -830,14 +830,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\$(Configuration)\sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\08530e18bd5445ac9f4e276afec5c154\sfml-populate.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\3787a5de020758b14abe08e64ecbd238\sfml-populate.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -846,8 +846,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -858,8 +858,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
@@ -870,8 +870,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
@@ -882,18 +882,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\$(Configuration)\sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -901,12 +901,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -914,12 +914,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -927,12 +927,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -940,18 +940,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate">
+    <None Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{A4AF34FB-5E7D-331E-8B2D-09B4462917C6}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{B8F02F68-D6B7-3BB6-8E91-DA0779790DAE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

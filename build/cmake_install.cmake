@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML
+# Install script for directory: C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,27 +34,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/pugixml-build/cmake_install.cmake")
+  include("C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/pugixml-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-build/cmake_install.cmake")
+  include("C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/box2d-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/sfml-build/cmake_install.cmake")
+  include("C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/sfml-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/mainLauncher/cmake_install.cmake")
+  include("C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/mainLauncher/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/src/cmake_install.cmake")
+  include("C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

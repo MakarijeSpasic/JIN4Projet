@@ -1,14 +1,14 @@
 # Target labels
  tmxlite
 # Source files and their labels
-C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/tmxlite
-C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/ff3ed27dcad1e1da6613637ff427769d/tmxlite.rule
-C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/b1cb8675ce00ddb4fa4d46b802528f46/tmxlite-complete.rule
-C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/0d04374c5fe1351912e01bb3739afe19/tmxlite-install.rule
-C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/0d04374c5fe1351912e01bb3739afe19/tmxlite-mkdir.rule
-C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/0d04374c5fe1351912e01bb3739afe19/tmxlite-download.rule
-C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/0d04374c5fe1351912e01bb3739afe19/tmxlite-update.rule
-C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/0d04374c5fe1351912e01bb3739afe19/tmxlite-patch.rule
-C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/0d04374c5fe1351912e01bb3739afe19/tmxlite-configure.rule
-C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/0d04374c5fe1351912e01bb3739afe19/tmxlite-build.rule
-C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/0d04374c5fe1351912e01bb3739afe19/tmxlite-test.rule
+C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/tmxlite
+C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/830afa26f4b32544872da468e3719675/tmxlite.rule
+C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/dfd779979fe8b03a764eb402e812e8f3/tmxlite-complete.rule
+C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/93b617fafd65746fe99519f17b46e869/tmxlite-install.rule
+C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/93b617fafd65746fe99519f17b46e869/tmxlite-mkdir.rule
+C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/93b617fafd65746fe99519f17b46e869/tmxlite-download.rule
+C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/93b617fafd65746fe99519f17b46e869/tmxlite-update.rule
+C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/93b617fafd65746fe99519f17b46e869/tmxlite-patch.rule
+C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/93b617fafd65746fe99519f17b46e869/tmxlite-configure.rule
+C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/93b617fafd65746fe99519f17b46e869/tmxlite-build.rule
+C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/93b617fafd65746fe99519f17b46e869/tmxlite-test.rule

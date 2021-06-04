@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite
+# Install script for directory: C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
