@@ -1,15 +1,15 @@
 #include "Entite.h"
 #include "PersonnageJoueur.h"
 
-PersonnageJoueur::PersonnageJoueur(int initialCD, int initialVD, 
-								   int initialPortee, int initialDegats,
-	int x, int y, int givenHealth)
-: Entite{ x,y,givenHealth }
-, Cooldown{initialCD}
-, VitesseDeplacement{initialCD}
-, Portee{initialPortee}
-, Degats{initialDegats}
+PersonnageJoueur::PersonnageJoueur(int initialCD, int initialVD,int initialPortee, int initialDegats,int x, int y, int givenHealth):
+	Entite(x,y,givenHealth)
+	, Cooldown(initialCD)
+	, VitesseDeplacement(initialCD)
+	, Portee(initialPortee)
+	, Degats(initialDegats)
 {}
+;
+
 int limitTerrainX;
 int limitTerrainY;
 void PersonnageJoueur::Deplacer(std::string direction) {
@@ -63,7 +63,7 @@ void PersonnageJoueur::Lose_damage(std::string typeObstacle) {
 	}
 	else if (typeObstacle == "Mur") {
 		this->Degats = this->Degats - 1;
-	};
+	}
 }
 void PersonnageJoueur::Hit(/* Hitbox : Box2D element ? */) {
 

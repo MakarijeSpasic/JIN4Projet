@@ -1,4 +1,9 @@
 #pragma once
+struct current_coord {
+	int x;
+	int y;
+};
+
 class Entite
 {
 public:
@@ -6,11 +11,7 @@ public:
 	virtual ~Entite() = 0;
 	int attaque() const;
 protected:
-	current_coord coord;
+	struct current_coord coord;
 	int health;
 };
 
-struct current_coord {
-	int x;
-	int y;
-};

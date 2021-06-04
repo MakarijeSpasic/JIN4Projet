@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{583D6F08-47AA-39E0-8BBF-7867842078C6}</ProjectGuid>
+    <ProjectGuid>{9FD13457-45CC-3B81-86D7-072189E19435}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -105,24 +105,24 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-mkdir.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-mkdir.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,25 +131,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -158,25 +158,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,25 +185,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-mkdir
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -212,21 +212,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-download.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,18 +234,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\tmxlite-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\tmxlite-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (git clone) for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -253,18 +253,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\tmxlite-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\tmxlite-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (git clone) for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,18 +272,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\tmxlite-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\tmxlite-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (git clone) for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitclone.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-download
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -291,20 +291,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\tmxlite-gitinfo.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\tmxlite-gitinfo.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-update.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,17 +312,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing update step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -330,17 +330,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing update step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -348,17 +348,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing update step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitupdate.cmake
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/tmp/tmxlite-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -366,19 +366,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-patch.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -386,15 +386,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -402,15 +402,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -418,15 +418,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-patch
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -434,23 +434,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-configure.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-configure.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -458,18 +458,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No configure step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -477,18 +477,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No configure step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -496,18 +496,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No configure step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-configure
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -515,22 +515,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-build.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-build.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -538,18 +538,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No build step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -557,18 +557,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No build step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -576,18 +576,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No build step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-build
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -595,22 +595,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-install.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-install.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -618,18 +618,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No install step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -637,18 +637,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No install step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -656,18 +656,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No install step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-install
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -675,22 +675,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\0d04374c5fe1351912e01bb3739afe19\tmxlite-test.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\93b617fafd65746fe99519f17b46e869\tmxlite-test.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -698,18 +698,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No test step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -717,18 +717,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No test step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -736,18 +736,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No test step for 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build
+cd C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-test
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -755,20 +755,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\b1cb8675ce00ddb4fa4d46b802528f46\tmxlite-complete.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\dfd779979fe8b03a764eb402e812e8f3\tmxlite-complete.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)/tmxlite-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)/tmxlite-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -776,17 +776,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)/tmxlite-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)/tmxlite-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -794,17 +794,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)/tmxlite-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)/tmxlite-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -812,17 +812,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'tmxlite'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)/tmxlite-complete
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/$(Configuration)/tmxlite-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-done
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/tmxlite-prefix/src/tmxlite-stamp/$(Configuration)/tmxlite-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -830,14 +830,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-install;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-mkdir;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-download;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-update;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-patch;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-configure;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-build;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\src\tmxlite-stamp\$(Configuration)\tmxlite-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\ff3ed27dcad1e1da6613637ff427769d\tmxlite.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\830afa26f4b32544872da468e3719675\tmxlite.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -846,8 +846,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -858,8 +858,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
@@ -870,8 +870,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
@@ -882,18 +882,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\$(Configuration)\tmxlite-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -901,12 +901,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -914,12 +914,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -927,12 +927,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/tmxlite-download/tmxlite/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/tmxlite-download/tmxlite/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -940,18 +940,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject-gitupdate.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindGit.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.19\Modules\RepositoryInfo.txt.in;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\3.19.20122902-MSVC_2\CMakeSystem.cmake;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\tmxlite-prefix\tmp\tmxlite-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite">
+    <None Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\CMakeFiles\tmxlite">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-download\tmxlite\ZERO_CHECK.vcxproj">
-      <Project>{05C761AD-77DA-3355-8E58-A0841859C2FF}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-download\tmxlite\ZERO_CHECK.vcxproj">
+      <Project>{2D5B227C-DB67-32AB-B6CC-9A0721393AFD}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

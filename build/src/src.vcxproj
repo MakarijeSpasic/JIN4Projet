@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E348A91D-27AF-3D4B-B6FA-F5473CA29460}</ProjectGuid>
+    <ProjectGuid>{BF9C2439-B573-3D7B-B316-81B7A1BBE1F8}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">src.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">src</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">src.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">src</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">src.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">src</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">src.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">src</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SFML_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -193,10 +193,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-src\tmxlite\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\.;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-src\include;C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-src\tmxlite\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\.;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-src\include;C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-src\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,11 +208,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/src/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,12 +220,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/src/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -233,12 +233,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/src/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -246,12 +246,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML -BC:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build --check-stamp-file C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/src/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet -BC:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build --check-stamp-file C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -259,51 +259,51 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\Entite.cpp" />
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\Entite.h" />
-    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\Monstre.cpp" />
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\Monstre.h" />
-    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\PersonnageJoueur.cpp" />
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\PersonnageJoueur.h" />
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\SFMLOrthogonalLayer.h" />
-    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\myMain.cpp" />
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\src\myMain.h" />
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\Entite.cpp" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\Entite.h" />
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\Monstre.cpp" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\Monstre.h" />
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\PersonnageJoueur.cpp" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\PersonnageJoueur.h" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\SFMLOrthogonalLayer.h" />
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\myMain.cpp" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\myMain.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\ZERO_CHECK.vcxproj">
-      <Project>{C39C1E73-3866-3E8C-9A25-595E1890EB92}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\ZERO_CHECK.vcxproj">
+      <Project>{CD0A90A7-98E6-3180-A2C8-7CF8700EC5BE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\box2d-build\src\box2d.vcxproj">
-      <Project>{0771D3C5-F162-3714-82B8-7FFDDB412792}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\box2d-build\src\box2d.vcxproj">
+      <Project>{B9C8342B-6B3F-39E6-8A44-9039A07BA690}</Project>
       <Name>box2d</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-build\pugixml.vcxproj">
-      <Project>{77B5C059-53FD-3301-9BE7-85680092A555}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-build\pugixml.vcxproj">
+      <Project>{1AD08807-EB22-3461-97E7-F7119282B00B}</Project>
       <Name>pugixml</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
-      <Project>{B5EF4B9D-D863-3C00-AE27-4412FBF2B985}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{5D22CE0B-2C8C-3203-9082-E7E9B73CABC2}</Project>
       <Name>sfml-graphics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
-      <Project>{54DF2ABC-9EBD-3824-BB69-8896A817DD26}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{DDD6BBB8-5CB0-3051-BB14-11B128B6523D}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
-      <Project>{61D13FDA-85EF-3CFF-8507-9474F6DB24D9}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{A4FFA735-68D9-31D9-A855-CF6E72C9795E}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build\tmxlite\tmxlite.vcxproj">
-      <Project>{13464C05-2814-31D2-8833-E99710B9FF1E}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build\tmxlite\tmxlite.vcxproj">
+      <Project>{EB186DA5-EE0B-3A21-A8BD-2D2B58D06C74}</Project>
       <Name>tmxlite</Name>
     </ProjectReference>
   </ItemGroup>

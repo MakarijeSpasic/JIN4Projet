@@ -3,52 +3,52 @@
 cmake_policy(SET CMP0009 NEW)
 
 # RESOURCES at mainLauncher/CMakeLists.txt:7 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/resources/*.*")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/resources/*.*")
 set(OLD_GLOB
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/resources/demo.tmx"
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/resources/platform.tmx"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/resources/demo.tmx"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/resources/platform.tmx"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # RESOURCES_TILEMAP at mainLauncher/CMakeLists.txt:8 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/resources/images/tilemap/*.*")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/resources/images/tilemap/*.*")
 set(OLD_GLOB
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/resources/images/tilemap/platform.tsx"
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/resources/images/tilemap/tileset.png"
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/resources/images/tilemap/tileset.txt"
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/resources/images/tilemap/tileset02.png"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/resources/images/tilemap/platform.tsx"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/resources/images/tilemap/tileset.png"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/resources/images/tilemap/tileset.txt"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/resources/images/tilemap/tileset02.png"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SOURCES at src/CMakeLists.txt:2 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/*.cpp")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/*.cpp")
 set(OLD_GLOB
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/Entite.cpp"
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/Monstre.cpp"
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/PersonnageJoueur.cpp"
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/myMain.cpp"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/Entite.cpp"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/Monstre.cpp"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/PersonnageJoueur.cpp"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/myMain.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SOURCES at src/CMakeLists.txt:2 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/*.h")
 set(OLD_GLOB
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/Entite.h"
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/Monstre.h"
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/PersonnageJoueur.h"
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/SFMLOrthogonalLayer.h"
-  "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/src/myMain.h"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/Entite.h"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/Monstre.h"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/PersonnageJoueur.h"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/SFMLOrthogonalLayer.h"
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/myMain.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/CMakeFiles/cmake.verify_globs")
 endif()

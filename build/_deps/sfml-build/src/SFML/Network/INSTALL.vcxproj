@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FEF21619-A907-3363-8963-C889FF8ABE19}</ProjectGuid>
+    <ProjectGuid>{05B4D992-D837-302E-994B-D2EBA2E553F9}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -157,7 +157,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\CMakeFiles\58fcf916d765ebedcd9e65e8169d1e0e\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\CMakeFiles\b7b01f18d2dabcc4cabdf7a6e6a24513\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -169,7 +169,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build\src\SFML\Network\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build\src\SFML\Network\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
@@ -183,7 +183,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build\src\SFML\Network\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build\src\SFML\Network\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
@@ -197,7 +197,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build\src\SFML\Network\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build\src\SFML\Network\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
@@ -211,20 +211,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\sfml-build\src\SFML\Network\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\sfml-build\src\SFML\Network\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\ZERO_CHECK.vcxproj">
-      <Project>{C39C1E73-3866-3E8C-9A25-595E1890EB92}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\ZERO_CHECK.vcxproj">
+      <Project>{CD0A90A7-98E6-3180-A2C8-7CF8700EC5BE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\tmxlite-build\tmxlite\ALL_BUILD.vcxproj">
-      <Project>{B78D3E01-4DD4-3A71-A36A-4272D8BB0C2F}</Project>
+    <ProjectReference Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\tmxlite-build\tmxlite\ALL_BUILD.vcxproj">
+      <Project>{91F5BA0E-98EC-3A5E-924E-E579DC472CC7}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

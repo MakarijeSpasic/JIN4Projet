@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/build/_deps/box2d-src/testbed
+# Install script for directory: C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/build/_deps/box2d-src/testbed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

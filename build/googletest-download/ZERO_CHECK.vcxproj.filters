@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\googletest-download\CMakeFiles\0b71edd86e4abb1991985f5d4a90e6f2\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\googletest-download\CMakeFiles\2df23a6ed554dd753dd0738b40b53717\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{20215728-6B2D-3660-A2BA-B9393A2811A6}</UniqueIdentifier>
+      <UniqueIdentifier>{02F2614E-5BEA-3B1A-BA19-7CA8B8E6FC3B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src\pugixml.cpp">
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src\pugixml.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src\pugixml.hpp">
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src\pugixml.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\src\pugiconfig.hpp">
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\src\pugiconfig.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Makarije\Desktop\TSP\JIN\Tmxlite_SampleSFML\build\_deps\pugixml-src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\build\_deps\pugixml-src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{8342E262-A335-3056-A605-EE6586B32291}</UniqueIdentifier>
+      <UniqueIdentifier>{40E7AF56-F900-3502-81C7-C01163949221}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{7AEE8396-C496-3868-B523-7F8FA94C6974}</UniqueIdentifier>
+      <UniqueIdentifier>{762F9808-E8C1-33CE-8A5D-C656CBB83B97}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
