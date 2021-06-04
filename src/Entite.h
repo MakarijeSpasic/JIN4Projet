@@ -1,16 +1,14 @@
 #pragma once
-struct current_coord {
-	int x;
-	int y;
-};
+#include <box2d/b2_body.h>
 
 class Entite
 {
 public:
 	Entite(int x, int y, int givenHealth);
 	void attaque() const;
+
 protected:
-	struct current_coord coord;
+	b2Body body;
 	int health;
 };
 

@@ -4,7 +4,6 @@
 
 #include <string>
 #include <SFML/Graphics/CircleShape.hpp>
-#include <SFML/Graphics/RenderWindow.hpp>
 
 #include "SFMLOrthogonalLayer.h"
 

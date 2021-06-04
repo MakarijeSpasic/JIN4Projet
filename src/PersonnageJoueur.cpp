@@ -19,27 +19,22 @@ PersonnageJoueur::PersonnageJoueur(int initialCD, int initialVD,int initialPorte
 
 int limitTerrainX;
 int limitTerrainY;
-void PersonnageJoueur::Deplacer(std::string direction) {
-	if (direction == "Gauche") {
-		if (this->coord.x > 0) {
-			this->coord.x = this->coord.x - VitesseDeplacement;
-		}
+void PersonnageJoueur::Deplacer(direction dir) {
+	
+	switch (dir) {
+	case Haut:
+		break;
+	case Bas :
+		break;
+	case Gauche:
+		break;
+	case Droite:
+		break;
+	default:
+		break;
 	}
-	else if (direction == "Droite") {
-		if (this->coord.x < limitTerrainX) {
-			this->coord.x = this->coord.x + VitesseDeplacement;
-		}
-	}
-	else if (direction == "Haut") {
-		if (this->coord.y < limitTerrainY) {
-			this->coord.y = this->coord.y + VitesseDeplacement;
-		}
-	}
-	else if (direction == "Bas"){
-		if (this->coord.y > 0) {
-			this->coord.y = this->coord.y - VitesseDeplacement;
-		}
-	}
+	
+	
 };
 void PersonnageJoueur::Lose_health(int damage) {
 	this->health = this->health - damage;
