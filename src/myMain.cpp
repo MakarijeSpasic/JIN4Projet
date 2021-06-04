@@ -30,12 +30,18 @@ and must not be misrepresented as being the original software.
 source distribution.
 *********************************************************************/
 
-#include <SFML/Graphics/RenderWindow.hpp>
+
+#include <SFML/Graphics/CircleShape.hpp>
 #include <SFML/Window/Event.hpp>
 
 #include <tmxlite/Map.hpp>
 
 #include "SFMLOrthogonalLayer.h"
+
+//Ici on met nos include concernant le perso et les monstres
+
+#include "Entite.h"
+#include "PersonnageJoueur.h"
 
 int myMain()
 {
@@ -49,6 +55,12 @@ int myMain()
     MapLayer layerTwo(map, 2);
 
     sf::Clock globalClock;
+
+    sf::CircleShape shape(50);
+    shape.setFillColor(sf::Color::Blue);
+
+    PersonnageJoueur joueur(0, 1, 1, 1, 10, 20, 10);
+
     while (window.isOpen())
     {
         sf::Event event;
@@ -62,9 +74,16 @@ int myMain()
         layerZero.update(duration);
 
         window.clear(sf::Color::Black);
+
         window.draw(layerZero);
         window.draw(layerOne);
         window.draw(layerTwo);
+
+        window.draw(shape);
+        
+        window.draw(joueur.GetShape());
+
+
         window.display();
     }
 

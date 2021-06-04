@@ -8,8 +8,7 @@ class Entite
 {
 public:
 	Entite(int x, int y, int givenHealth);
-	virtual ~Entite() = 0;
-	int attaque() const;
+	void attaque() const;
 protected:
 	struct current_coord coord;
 	int health;
