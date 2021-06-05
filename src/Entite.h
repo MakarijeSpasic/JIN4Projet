@@ -1,18 +1,31 @@
 #pragma once
 #include "box2d/box2d.h"
+#include <SFML/Graphics/CircleShape.hpp>
 
 class Entite
 {
 public:
-	Entite(b2World world, int x, int y, int givenHealth); //On prend un monde en argument pour créer l'entité dedans => Peut être prendre un pointeur ??
-	virtual void attaque() = 0;
+	Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth);
+	Entite(b2World* world, int x, int y, int givenHealth);
+	//On prend un monde en argument pour créer l'entité dedans => Peut être prendre un pointeur ??
+	void Attaque();
 	void Lose_health(int damage);
 
 	b2Body* GetBody() { return body; }
 
-	//Methodes ayant à voir avec l'allure du personnage
+//Methodes ayant à voir avec l'allure du personnage
+	
+	//Update shape position in windows according to position in b2World
+	void UpdateWindowPosition();
 
 	sf::CircleShape GetShape() { return shape; }
+
+private:
+	//Pour faire des conversions
+	b2Vec2 convertCoord_fromWindow_toWorld(sf::Vector2f win_coord);
+	sf::Vector2f convertCoord_fromWorld_toWindow(b2Vec2 wrld_coord);
+
+	
 
 protected:
 	//Box2D attributes

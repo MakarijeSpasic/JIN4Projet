@@ -1,7 +1,7 @@
 #include "Entite.h"
 #include "PersonnageJoueur.h"
 
-PersonnageJoueur::PersonnageJoueur(b2World world, int initialCD, int initialVD,int initialPortee, int initialDegats,int x, int y, int givenHealth):
+PersonnageJoueur::PersonnageJoueur(b2World* world, int initialDegats,int x, int y, int givenHealth, int initialCD, int initialVD, int initialPortee):
 	Entite(world, x,y,givenHealth),
 	Cooldown(initialCD),
 	VitesseDeplacement(initialVD),
@@ -10,28 +10,12 @@ PersonnageJoueur::PersonnageJoueur(b2World world, int initialCD, int initialVD,i
 	
 {
 	
-	shape = sf::CircleShape(10);
-	shape.setFillColor(sf::Color::Green); //On met la couleur verte pour différencier des monstres (on les mettra rouge ?)
-	//shape.setPosition(coord.x; coord.y);
-
 }
 ;
 
-void PersonnageJoueur::Deplacer(direction dir) {
+void PersonnageJoueur::Deplacer(b2Vec2 dir) {
 	
-	switch (dir) {
-	case Haut:
-		break;
-	case Bas :
-		break;
-	case Gauche:
-		break;
-	case Droite:
-		break;
-	default:
-		break;
-	}
-	
+
 };
 
 

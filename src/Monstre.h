@@ -8,7 +8,7 @@ class Monstre :
 	public Entite
 {
 public:
-	Monstre(int zoneActivation, std::string typeMonstre, int x, int y, int givenHealth);
+	Monstre(b2World* world, int zoneActivation, std::string typeMonstre, int x, int y, int givenHealth);
 	void MouvementPredefini(std::vector<std::unique_ptr<struct mouvementAtomique>>, int zoneActivation);
 protected:
 	int zoneActivation;

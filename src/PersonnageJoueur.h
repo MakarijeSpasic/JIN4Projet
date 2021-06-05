@@ -3,24 +3,24 @@
 #include "Monstre.h"
 
 #include <string>
-#include <SFML/Graphics/CircleShape.hpp>
 
-#include "SFMLOrthogonalLayer.h"
 
-enum direction {Haut,Bas,Gauche,Droite};
+
+
+
 
 class PersonnageJoueur : public Entite
 {
 public:
 	
-	PersonnageJoueur(b2World world,int initialCD, int initialVD, int initialPortee, int initialDegats, int x, int y, int givenHealth);
-	void Deplacer(direction dir);
+	PersonnageJoueur(b2World* world, int x, int y, int givenHealth, int initialCD, int initialVD, int initialPortee, int initialDegats);
+	void Deplacer(b2Vec2 dir);
 	
 	void Lose_range(std::string typeObstacle);
 	void Lose_damage(std::string typeObstacle);
 	void Hit(Monstre& monstre);
 
-	
+
 
 
 protected:
@@ -28,7 +28,6 @@ protected:
 	int VitesseDeplacement;
 	int Portee;
 	int Degats;
-	direction Direction = Haut;
 
 };
 

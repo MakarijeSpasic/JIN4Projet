@@ -1,7 +1,7 @@
 #include "Monstre.h"
 
-Monstre::Monstre(int zoneActivation, std::string typeMonstre, int x, int y, int givenHealth) 
-	: Entite(x, y, givenHealth)
+Monstre::Monstre(b2World* world, int zoneActivation, std::string typeMonstre, int x, int y, int givenHealth) 
+	: Entite(world,x, y, givenHealth)
 	, zoneActivation{zoneActivation}
 	, typeMonstre{typeMonstre}
 {};

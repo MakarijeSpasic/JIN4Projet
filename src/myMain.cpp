@@ -31,17 +31,10 @@ source distribution.
 *********************************************************************/
 
 
-#include <SFML/Graphics/CircleShape.hpp>
-#include <SFML/Window/Event.hpp>
 
-#include <tmxlite/Map.hpp>
+#include "myMain.h"
 
-#include "SFMLOrthogonalLayer.h"
 
-//Ici on met nos include concernant le perso et les monstres
-
-#include "Entite.h"
-#include "PersonnageJoueur.h"
 
 int myMain()
 {
@@ -59,10 +52,15 @@ int myMain()
     sf::CircleShape shape(50);
     shape.setFillColor(sf::Color::Blue);
 
-    PersonnageJoueur joueur(0, 1, 1, 1, 10, 20, 10);
+    b2Vec2 gravity(0.f, -1.f);
+    b2World world(gravity);
+
+    PersonnageJoueur joueur(&world, 10, 300, 1, 1, 1, 1, 1);
 
     while (window.isOpen())
     {
+        //joueur.UpdateWindowPosition();
+
         sf::Event event;
         while (window.pollEvent(event))
         {
@@ -73,6 +71,8 @@ int myMain()
         sf::Time duration = globalClock.getElapsedTime();
         layerZero.update(duration);
 
+
+
         window.clear(sf::Color::Black);
 
         window.draw(layerZero);
@@ -81,7 +81,7 @@ int myMain()
 
         window.draw(shape);
         
-        window.draw(joueur.GetShape());
+        //window.draw(joueur.GetShape());
 
 
         window.display();
