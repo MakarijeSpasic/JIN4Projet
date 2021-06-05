@@ -14,7 +14,9 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 ;
 
 void PersonnageJoueur::Deplacer(b2Vec2 dir) {
-	
+
+	b2Vec2 force = VitesseDeplacement * dir; //Attention de mettre la constante devant 
+	body->ApplyForceToCenter(force,true);
 
 };
 

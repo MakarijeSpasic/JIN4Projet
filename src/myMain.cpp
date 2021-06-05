@@ -56,7 +56,7 @@ int myMain()
     b2Vec2 gravity(0.f, 0.f); //Pas de gravité
     b2World world(gravity);
 
-    PersonnageJoueur joueur(&world,30,60, 1, 1, 1, 1, 1);
+    PersonnageJoueur joueur(&world,30,60, 1, 10, 1, 1, 1);
     //Les limites du monde sont donc 0 à 80 sur x et 0 à 60 sur y
     
 
@@ -65,8 +65,8 @@ int myMain()
         
         joueur.UpdateWindowPosition();
 
-        //printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
-        //printf("player wrld pos = %f ; %f \n", joueur.GetBody()->GetPosition().x, joueur.GetBody()->GetPosition().y);
+        printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+        printf("player wrld pos = %f ; %f \n", joueur.GetBody()->GetPosition().x, joueur.GetBody()->GetPosition().y);
 
         sf::Event event;
         while (window.pollEvent(event))
