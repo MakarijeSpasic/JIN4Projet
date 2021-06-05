@@ -6,7 +6,11 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth)
 	//Création d'un body que l'on va pouvoir manipuler
 
 	bodyDef.type = b2_dynamicBody;
-	bodyDef.position.Set(wrld_x, wrld_y);
+	bodyDef.position.Set(wrld_x, wrld_y);//On bouge le body avant de le créer dans le monde : meilleur perf
+	bodyDef.allowSleep = true;//Aussi pour les performances : si le body ne bouge pas il est mis au repos => moins de CPU
+	bodyDef.awake = true;
+	bodyDef.fixedRotation = true;//On ne veut pas qu'il tourne
+	bodyDef.linearDamping = 10.0f;//On va appliquer des forces pour bouger : on veut pas qu'il drift
 	body = world->CreateBody(&bodyDef);
 	dynamic_box.SetAsBox(1.0f, 1.0f);//On fait une boite de cette taille là pour l'instant
 	fixtureDef.shape = &dynamic_box;

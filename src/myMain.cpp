@@ -53,7 +53,7 @@ int myMain()
     sf::CircleShape shape(50);
     shape.setFillColor(sf::Color::Blue);
 
-    b2Vec2 gravity(0.f, -1.f);
+    b2Vec2 gravity(0.f, 0.f); //Pas de gravité
     b2World world(gravity);
 
     PersonnageJoueur joueur(&world,30,60, 1, 1, 1, 1, 1);
@@ -71,9 +71,37 @@ int myMain()
         sf::Event event;
         while (window.pollEvent(event))
         {
-            if (event.type == sf::Event::Closed)
+            
+            switch (event.type) {
+
+            case sf::Event::Closed:
                 window.close();
+                break;
+            
+            
+            case sf::Event::KeyPressed: //Si une touche est pressed
+                switch (event.key.code) {//Selon la touche pressed on fait une action
+                
+                case sf::Keyboard::Left:
+                    joueur.Deplacer(b2Vec2(-1, 0));
+                    break;
+                case sf::Keyboard::Right:
+                    joueur.Deplacer(b2Vec2(1, 0));
+                    break;
+                case sf::Keyboard::Up:
+                    joueur.Deplacer(b2Vec2(0, 1));
+                    break;
+                case sf::Keyboard::Down:
+                    joueur.Deplacer(b2Vec2(0, -1));
+                    break;
+                case sf::Keyboard::Space:
+                    break;
+                }
+                break;
+            
+            }
         }
+
 
         sf::Time duration = globalClock.getElapsedTime();
         layerZero.update(duration);
