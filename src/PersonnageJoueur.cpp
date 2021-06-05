@@ -1,8 +1,8 @@
 #include "Entite.h"
 #include "PersonnageJoueur.h"
 
-PersonnageJoueur::PersonnageJoueur(int initialCD, int initialVD,int initialPortee, int initialDegats,int x, int y, int givenHealth):
-	Entite(x,y,givenHealth),
+PersonnageJoueur::PersonnageJoueur(b2World world, int initialCD, int initialVD,int initialPortee, int initialDegats,int x, int y, int givenHealth):
+	Entite(world, x,y,givenHealth),
 	Cooldown(initialCD),
 	VitesseDeplacement(initialVD),
 	Portee(initialPortee),
@@ -12,13 +12,11 @@ PersonnageJoueur::PersonnageJoueur(int initialCD, int initialVD,int initialPorte
 	
 	shape = sf::CircleShape(10);
 	shape.setFillColor(sf::Color::Green); //On met la couleur verte pour différencier des monstres (on les mettra rouge ?)
-	shape.setPosition(coord.x,coord.y);
+	//shape.setPosition(coord.x; coord.y);
 
 }
 ;
 
-int limitTerrainX;
-int limitTerrainY;
 void PersonnageJoueur::Deplacer(direction dir) {
 	
 	switch (dir) {
@@ -34,11 +32,8 @@ void PersonnageJoueur::Deplacer(direction dir) {
 		break;
 	}
 	
-	
 };
-void PersonnageJoueur::Lose_health(int damage) {
-	this->health = this->health - damage;
-};
+
 
 void PersonnageJoueur::Lose_range(std::string typeObstacle) {
 	if (typeObstacle == "Monstre1") {
