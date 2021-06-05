@@ -33,7 +33,8 @@ source distribution.
 
 
 #include "myMain.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 
 
 int myMain()
@@ -55,11 +56,17 @@ int myMain()
     b2Vec2 gravity(0.f, -1.f);
     b2World world(gravity);
 
-    PersonnageJoueur joueur(&world, 10, 300, 1, 1, 1, 1, 1);
+    PersonnageJoueur joueur(&world,30,60, 1, 1, 1, 1, 1);
+    //Les limites du monde sont donc 0 à 80 sur x et 0 à 60 sur y
+    
 
     while (window.isOpen())
     {
-        //joueur.UpdateWindowPosition();
+        
+        joueur.UpdateWindowPosition();
+
+        //printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+        //printf("player wrld pos = %f ; %f \n", joueur.GetBody()->GetPosition().x, joueur.GetBody()->GetPosition().y);
 
         sf::Event event;
         while (window.pollEvent(event))
@@ -71,7 +78,7 @@ int myMain()
         sf::Time duration = globalClock.getElapsedTime();
         layerZero.update(duration);
 
-
+        world.Step(duration.asSeconds(), 6, 2);
 
         window.clear(sf::Color::Black);
 
@@ -81,7 +88,7 @@ int myMain()
 
         window.draw(shape);
         
-        //window.draw(joueur.GetShape());
+        window.draw(joueur.GetShape());
 
 
         window.display();

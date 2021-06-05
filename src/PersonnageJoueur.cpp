@@ -1,8 +1,8 @@
 #include "Entite.h"
 #include "PersonnageJoueur.h"
 
-PersonnageJoueur::PersonnageJoueur(b2World* world, int initialDegats,int x, int y, int givenHealth, int initialCD, int initialVD, int initialPortee):
-	Entite(world, x,y,givenHealth),
+PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int givenHealth, int initialCD, int initialVD, int initialPortee, int initialDegats):
+	Entite(world, wrld_x, wrld_y, givenHealth),
 	Cooldown(initialCD),
 	VitesseDeplacement(initialVD),
 	Portee(initialPortee),

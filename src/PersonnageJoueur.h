@@ -13,7 +13,8 @@ class PersonnageJoueur : public Entite
 {
 public:
 	
-	PersonnageJoueur(b2World* world, int x, int y, int givenHealth, int initialCD, int initialVD, int initialPortee, int initialDegats);
+	PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int givenHealth, int initialCD, int initialVD, int initialPortee, int initialDegats);
+	
 	void Deplacer(b2Vec2 dir);
 	
 	void Lose_range(std::string typeObstacle);
