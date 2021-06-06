@@ -35,6 +35,7 @@ source distribution.
 #include "myMain.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "../build/src/MyQueryCallback.h"
 
 
 int myMain()
@@ -59,16 +60,19 @@ int myMain()
     PersonnageJoueur joueur(&world,30,60, 1, 10, 1, 1, 1);
     //Les limites du monde sont donc 0 à 80 sur x et 0 à 60 sur y
     
+    MyQueryCallback myQuery;
 
     while (window.isOpen())
     {
         
         joueur.UpdateWindowPosition();
+        joueur.UpdateDirection();
 
         printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
         printf("player wrld pos = %f ; %f \n", joueur.GetBody()->GetPosition().x, joueur.GetBody()->GetPosition().y);
 
         sf::Event event;
+        sf::Time duration = globalClock.getElapsedTime();
         while (window.pollEvent(event))
         {
             
@@ -83,16 +87,16 @@ int myMain()
                 switch (event.key.code) {//Selon la touche pressed on fait une action
                 
                 case sf::Keyboard::Left:
-                    joueur.Deplacer(b2Vec2(-1, 0));
+                    joueur.Deplacer(duration.asSeconds() * b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour déplacer à la juste distance
                     break;
                 case sf::Keyboard::Right:
-                    joueur.Deplacer(b2Vec2(1, 0));
+                    joueur.Deplacer(duration.asSeconds() * b2Vec2(1, 0));
                     break;
                 case sf::Keyboard::Up:
-                    joueur.Deplacer(b2Vec2(0, 1));
+                    joueur.Deplacer(duration.asSeconds() * b2Vec2(0, 1));
                     break;
                 case sf::Keyboard::Down:
-                    joueur.Deplacer(b2Vec2(0, -1));
+                    joueur.Deplacer(duration.asSeconds() * b2Vec2(0, -1));
                     break;
                 case sf::Keyboard::Space:
                     break;
@@ -103,7 +107,7 @@ int myMain()
         }
 
 
-        sf::Time duration = globalClock.getElapsedTime();
+        
         layerZero.update(duration);
 
         world.Step(duration.asSeconds(), 6, 2);

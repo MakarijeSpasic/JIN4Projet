@@ -6,9 +6,8 @@ class Entite
 {
 public:
 	Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth);
-	Entite(b2World* world, int x, int y, int givenHealth);
 	//On prend un monde en argument pour créer l'entité dedans => Peut être prendre un pointeur ??
-	void Attaque();
+	
 	void Lose_health(int damage);
 
 	b2Body* GetBody() { return body; }
@@ -17,6 +16,7 @@ public:
 	
 	//Update shape position in windows according to position in b2World
 	void UpdateWindowPosition();
+	
 
 	sf::CircleShape GetShape() { return shape; }
 

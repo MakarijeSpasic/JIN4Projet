@@ -10,9 +10,9 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth)
 	bodyDef.allowSleep = true;//Aussi pour les performances : si le body ne bouge pas il est mis au repos => moins de CPU
 	bodyDef.awake = true;
 	bodyDef.fixedRotation = true;//On ne veut pas qu'il tourne
-	bodyDef.linearDamping = 10.0f;//On va appliquer des forces pour bouger : on veut pas qu'il drift
+	bodyDef.linearDamping = 0.1f;//TEST
 	body = world->CreateBody(&bodyDef);
-	dynamic_box.SetAsBox(1.0f, 1.0f);//On fait une boite de cette taille là pour l'instant
+	dynamic_box.SetAsBox(10.0f, 10.0f);//On fait une boite de cette taille là pour l'instant
 	fixtureDef.shape = &dynamic_box;
 	fixtureDef.density = 1.0f;
 	body->CreateFixture(&fixtureDef);
@@ -24,9 +24,7 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth)
 
 }
 
-void Entite::Attaque()
-{
-}
+
 
 void Entite::Lose_health(int damage) {
 	this->health = this->health - damage;
