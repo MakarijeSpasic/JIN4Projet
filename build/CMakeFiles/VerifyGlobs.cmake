@@ -29,6 +29,7 @@ endif()
 # SOURCES at src/CMakeLists.txt:2 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/*.cpp")
 set(OLD_GLOB
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/CustomQueryCallback.cpp"
   "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/Entite.cpp"
   "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/Monstre.cpp"
   "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/PersonnageJoueur.cpp"
@@ -42,6 +43,7 @@ endif()
 # SOURCES at src/CMakeLists.txt:2 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/*.h")
 set(OLD_GLOB
+  "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/CustomQueryCallback.h"
   "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/Entite.h"
   "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/Monstre.h"
   "C:/Users/raphg/Desktop/JIN_PROJECT/JIN4Projet/src/PersonnageJoueur.h"

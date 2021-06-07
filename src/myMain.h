@@ -14,6 +14,7 @@
 
 #include "Entite.h"
 #include "PersonnageJoueur.h"
+#include "CustomQueryCallback.h"
 
 
 

@@ -265,6 +265,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\CustomQueryCallback.cpp" />
+    <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\CustomQueryCallback.h" />
     <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\Entite.cpp" />
     <ClInclude Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\Entite.h" />
     <ClCompile Include="C:\Users\raphg\Desktop\JIN_PROJECT\JIN4Projet\src\Monstre.cpp" />

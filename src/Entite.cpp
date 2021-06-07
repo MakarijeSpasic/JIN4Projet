@@ -12,13 +12,13 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth)
 	bodyDef.fixedRotation = true;//On ne veut pas qu'il tourne
 	bodyDef.linearDamping = 0.1f;//TEST
 	body = world->CreateBody(&bodyDef);
-	dynamic_box.SetAsBox(10.0f, 10.0f);//On fait une boite de cette taille là pour l'instant
+	dynamic_box.SetAsBox(1.0f, 1.0f);//On fait une boite de cette taille là pour l'instant
 	fixtureDef.shape = &dynamic_box;
 	fixtureDef.density = 1.0f;
 	body->CreateFixture(&fixtureDef);
 
 
-	shape = sf::CircleShape(10);
+	shape = sf::CircleShape(convertCoord_fromWorld_toWindow(b2Vec2(1.f,1.f)).x);//On converti la largeur du rectangle en rayon du cercle
 	shape.setFillColor(sf::Color::Green); //On met la couleur verte pour différencier des monstres (on les mettra rouge ?)
 	shape.setPosition(convertCoord_fromWorld_toWindow(body->GetTransform().p));
 

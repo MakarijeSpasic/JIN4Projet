@@ -35,7 +35,7 @@ source distribution.
 #include "myMain.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "../build/src/MyQueryCallback.h"
+
 
 
 int myMain()
@@ -59,8 +59,8 @@ int myMain()
 
     PersonnageJoueur joueur(&world,30,60, 1, 10, 1, 1, 1);
     //Les limites du monde sont donc 0 à 80 sur x et 0 à 60 sur y
-    
-    MyQueryCallback myQuery;
+
+    CustomQueryCallback query;
 
     while (window.isOpen())
     {
