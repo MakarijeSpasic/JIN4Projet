@@ -30,12 +30,13 @@ and must not be misrepresented as being the original software.
 source distribution.
 *********************************************************************/
 
-#include <SFML/Graphics/RenderWindow.hpp>
-#include <SFML/Window/Event.hpp>
 
-#include <tmxlite/Map.hpp>
 
-#include "SFMLOrthogonalLayer.h"
+#include "myMain.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+
 
 int myMain()
 {
@@ -49,22 +50,79 @@ int myMain()
     MapLayer layerTwo(map, 2);
 
     sf::Clock globalClock;
+
+    sf::CircleShape shape(50);
+    shape.setFillColor(sf::Color::Blue);
+
+    b2Vec2 gravity(0.f, 0.f); //Pas de gravité
+    b2World world(gravity);
+
+    PersonnageJoueur joueur(&world,30,60, 1, 10, 1, 1, 1);
+    //Les limites du monde sont donc 0 à 80 sur x et 0 à 60 sur y
+
+    CustomQueryCallback query;
+
     while (window.isOpen())
     {
+        
+        joueur.UpdateWindowPosition();
+        joueur.UpdateDirection();
+
+        printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+        printf("player wrld pos = %f ; %f \n", joueur.GetBody()->GetPosition().x, joueur.GetBody()->GetPosition().y);
+
         sf::Event event;
+        sf::Time duration = globalClock.getElapsedTime();
         while (window.pollEvent(event))
         {
-            if (event.type == sf::Event::Closed)
+            
+            switch (event.type) {
+
+            case sf::Event::Closed:
                 window.close();
+                break;
+            
+            
+            case sf::Event::KeyPressed: //Si une touche est pressed
+                switch (event.key.code) {//Selon la touche pressed on fait une action
+                
+                case sf::Keyboard::Left:
+                    joueur.Deplacer(duration.asSeconds() * b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour déplacer à la juste distance
+                    break;
+                case sf::Keyboard::Right:
+                    joueur.Deplacer(duration.asSeconds() * b2Vec2(1, 0));
+                    break;
+                case sf::Keyboard::Up:
+                    joueur.Deplacer(duration.asSeconds() * b2Vec2(0, 1));
+                    break;
+                case sf::Keyboard::Down:
+                    joueur.Deplacer(duration.asSeconds() * b2Vec2(0, -1));
+                    break;
+                case sf::Keyboard::Space:
+                    break;
+                }
+                break;
+            
+            }
         }
 
-        sf::Time duration = globalClock.getElapsedTime();
+
+        
         layerZero.update(duration);
 
+        world.Step(duration.asSeconds(), 6, 2);
+
         window.clear(sf::Color::Black);
+
         window.draw(layerZero);
         window.draw(layerOne);
         window.draw(layerTwo);
+
+        window.draw(shape);
+        
+        window.draw(joueur.GetShape());
+
+
         window.display();
     }
 
