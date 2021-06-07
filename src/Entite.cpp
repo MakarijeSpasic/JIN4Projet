@@ -2,7 +2,7 @@
 
 Entite::Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth, int givenForce) 
 	: health(givenHealth),
-	force(int givenForce)
+	force(givenForce)
 {
 	//Création d'un body que l'on va pouvoir manipuler
 

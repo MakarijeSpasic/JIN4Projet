@@ -5,12 +5,12 @@
 class Entite
 {
 public:
-	Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth);
+	Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth, int giverForce);
 	//On prend un monde en argument pour créer l'entité dedans => Peut être prendre un pointeur ??
 	
 	void Lose_health(int damage);
 
-	b2Body* GetBody() { return body; }
+	b2Body* GetBody() { return body; };
 
 //Methodes ayant à voir avec l'allure du personnage
 	

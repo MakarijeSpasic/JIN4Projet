@@ -57,22 +57,22 @@ int myMain()
     b2Vec2 gravity(0.f, 0.f); //Pas de gravité
     b2World world(gravity);
 
-    PersonnageJoueur joueur(&world,30,60, 1, 10, 1, 1, 1);
+    PersonnageJoueur joueur(&world,30.f,60.f, 1, 1, 1, 1, 10);
     //Les limites du monde sont donc 0 à 80 sur x et 0 à 60 sur y
 
-    CustomQueryCallback query;
+    PlayerQueryCallback callback;
 
-    
+    int i = 0;
 
     while (window.isOpen())
     {
         
         joueur.UpdateWindowPosition();
-        joueur.UpdateDirection();
+        
 
-        printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
-        printf("player wrld pos = %f ; %f \n", joueur.GetBody()->GetPosition().x, joueur.GetBody()->GetPosition().y);
-
+        //printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+        //printf("player wrld pos = %f ; %f \n", joueur.GetBody()->GetPosition().x, joueur.GetBody()->GetPosition().y);
+        
         sf::Event event;
         sf::Time duration = globalClock.getElapsedTime();
         while (window.pollEvent(event))
@@ -90,17 +90,28 @@ int myMain()
                 
                 case sf::Keyboard::Left:
                     joueur.Deplacer(duration.asSeconds() * b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour déplacer à la juste distance
+                    joueur.UpdateDirection(b2Vec2(-1, 0));
+                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Right:
                     joueur.Deplacer(duration.asSeconds() * b2Vec2(1, 0));
+                    joueur.UpdateDirection(b2Vec2(1, 0));
+                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Up:
                     joueur.Deplacer(duration.asSeconds() * b2Vec2(0, 1));
+                    joueur.UpdateDirection(b2Vec2(0, 1));
+                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Down:
                     joueur.Deplacer(duration.asSeconds() * b2Vec2(0, -1));
+                    joueur.UpdateDirection(b2Vec2(0, -1));
+                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Space:
+                    joueur.Attaquer(&world, &callback);
+                    
+                    
                     break;
                 }
                 break;
@@ -113,9 +124,10 @@ int myMain()
         layerZero.update(duration);
 
         world.Step(duration.asSeconds(), 6, 2);
-
-        window.clear(sf::Color::Black);
-
+        if (i >= 100) {
+            window.clear(sf::Color::Black);
+            i = 0;
+        }
         window.draw(layerZero);
         window.draw(layerOne);
         window.draw(layerTwo);
@@ -124,8 +136,20 @@ int myMain()
         
         window.draw(joueur.GetShape());
 
+        if (joueur.isAttacking()) {
+            printf("player attacks ! \n");
+            window.draw(joueur.GetSword());
+            printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+            printf("sword position = %f,%f \n", joueur.GetSword().getPosition().x, joueur.GetSword().getPosition().y);
+            printf("sword size = %f,%f \n", joueur.GetSword().getSize().x, joueur.GetSword().getSize().y);
+            joueur.setAttacking(false);
+        }
+        
+
 
         window.display();
+
+        i++;
     }
 
     return 0;

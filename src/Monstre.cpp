@@ -1,9 +1,9 @@
 #include "Monstre.h"
 
-Monstre::Monstre(b2World* world, int zoneActivation, std::string typeMonstre, float wrld_x, float wrld_y, int givenHealth)
-	: Entite(world,wrld_x,wrld_y, givenHealth)
+Monstre::Monstre(b2World* world, int zoneActivation, std::string typeMonstre, float wrld_x, float wrld_y, int givenHealth, int givenForce)
+	: Entite(world,wrld_x,wrld_y, givenHealth,givenForce)
 	, zoneActivation{zoneActivation}
-	, typeMonstre{typeMonstre}
+	, type{typeMonstre}
 {
 	shape = sf::CircleShape(convertCoord_fromWorld_toWindow(b2Vec2(1.f, 1.f)).x);//On converti la largeur du rectangle en rayon du cercle
 	shape.setFillColor(sf::Color::Red); //On met la couleur rouge pour différencier du joueur
