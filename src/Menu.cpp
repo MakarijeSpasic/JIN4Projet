@@ -6,20 +6,21 @@
 sf::Font font;
 Menu::Menu(float width, float height)
 {
-	
+	/*
 	if (!font.loadFromFile("C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/resources/mangat.ttf")) 
 	{
 		//on vérifie qu'il n'y a pas eu d'erreur lors du chargement de la police d'écriture
 		std::cout << "Il y a une erreur dans la police" << std::endl;
 	}
+	*/
+	//Cette version est correcte et devrait marcher pour tout le monde, mais ce n'est pas le cas, le "working directory" ne semble pas être Tmxlite_SampleSFML/build
 	
-	/*
-	if (!font.loadFromFile("../resources/mangat.ttf"))
+	if (!font.loadFromFile("../../resources/mangat.ttf"))
 	{
 		//on vérifie qu'il n'y a pas eu d'erreur lors du chargement de la police d'écriture
 		std::cout << "Il y a une erreur dans la police" << std::endl;
 	}
-	*/
+	
 	text[0].setFont(font);
 	text[0].setColor(sf::Color::Red);
 	text[0].setString("Play");
@@ -74,6 +75,8 @@ int Menu::GetPressedItem()
 
 void Menu::MenuWindow(sf::RenderWindow* window)
 {
+	sf::Sprite square = sf::RectangleShape(Vector2f(window->getSize().x*(3/4),window->getSize().y*(3/4)));
+	bool game_launched = false;
 	while (window->isOpen()) {
 		sf::Event event;
 		while (window->pollEvent(event))
@@ -99,13 +102,16 @@ void Menu::MenuWindow(sf::RenderWindow* window)
 					int i = this->GetPressedItem();
 					switch (i) {
 					case 0:
-						std::cout << "Le bouton Play a été utilisé" << std::endl;
+						//std::cout << "Le bouton Play a été utilisé" << std::endl;
+						window->clear(sf::Color::Black);
+						game_launched = true;
+						//return;
 						break;
 					case 1:
-						std::cout << "Le bouton 2 a été utilisé" << std::endl;
+						//std::cout << "Le bouton 2 a été utilisé" << std::endl;
 						break;
 					case 2:
-						std::cout << "Le bouton exit a été utilisé" << std::endl;
+						//std::cout << "Le bouton exit a été utilisé" << std::endl;
 						window->close();
 						break;
 					}
@@ -115,6 +121,7 @@ void Menu::MenuWindow(sf::RenderWindow* window)
 			}
 			window->clear(sf::Color::Black);
 			this->draw(*window);
+			//std::cout << "Le dessin est effectué" << std::endl;
 			/*
 			window.draw(layerZero);
 			window.draw(layerOne);
@@ -124,8 +131,12 @@ void Menu::MenuWindow(sf::RenderWindow* window)
 			*/
 			//window.draw(joueur.GetShape());
 
-
 			window->display();
+		}
+		if (game_launched) {
+			window->clear(sf::Color::Black);
+			//std::cout << "le dessin est effacé" << std::endl;
+			break;
 		}
 	}
 }
