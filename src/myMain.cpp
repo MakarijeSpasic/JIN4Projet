@@ -35,6 +35,7 @@ source distribution.
 #include "myMain.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "Menu.h"
 
 
 
@@ -60,17 +61,70 @@ int myMain()
     PersonnageJoueur joueur(&world,30,60, 1, 10, 1, 1, 1);
     //Les limites du monde sont donc 0 à 80 sur x et 0 à 60 sur y
 
+
+     //On crée le menu
+    Menu menu(window.getSize().x, window.getSize().y);
+
+    //On appelle d'abord le menu pour lancer le menu avant de lancer le jeu
+    //menu.MenuWindow(&window);
+    while (window.isOpen()) {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            switch (event.type) {
+
+            case sf::Event::Closed:
+                std::cout << "entré dans le case 1" << std::endl;
+                window.close();
+                break;
+
+
+            case sf::Event::KeyPressed: //Si une touche est utilisée
+                std::cout << "Une touche a été utilisée" << std::endl;
+                switch (event.key.code) {//Selon la touche enregistrée on fait une action
+                case sf::Keyboard::Up:
+                    menu.MoveUp();
+                    break;
+                case sf::Keyboard::Down:
+                    menu.MoveDown();
+                    break;
+                case sf::Keyboard::Return:
+                    int i = menu.GetPressedItem();
+                    switch (i) {
+                    case 0:
+                        std::cout << "Le bouton Play a été utilisé" << std::endl;
+                        break;
+                    case 1:
+                        std::cout << "Le bouton 2 a été utilisé" << std::endl;
+                        break;
+                    case 2:
+                        std::cout << "Le bouton exit a été utilisé" << std::endl;
+                        window.close();
+                        break;
+                    }
+                }
+                break;
+
+            }
+            window.clear(sf::Color::Black);
+
+            menu.draw(window);
+
+            window.display();
+        }
+    }
     CustomQueryCallback query;
 
     while (window.isOpen())
     {
         
-        joueur.UpdateWindowPosition();
-        joueur.UpdateDirection();
+        //joueur.UpdateWindowPosition();
+        //joueur.UpdateDirection();
 
-        printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
-        printf("player wrld pos = %f ; %f \n", joueur.GetBody()->GetPosition().x, joueur.GetBody()->GetPosition().y);
+        //printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+        //printf("player wrld pos = %f ; %f \n", joueur.GetBody()->GetPosition().x, joueur.GetBody()->GetPosition().y);
 
+       
         sf::Event event;
         sf::Time duration = globalClock.getElapsedTime();
         while (window.pollEvent(event))
@@ -107,20 +161,20 @@ int myMain()
         }
 
 
-        
         layerZero.update(duration);
 
         world.Step(duration.asSeconds(), 6, 2);
 
         window.clear(sf::Color::Black);
-
+        menu.draw(window);
+        /*
         window.draw(layerZero);
         window.draw(layerOne);
         window.draw(layerTwo);
 
         window.draw(shape);
-        
-        window.draw(joueur.GetShape());
+        */
+        //window.draw(joueur.GetShape());
 
 
         window.display();
