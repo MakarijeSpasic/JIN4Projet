@@ -20,7 +20,7 @@ void PersonnageJoueur::Deplacer(b2Vec2 dir_dt) { //dir_dt serait noté u*dt en ph
 	//body->SetLinearVelocity(force);
 
 }
-void PersonnageJoueur::Attaquer(b2World* world, MyQueryCallback query)
+void PersonnageJoueur::Attaquer(b2World* world, CustomQueryCallback query)
 {
 	//On créer une zone rectangulaire devant le joueur (donc garder en tête la direction vers laquelle il va) si il peut attaquer (cooldown complet)
 	//La taille de la zone rectangulaire dépends du paramètre portee

@@ -3,7 +3,7 @@
 #include "Monstre.h"
 
 #include <string>
-#include "../build/src/MyQueryCallback.h"
+#include "CustomQueryCallback.h"
 
 #include <SFML/Graphics/RectangleShape.hpp>
 
@@ -17,7 +17,7 @@ public:
 	PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int givenHealth, int initialCD, int initialVD, int initialPortee, int initialDegats);
 	
 	void Deplacer(b2Vec2 dir);
-	void Attaquer(b2World* world, MyQueryCallback query);
+	void Attaquer(b2World* world, CustomQueryCallback query);
 	
 	void Lose_range(std::string typeObstacle);
 	void Lose_damage(std::string typeObstacle);
