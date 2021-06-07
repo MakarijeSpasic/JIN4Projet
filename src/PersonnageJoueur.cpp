@@ -1,15 +1,17 @@
 #include "Entite.h"
 #include "PersonnageJoueur.h"
+#include <Query.h>
 
-PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int givenHealth, int initialCD, int initialVD, int initialPortee, int initialDegats):
+PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int givenHealth, int initialCD, int initialVD, int initialPortee):
 	Entite(world, wrld_x, wrld_y, givenHealth),
 	Cooldown(initialCD),
 	VitesseDeplacement(initialVD),
-	Portee(initialPortee),
-	Degats(initialDegats)
+	Portee(initialPortee)
 	
 {
-	
+	shape = sf::CircleShape(convertCoord_fromWorld_toWindow(b2Vec2(1.f, 1.f)).x);//On converti la largeur du rectangle en rayon du cercle
+	shape.setFillColor(sf::Color::Green); //On met la couleur verte pour différencier des monstres (on les mettra rouge ?)
+	shape.setPosition(convertCoord_fromWorld_toWindow(body->GetTransform().p));
 }
 ;
 
@@ -20,7 +22,7 @@ void PersonnageJoueur::Deplacer(b2Vec2 dir_dt) { //dir_dt serait noté u*dt en ph
 	//body->SetLinearVelocity(force);
 
 }
-void PersonnageJoueur::Attaquer(b2World* world, MyQueryCallback query)
+void PersonnageJoueur::Attaquer(b2World* world, CustomQueryCallback callback)
 {
 	//On créer une zone rectangulaire devant le joueur (donc garder en tête la direction vers laquelle il va) si il peut attaquer (cooldown complet)
 	//La taille de la zone rectangulaire dépends du paramètre portee
@@ -33,18 +35,20 @@ void PersonnageJoueur::Attaquer(b2World* world, MyQueryCallback query)
 
 	b2Vec2 normal((direction.x + direction.y) / 2,(direction.x - direction.y)/2 ); //On fait une rotation du vecteur de pi/2 
 
-	float attackbox_lowerbound_x = bodyPosition.x + 10.f * direction.x;
-	float attackbox_lowerbound_y = bodyPosition.y - 10.f * normal.y;
-	float attackbox_upperbound_x = bodyPosition.x + Portee * 10.f * direction.x;
-	float attackbox_upperbound_y = bodyPosition.y + 10.f * normal.y;
+	float attackbox_lowerbound_x = bodyPosition.x + 1.f * direction.x;
+	float attackbox_lowerbound_y = bodyPosition.y - 1.f * normal.y;
+	float attackbox_upperbound_x = bodyPosition.x + Portee * 1.f * direction.x;
+	float attackbox_upperbound_y = bodyPosition.y + 1.f * normal.y;
 	//Je les stock sous forme de float pour ensuite faire des conversions et créer un sf::rectangleShape correctement
 	//par contre comment l'afficher ...
 
 	attackBox.lowerBound.Set(attackbox_lowerbound_x, attackbox_lowerbound_y);
 	attackBox.upperBound.Set(attackbox_upperbound_x, attackbox_upperbound_y);
 
-	//On définit la zone simplement : les 10.f c'est la taille du shape du joueur
+	//On définit la zone simplement : les 1.f c'est la taille du shape du joueur
 	//A modifier
+
+	world->QueryAABB(&callback, attackBox);
 
 
 
@@ -68,16 +72,16 @@ void PersonnageJoueur::Lose_range(std::string typeObstacle) {
 };
 void PersonnageJoueur::Lose_damage(std::string typeObstacle) {
 	if (typeObstacle == "Monstre1") {
-		this->Degats = this->Degats - 1;
+		force--;
 	}
 	else if (typeObstacle == "Monstre2") {
-		this->Degats = this->Degats - 2;
+		force-=2;
 	}
 	else if (typeObstacle == "Monstre3") {
-		this->Degats = this->Degats - 3;
+		force-=3;
 	}
 	else if (typeObstacle == "Mur") {
-		this->Degats = this->Degats - 1;
+		force-=1;
 	}
 }
 void PersonnageJoueur::Hit(Monstre& monstre) { //On tape des monstres

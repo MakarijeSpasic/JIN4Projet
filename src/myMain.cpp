@@ -62,6 +62,8 @@ int myMain()
 
     CustomQueryCallback query;
 
+    
+
     while (window.isOpen())
     {
         

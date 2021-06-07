@@ -20,16 +20,12 @@ public:
 
 	sf::CircleShape GetShape() { return shape; }
 
-	int GetHealth() { return health; }
-	int GetForce() { return force; }
-
 private:
 	
 	
 
 protected:
 
-	
 	//Pour faire des conversions
 	b2Vec2 convertCoord_fromWindow_toWorld(sf::Vector2f win_coord);
 	sf::Vector2f convertCoord_fromWorld_toWindow(b2Vec2 wrld_coord);
@@ -41,13 +37,9 @@ protected:
 	b2PolygonShape dynamic_box;
 	b2FixtureDef fixtureDef;
 	//SFML attributes
-	  
+	// 	   
 	sf::CircleShape shape;
-
 	//Other
 	int health;
-	int force;//La force d'attaque d'une entité
-
-
 };
 

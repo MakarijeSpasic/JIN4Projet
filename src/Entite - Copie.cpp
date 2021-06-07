@@ -1,8 +1,7 @@
 #include "Entite.h"
 
-Entite::Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth, int givenForce) 
-	: health(givenHealth),
-	force(int givenForce)
+Entite::Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth) 
+	: health(givenHealth)
 {
 	//Création d'un body que l'on va pouvoir manipuler
 
@@ -12,7 +11,6 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth, int 
 	bodyDef.awake = true;
 	bodyDef.fixedRotation = true;//On ne veut pas qu'il tourne
 	bodyDef.linearDamping = 0.1f;//TEST
-	bodyDef.userData.pointer = reinterpret_cast<uintptr_t>((Entite*)this);
 	body = world->CreateBody(&bodyDef);
 	dynamic_box.SetAsBox(1.0f, 1.0f);//On fait une boite de cette taille là pour l'instant
 	fixtureDef.shape = &dynamic_box;
