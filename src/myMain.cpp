@@ -44,6 +44,7 @@ using std::filesystem::current_path;
 #include <stdlib.h>
 #include "Menu.h"
 #include <PlayerQueryCallback.h>
+#include <MyContactListener.h>
 
 
 
@@ -119,12 +120,14 @@ int myMain()
     //On ouvre d'abord le menu, il s'agit de la première fenêtre qui s'affiche avant le jeu
     menu.MenuWindow(&window);
     window.clear(sf::Color::Black);
+    //Listeners
     PlayerQueryCallback callback;
+    MyContactListener contactListener;
 
     joueur.initFont();
     joueur.initHPBar();
     
-    int i = 0;
+    int i = 10;
 
     while (window.isOpen())
     {
@@ -205,15 +208,20 @@ int myMain()
         joueur.renderHPBar(&window);
 
 
-        if (joueur.isAttacking()) {
-            printf("player attacks ! \n");
+        if (joueur.isAttacking() || i >= 0) {
+            //printf("player attacks ! \n");
             window.draw(joueur.GetSword());
-            printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
-            printf("sword position = %f,%f \n", joueur.GetSword().getPosition().x, joueur.GetSword().getPosition().y);
-            printf("sword size = %f,%f \n", joueur.GetSword().getSize().x, joueur.GetSword().getSize().y);
+            //printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+            //printf("sword position = %f,%f \n", joueur.GetSword().getPosition().x, joueur.GetSword().getPosition().y);
+            //printf("sword size = %f,%f \n", joueur.GetSword().getSize().x, joueur.GetSword().getSize().y);
             joueur.setAttacking(false);
+            i--;
+            
         }
-
+        else {
+            //i est un compteur : au bout de 10 frames window ne draw plus ce shape là
+            i = 10;
+        }
         window.draw(monstre_a.GetShape());
         window.draw(monstre_b.GetShape());
         window.draw(monstre_c.GetShape());
@@ -222,7 +230,7 @@ int myMain()
 
         window.display();
 
-        i++;
+        
     }
 
     return 0;

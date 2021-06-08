@@ -4,6 +4,8 @@
 
 enum TypeMonstre{Monstre1,Monstre2,Monstre3};
 
+
+
 class Entite
 {
 public:
@@ -25,7 +27,7 @@ public:
 
 	int GetHealth() { return health; }
 	int GetForce() { return force; }
-	
+	int GetIsPlayer() { return isPlayer; }; //Syntaxe moche et pas raccord avec la fonction isAttacking() dans PersonnageJoueur.hpp mais on fera avec
 
 protected:
 
@@ -46,7 +48,16 @@ protected:
 	//Other
 	int health;
 	int force;//La force d'attaque d'une entité
-
+	bool isPlayer; 
+	//Dans le contactListener, on peut récupérer un pointeur vers l'objet détenant le body qui est entré en contact
+	//Mais c'est un pointeur vers une entité et on ne peux pas savoir si l'Entite pointé
+	//Est un PersonnageJoueur ou un Monstre
+	//On va donc garder un booléen en stock pour pouvoir downCaster sans erreur.
+	//Entite étant une classe abstraite (en théorie, en pratique si elle est abstraite ça ne marche pas pour des raisons obscures,
+	//Disons qu'on est sûr qu'aucune entite n'est instantiée telle qu'elle )
+	//Alors Entite est forcément un personnageJoueur ou un Monstre
+	//On pourrait essayer de faire une fonction DynamicCast<T> comme j'ai pu voir surinternet
+	//Mais je manque de temps
 
 };
 

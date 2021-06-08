@@ -22,6 +22,8 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 	sword.setFillColor(sf::Color::Blue);
 	//this->initFont();
 	//this->initHPBar();
+
+	isPlayer = true;
 }
 ;
 

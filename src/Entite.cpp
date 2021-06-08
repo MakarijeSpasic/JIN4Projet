@@ -12,9 +12,11 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int health, int force
 	bodyDef.awake = true;
 	bodyDef.fixedRotation = true;//On ne veut pas qu'il tourne
 	bodyDef.linearDamping = 0.1f;//TEST
-	bodyDef.userData.pointer = reinterpret_cast<uintptr_t>((Entite*)this);
+	bodyDef.userData.pointer = reinterpret_cast<uintptr_t>(this);
 	body = world->CreateBody(&bodyDef);
+
 	dynamic_box.SetAsBox(1.0f, 1.0f);//On fait une boite de cette taille là pour l'instant
+
 	fixtureDef.shape = &dynamic_box;
 	fixtureDef.density = 1.0f;
 	body->CreateFixture(&fixtureDef);
