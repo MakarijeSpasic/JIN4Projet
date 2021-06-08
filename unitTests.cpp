@@ -26,7 +26,7 @@ TEST(PlayerAttack, AlwaysTrue) {
 
 
 	PlayerQueryCallback callback;
-	PersonnageJoueur joueur(&world, 40.f, 30.f, 1, 1, 1, 1, 100);
+	PersonnageJoueur joueur(&world, 40.f, 30.f, 1, 1, 1, 1, 100);//On met une très grande portee pour etre sur de toucher l'ennemi
 	Monstre monstre_a(&world, 10, Monstre1, 41.f, 30.f, 1, 1); //On cree un monstre juste a coté et on le tape
 
 	joueur.Move(0.01 * b2Vec2(1, 0));

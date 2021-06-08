@@ -126,8 +126,7 @@ int myMain()
     while (window.isOpen())
     {
         
-        //On update la position du joueur à chaque frame
-        joueur.UpdateWindowPosition();
+        
         
 
         sf::Event event;
@@ -179,6 +178,11 @@ int myMain()
             }
         }
 
+        //On update la position du joueur à chaque frame
+        joueur.UpdateWindowPosition();
+        monstre_a.UpdateWindowPosition();
+        monstre_b.UpdateWindowPosition();
+        monstre_c.UpdateWindowPosition();
 
         layerZero.update(duration);
 
