@@ -59,12 +59,12 @@ int myMain()
     */
     sf::RenderWindow window(sf::VideoMode(800, 608), "SFML window");
 
+    //On crée un objet map qu'on charge avec le fichier .tmx qui contient la carte à afficher
     tmx::Map map;
     map.load("../../resources/embedmap.tmx");
-
+    
+    //On charge le layer afin de le dessiner plus tard
     MapLayer layerZero(map, 0);
-    //MapLayer layerOne(map, 1);
-    //MapLayer layerTwo(map, 2);
 
     sf::Clock globalClock;
 
@@ -79,10 +79,10 @@ int myMain()
     //Les limites du monde sont donc 0 a 80 sur x et 0 a 60 sur y
 
 
-     //On cree le menu
+    //On crée l'objet menu avec la taille de la fenêtre de jeu, pour assurer le bon affichage du texte
     Menu menu(window.getSize().x, window.getSize().y);
 
-    //On appelle d'abord le menu pour lancer le menu avant de lancer le jeu
+    //On ouvre d'abord le menu, il s'agit de la première fenêtre qui s'affiche avant le jeu
     menu.MenuWindow(&window);
     window.clear(sf::Color::Black);
     PlayerQueryCallback callback;
@@ -92,13 +92,10 @@ int myMain()
     while (window.isOpen())
     {
         
+        //On update la position du joueur à chaque frame
         joueur.UpdateWindowPosition();
         
 
-        //printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
-        //printf("player wrld pos = %f ; %f \n", joueur.GetBody()->GetPosition().x, joueur.GetBody()->GetPosition().y);
-
-       
         sf::Event event;
         sf::Time duration = globalClock.getElapsedTime();
         while (window.pollEvent(event))
@@ -136,9 +133,9 @@ int myMain()
                     break;
                 case sf::Keyboard::Space:
                     joueur.Attack(&world, &callback);
-                    
-                    
                     break;
+
+                //On lance le menu si la touche échap est utilisée
                 case sf::Keyboard::Escape:
                     menu.MenuWindow(&window);
                     break;
@@ -156,16 +153,10 @@ int myMain()
         window.clear(sf::Color::Black);
         menu.draw(window);
         
-        
+        //On dessine la carte .tsx chargée dans le layerZero
         window.draw(layerZero);
 
-        /*
-        window.draw(layerOne);
-        window.draw(layerTwo);
-
-        window.draw(shape);
-        */
-
+        //On dessine le joueur en récupérant sa forme
         window.draw(joueur.GetShape());
 
         if (joueur.isAttacking()) {

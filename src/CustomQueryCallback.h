@@ -6,10 +6,8 @@
 class CustomQueryCallback : public b2QueryCallback
 {
 public:
-    CustomQueryCallback(Entite entite);
     bool ReportFixture(b2Fixture* fixture);
     
 
-    std::unique_ptr<Entite> owner;
 };
 
