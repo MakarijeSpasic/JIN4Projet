@@ -75,9 +75,40 @@ int myMain()
     b2Vec2 gravity(0.f, 0.f); //Pas de gravit�
     b2World world(gravity);
 
-    PersonnageJoueur joueur(&world,30.f,60.f, 1, 1, 1, 1, 10);
-    //Les limites du monde sont donc 0 a 80 sur x et 0 a 60 sur y
+    PersonnageJoueur joueur(&world,40.f,30.f, 1, 1, 1, 1, 10);
+    //Les limites du monde sont donc 0 a 80 sur x et 0 a 60,8 sur y
 
+    //On va créer des murs
+
+    
+    b2BodyDef murOuestBodyDef;
+    murOuestBodyDef.position.Set(0.0f, 30.0f);
+    b2Body* murOuestBody = world.CreateBody(&murOuestBodyDef);
+    b2PolygonShape murOuestBox;
+    murOuestBox.SetAsBox(1.0f, 50.0f);
+    murOuestBody->CreateFixture(&murOuestBox, 0.0f);
+    
+    b2BodyDef murEstBodyDef;
+    murEstBodyDef.position.Set(87.0f, 30.0f);
+    b2Body* murEstBody = world.CreateBody(&murEstBodyDef);
+    b2PolygonShape murEstBox;
+    murEstBox.SetAsBox(10.0f, 50.0f);
+    murEstBody->CreateFixture(&murEstBox, 0.0f);
+    
+    b2BodyDef murNordBodyDef;
+    murNordBodyDef.position.Set(40.0f, 70.0f);
+    b2Body* murNordBody = world.CreateBody(&murNordBodyDef);
+    b2PolygonShape murNordBox;
+    murNordBox.SetAsBox(50.0f, 10.0f);
+    murNordBody->CreateFixture(&murNordBox, 0.0f);
+    
+    b2BodyDef murSudBodyDef;
+    murSudBodyDef.position.Set(40.0f, -7.0f);
+    b2Body* murSudBody = world.CreateBody(&murSudBodyDef);
+    b2PolygonShape murSudBox;
+    murSudBox.SetAsBox(60.0f, 10.0f);
+    murSudBody->CreateFixture(&murSudBox, 0.0f);
+    
 
     //On crée l'objet menu avec la taille de la fenêtre de jeu, pour assurer le bon affichage du texte
     Menu menu(window.getSize().x, window.getSize().y);

@@ -49,14 +49,14 @@ b2Vec2 Entite::convertCoord_fromWindow_toWorld(sf::Vector2f win_coord)
 	//Ou bien trouver un moyen de stocker ça
 	//-> flemme
 
-	b2Vec2 res(win_coord.x / 10, (800 - win_coord.y) / 10);
+	b2Vec2 res(win_coord.x / 10, (608 - win_coord.y) / 10);
 
 	return res;
 
 }
 sf::Vector2f Entite::convertCoord_fromWorld_toWindow(b2Vec2 wrld_coord)
 {
-	sf::Vector2f res(wrld_coord.x * 10, 800 - wrld_coord.y * 10);
+	sf::Vector2f res(wrld_coord.x * 10, 608 - wrld_coord.y * 10);
 
 	return res;
 }
