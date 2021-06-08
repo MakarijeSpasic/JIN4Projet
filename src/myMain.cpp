@@ -43,6 +43,7 @@ using std::filesystem::current_path;
 #include <stdio.h>
 #include <stdlib.h>
 #include "Menu.h"
+#include <CustomQueryCallback.h>
 
 
 
@@ -56,14 +57,14 @@ int myMain()
 
     return EXIT_SUCCESS;
     */
-    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML window");
+    sf::RenderWindow window(sf::VideoMode(800, 608), "SFML window");
 
     tmx::Map map;
-    map.load("resources/demo.tmx");
+    map.load("../../resources/embedmap.tmx");
 
     MapLayer layerZero(map, 0);
-    MapLayer layerOne(map, 1);
-    MapLayer layerTwo(map, 2);
+    //MapLayer layerOne(map, 1);
+    //MapLayer layerTwo(map, 2);
 
     sf::Clock globalClock;
 
@@ -84,7 +85,6 @@ int myMain()
     //On appelle d'abord le menu pour lancer le menu avant de lancer le jeu
     menu.MenuWindow(&window);
     window.clear(sf::Color::Black);
-
     PlayerQueryCallback callback;
 
     int i = 0;
@@ -139,6 +139,9 @@ int myMain()
                     
                     
                     break;
+                case sf::Keyboard::Escape:
+                    menu.MenuWindow(&window);
+                    break;
                 }
                 break;
             
@@ -153,8 +156,10 @@ int myMain()
         window.clear(sf::Color::Black);
         menu.draw(window);
         
-        /*
+        
         window.draw(layerZero);
+
+        /*
         window.draw(layerOne);
         window.draw(layerTwo);
 

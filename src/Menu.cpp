@@ -6,15 +6,6 @@
 sf::Font font;
 Menu::Menu(float width, float height)
 {
-	/*
-	if (!font.loadFromFile("C:/Users/Makarije/Desktop/TSP/JIN/Tmxlite_SampleSFML/resources/mangat.ttf")) 
-	{
-		//on vérifie qu'il n'y a pas eu d'erreur lors du chargement de la police d'écriture
-		std::cout << "Il y a une erreur dans la police" << std::endl;
-	}
-	*/
-	//Cette version est correcte et devrait marcher pour tout le monde, mais ce n'est pas le cas, le "working directory" ne semble pas être Tmxlite_SampleSFML/build
-	
 	if (!font.loadFromFile("../../resources/mangat.ttf"))
 	{
 		//on vérifie qu'il n'y a pas eu d'erreur lors du chargement de la police d'écriture
@@ -26,16 +17,17 @@ Menu::Menu(float width, float height)
 	text[0].setString("Play");
 	text[0].setPosition(sf::Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 1));
 	
-
+	/*
 	text[1].setFont(font);
 	text[1].setColor(sf::Color::White);
 	text[1].setString("Options");
 	text[1].setPosition(sf::Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 2));
+	*/
 
-	text[2].setFont(font);
-	text[2].setColor(sf::Color::White);
-	text[2].setString("Exit");
-	text[2].setPosition(sf::Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 3));
+	text[1].setFont(font);
+	text[1].setColor(sf::Color::White);
+	text[1].setString("Exit");
+	text[1].setPosition(sf::Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 2));
 	
 	selectedItemIndex = 0;
 }
