@@ -11,7 +11,7 @@ public:
 	Menu(float width, float height);
 
 	//"Dessine" le menu sur la fenêtre
-	void draw(sf::RenderWindow& window);
+	void draw(sf::RenderWindow* window);
 
 	//Gèrent les sélections de éléments de menus via les touches directionnelles "haut" et "bas"
 	void MoveUp();

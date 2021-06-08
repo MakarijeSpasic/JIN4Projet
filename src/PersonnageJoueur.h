@@ -6,7 +6,10 @@
 #include <PlayerQueryCallback.h>
 
 #include <SFML/Graphics/RectangleShape.hpp>
+#include <SFML/Graphics/Font.hpp>
+#include <SFML/Graphics/RenderWindow.hpp>
 
+#define MAX_HEALTH 100;
 
 
 
@@ -14,7 +17,7 @@ class PersonnageJoueur : public Entite
 {
 public:
 	
-	PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health,int force, int cooldown, int speed, int range);
+	PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health,int force, int cooldown, float speed, int range);
 	
 	void Move(b2Vec2 dir);
 	void Attack(b2World* world, PlayerQueryCallback* callback);
@@ -31,9 +34,16 @@ public:
 
 	b2Vec2 GetDirection() { return direction; };
 
+	//gestion de la barre de vie:
+	
+	void updateHPBar();
+	void renderHPBar(sf::RenderWindow* window);
+	void initFont();
+	void initHPBar();
+	
 protected:
 	int cooldown;
-	int speed;
+	float speed;
 	int range;
 	
 	//Pour les attaques
@@ -41,7 +51,12 @@ protected:
 	b2AABB attackBox;
 	sf::RectangleShape sword;
 	bool attacking = false;
+
 	
+private:
+	sf::Font font;
+	sf::RectangleShape hpBarBack;
+	sf::RectangleShape hpBarInside;
 
 };
 

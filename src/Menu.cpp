@@ -30,11 +30,11 @@ Menu::Menu(float width, float height)
 }
 
 
-void Menu::draw(sf::RenderWindow& window)
+void Menu::draw(sf::RenderWindow* window)
 {
 	//On dessine les différents textes sur la fenêtre
 	for (int i = 0; i < MAX_NUMBER_OF_ITEMS; i++) {
-		window.draw(text[i]);
+		window->draw(text[i]);
 	}
 }
 
@@ -134,7 +134,7 @@ void Menu::MenuWindow(sf::RenderWindow* window)
 			//On redessine à chaque frame le menu, afin d'avoir les modifications graphiques en temps réel
 			window->clear(sf::Color::Black);
 
-			this->draw(*window);
+			this->draw(window);
 
 			window->display();
 		}

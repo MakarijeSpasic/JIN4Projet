@@ -6,7 +6,7 @@
 #define HY 1.f
 #define ECART 1.f
 
-PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health, int force, int cooldown, int speed, int range) :
+PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health, int force, int cooldown, float speed, int range) :
 	Entite(world, wrld_x, wrld_y, health, force),
 	cooldown(cooldown),
 	speed(speed),
@@ -20,6 +20,8 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 	shape.setPosition(convertCoord_fromWorld_toWindow(body->GetTransform().p));
 
 	sword.setFillColor(sf::Color::Blue);
+	//this->initFont();
+	//this->initHPBar();
 }
 ;
 
@@ -109,4 +111,34 @@ void PersonnageJoueur::LoseForce(TypeMonstre type)
 void PersonnageJoueur::UpdateDirection(b2Vec2 dir)
 {
 	direction = dir;
+}
+
+
+void PersonnageJoueur::updateHPBar()
+{
+	hpBarBack.setSize(sf::Vector2f(health, 20));
+}
+
+void PersonnageJoueur::renderHPBar(sf::RenderWindow* window)
+{
+	window->draw(hpBarBack);
+	window->draw(hpBarInside);
+}
+
+
+void PersonnageJoueur::initFont()
+{
+	font.loadFromFile("../../resources/mangat.ttf");
+}
+
+
+void PersonnageJoueur::initHPBar()
+{
+	hpBarBack.setSize(sf::Vector2f(100.f, 20.f));
+	hpBarBack.setFillColor(sf::Color(sf::Color::Red));
+	hpBarBack.setPosition(20.f, 20.f);
+
+	hpBarInside.setSize(sf::Vector2f(100.f, 20.f));
+	hpBarInside.setFillColor(sf::Color(sf::Color::Green));
+	hpBarInside.setPosition(this->hpBarBack.getPosition());
 }

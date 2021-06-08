@@ -75,7 +75,7 @@ int myMain()
     b2Vec2 gravity(0.f, 0.f); //Pas de gravit�
     b2World world(gravity);
 
-    PersonnageJoueur joueur(&world,40.f,30.f, 1, 1, 1, 1, 10);
+    PersonnageJoueur joueur(&world,40.f,30.f, 1, 1, 1, 0.2, 10);
     //Les limites du monde sont donc 0 a 80 sur x et 0 a 60,8 sur y
 
     //On va créer des murs
@@ -121,6 +121,9 @@ int myMain()
     window.clear(sf::Color::Black);
     PlayerQueryCallback callback;
 
+    joueur.initFont();
+    joueur.initHPBar();
+    
     int i = 0;
 
     while (window.isOpen())
@@ -179,6 +182,7 @@ int myMain()
         }
 
         //On update la position du joueur à chaque frame
+        joueur.updateHPBar();
         joueur.UpdateWindowPosition();
         monstre_a.UpdateWindowPosition();
         monstre_b.UpdateWindowPosition();
@@ -189,13 +193,17 @@ int myMain()
         world.Step(duration.asSeconds(), 6, 2);
 
         window.clear(sf::Color::Black);
-        menu.draw(window);
+        menu.draw(&window);
         
         //On dessine la carte .tsx chargée dans le layerZero
         window.draw(layerZero);
 
         //On dessine le joueur en récupérant sa forme
         window.draw(joueur.GetShape());
+
+        //On dessine la barre de vie du joueur
+        joueur.renderHPBar(&window);
+
 
         if (joueur.isAttacking()) {
             printf("player attacks ! \n");
