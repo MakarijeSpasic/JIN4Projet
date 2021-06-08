@@ -109,6 +109,9 @@ int myMain()
     murSudBox.SetAsBox(60.0f, 10.0f);
     murSudBody->CreateFixture(&murSudBox, 0.0f);
     
+    Monstre monstre_a(&world, 10, Monstre1,10.f, 30.f, 1, 1);
+    Monstre monstre_b(&world, 10, Monstre2, 10.f, 20.f, 1, 1);
+    Monstre monstre_c(&world, 10, Monstre3, 10.f, 40.f, 1, 1);
 
     //On crée l'objet menu avec la taille de la fenêtre de jeu, pour assurer le bon affichage du texte
     Menu menu(window.getSize().x, window.getSize().y);
@@ -198,6 +201,10 @@ int myMain()
             printf("sword size = %f,%f \n", joueur.GetSword().getSize().x, joueur.GetSword().getSize().y);
             joueur.setAttacking(false);
         }
+
+        window.draw(monstre_a.GetShape());
+        window.draw(monstre_b.GetShape());
+        window.draw(monstre_c.GetShape());
         
 
 

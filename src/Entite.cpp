@@ -20,10 +20,6 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int health, int force
 	body->CreateFixture(&fixtureDef);
 
 
-	shape = sf::CircleShape(convertCoord_fromWorld_toWindow(b2Vec2(1.f, 1.f)).x);//On converti la largeur du rectangle en rayon du cercle
-	shape.setFillColor(sf::Color::Green); //On met la couleur verte pour différencier des monstres (on les mettra rouge ?)
-	shape.setPosition(convertCoord_fromWorld_toWindow(body->GetTransform().p));
-
 }
 
 
