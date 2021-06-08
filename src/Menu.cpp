@@ -75,16 +75,17 @@ int Menu::GetPressedItem()
 
 void Menu::MenuWindow(sf::RenderWindow* window)
 {
-	sf::Sprite square = sf::RectangleShape(Vector2f(window->getSize().x*(3/4),window->getSize().y*(3/4)));
+	sf::RectangleShape menuSquare(sf::Vector2f(window->getSize().x*(3/4),window->getSize().y*(3/4)));
+	menuSquare.setFillColor(sf::Color::White);
 	bool game_launched = false;
 	while (window->isOpen()) {
 		sf::Event event;
+		window->draw(menuSquare);
 		while (window->pollEvent(event))
 		{
 			switch (event.type) {
 
 			case sf::Event::Closed:
-				std::cout << "entré dans le case 1" << std::endl;
 				window->close();
 				break;
 
@@ -121,15 +122,6 @@ void Menu::MenuWindow(sf::RenderWindow* window)
 			}
 			window->clear(sf::Color::Black);
 			this->draw(*window);
-			//std::cout << "Le dessin est effectué" << std::endl;
-			/*
-			window.draw(layerZero);
-			window.draw(layerOne);
-			window.draw(layerTwo);
-
-			window.draw(shape);
-			*/
-			//window.draw(joueur.GetShape());
 
 			window->display();
 		}
