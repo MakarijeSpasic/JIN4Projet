@@ -43,7 +43,7 @@ using std::filesystem::current_path;
 #include <stdio.h>
 #include <stdlib.h>
 #include "Menu.h"
-#include <CustomQueryCallback.h>
+#include <PlayerQueryCallback.h>
 
 
 
@@ -109,7 +109,7 @@ int myMain()
     murSudBox.SetAsBox(60.0f, 10.0f);
     murSudBody->CreateFixture(&murSudBox, 0.0f);
     
-    Monstre monstre_a(&world, 10, Monstre1,10.f, 30.f, 1, 1);
+    Monstre monstre_a(&world, 10, Monstre1,29.f, 30.f, 1, 1);
     Monstre monstre_b(&world, 10, Monstre2, 10.f, 20.f, 1, 1);
     Monstre monstre_c(&world, 10, Monstre3, 10.f, 40.f, 1, 1);
 

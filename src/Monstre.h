@@ -11,7 +11,7 @@ class Monstre :
 public:
 	Monstre(b2World* world, int zoneActivation, TypeMonstre type, float wrld_x, float wrld_y, int health, int force);
 	
-	void MouvementPredefini(std::vector<std::unique_ptr<struct mouvementAtomique>>, int zoneActivation);
+	void MouvementPredefini(std::vector<std::unique_ptr<struct mouvementAtomique>> mouvements, int zoneActivation);
 
 	TypeMonstre GetType() { return type; }
 
