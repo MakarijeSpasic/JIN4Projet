@@ -6,11 +6,11 @@
 #define HY 1.f
 #define ECART 1.f
 
-PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int givenHealth, int givenForce, int initialCD, int initialVD, int initialPortee) :
-	Entite(world, wrld_x, wrld_y, givenHealth, givenForce),
-	Cooldown(initialCD),
-	VitesseDeplacement(initialVD),
-	Portee(initialPortee)
+PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health, int force, int cooldown, int speed, int range) :
+	Entite(world, wrld_x, wrld_y, health, force),
+	cooldown(cooldown),
+	speed(speed),
+	range(range)
 
 {
 	//callback = PlayerQueryCallback(this);
@@ -23,14 +23,14 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 }
 ;
 
-void PersonnageJoueur::Deplacer(b2Vec2 dir_dt) { //dir_dt serait not� u*dt en physique avec u le vecteur de direction de l'attaque unitaire et dt le laps de temps
+void PersonnageJoueur::Move(b2Vec2 dir_dt) { //dir_dt serait not� u*dt en physique avec u le vecteur de direction de l'attaque unitaire et dt le laps de temps
 
-	b2Vec2 force = body->GetMass() * (VitesseDeplacement * dir_dt - body->GetLinearVelocity()); //F * dt = m * dv avec dv = vitesse voulue - vitesse actuelle => Faut diviser par dt !
+	b2Vec2 force = body->GetMass() * (speed * dir_dt - body->GetLinearVelocity()); //F * dt = m * dv avec dv = vitesse voulue - vitesse actuelle => Faut diviser par dt !
 	body->ApplyForceToCenter(force,true);
 	
 
 }
-void PersonnageJoueur::Attaquer(b2World* world, PlayerQueryCallback* callback)
+void PersonnageJoueur::Attack(b2World* world, PlayerQueryCallback* callback)
 {
 	//On cr�er une zone rectangulaire devant le joueur (donc garder en t�te la direction vers laquelle il va) si il peut attaquer (cooldown complet)
 	//La taille de la zone rectangulaire d�pends du param�tre portee
@@ -44,7 +44,7 @@ void PersonnageJoueur::Attaquer(b2World* world, PlayerQueryCallback* callback)
 	b2Vec2 normal(direction.y,-direction.x); //On fait une rotation du vecteur de pi/2 sens antihoraire
 
 	b2Vec2 attackbox_lowerbound = bodyPosition + (-HY) * normal + (ECART + HX) * direction; 
-	b2Vec2 attackbox_upperbound = bodyPosition + HY * normal + (ECART + HX + Portee) * direction;
+	b2Vec2 attackbox_upperbound = bodyPosition + HY * normal + (ECART + HX + range) * direction;
 	//Calcul de coordonn�es
 
 	attackBox.lowerBound.Set(attackbox_lowerbound.x, attackbox_lowerbound.y);
@@ -58,8 +58,8 @@ void PersonnageJoueur::Attaquer(b2World* world, PlayerQueryCallback* callback)
 	//On fait passer le bool�en en true pour signifier qu'on attaque et qu'on doit afficher le rectangle
 	attacking = true;
 	//On positionne ensuite correctement le shape de l'�p�e : sword
-	b2Vec2 sword_shape_center_inWorld = bodyPosition + (ECART + HX + Portee / 2) * direction;
-	b2Vec2 sword_shape_size_inWorld = Portee * direction + 2 * HX * normal;
+	b2Vec2 sword_shape_center_inWorld = bodyPosition + (ECART + HX + range / 2) * direction;
+	b2Vec2 sword_shape_size_inWorld = range * direction + 2 * HX * normal;
 
 	
 
@@ -72,37 +72,37 @@ void PersonnageJoueur::Attaquer(b2World* world, PlayerQueryCallback* callback)
 ;
 
 
-void PersonnageJoueur::Lose_range(std::string typeObstacle) {
-	if (typeObstacle == "Monstre1") {
-		this->Portee = this->Portee - 1;
-	}
-	else if (typeObstacle == "Monstre2") {
-		this->Portee = this->Portee - 2;
-	}
-	else if (typeObstacle == "Monstre3") {
-		this->Portee = this->Portee - 3;
-	}
-	else if (typeObstacle == "Mur") {
-		this->Portee = this-> Portee - 1;
-	}
-};
-void PersonnageJoueur::Lose_damage(std::string typeObstacle) {
-	if (typeObstacle == "Monstre1") {
-		force--;
-	}
-	else if (typeObstacle == "Monstre2") {
-		force-=2;
-	}
-	else if (typeObstacle == "Monstre3") {
-		force-=3;
-	}
-	else if (typeObstacle == "Mur") {
-		force-=1;
+void PersonnageJoueur::LoseRange(TypeMonstre type) {
+	switch (type) {
+	case Monstre1:
+		range -= 3;
+		break;
+	case Monstre2:
+		range -= 2;
+		break;
+	case Monstre3:
+		range -= 1;
+		break;
 	}
 }
-void PersonnageJoueur::Hit(Monstre& monstre) { //On tape des monstres
 
+void PersonnageJoueur::LoseForce(TypeMonstre type)
+{
+	switch (type) {
+	case Monstre1:
+		Entite::LoseForce(1);
+		break;
+	case Monstre2:
+		Entite::LoseForce(2);
+		break;
+	case Monstre3:
+		Entite::LoseForce(3);
+		break;
+	}
 }
+
+
+
 
 //Pour garder en m�moire la direction dans laquelle le joueur se d�place
 

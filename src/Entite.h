@@ -2,13 +2,16 @@
 #include "box2d/box2d.h"
 #include <SFML/Graphics/CircleShape.hpp>
 
+enum TypeMonstre{Monstre1,Monstre2,Monstre3};
+
 class Entite
 {
 public:
 	Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth, int giverForce);
 	//On prend un monde en argument pour créer l'entité dedans => Peut être prendre un pointeur ??
 	
-	void Lose_health(int damage);
+	void LoseHealth(int damage);
+	void LoseForce(int loss);
 
 	b2Body* GetBody() { return body; };
 

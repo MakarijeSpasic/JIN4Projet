@@ -67,6 +67,7 @@ int myMain()
 
     sf::Clock globalClock;
 
+    //Test pour voir si quelque chose s'affiche
     sf::CircleShape shape(50);
     shape.setFillColor(sf::Color::Blue);
 
@@ -74,16 +75,16 @@ int myMain()
     b2World world(gravity);
 
     PersonnageJoueur joueur(&world,30.f,60.f, 1, 1, 1, 1, 10);
-    //Les limites du monde sont donc 0 � 80 sur x et 0 � 60 sur y
+    //Les limites du monde sont donc 0 a 80 sur x et 0 a 60 sur y
 
 
-     //On cr�e le menu
+     //On cree le menu
     Menu menu(window.getSize().x, window.getSize().y);
 
     //On appelle d'abord le menu pour lancer le menu avant de lancer le jeu
     menu.MenuWindow(&window);
     window.clear(sf::Color::Black);
-    CustomQueryCallback query;
+
     PlayerQueryCallback callback;
 
     int i = 0;
@@ -114,27 +115,27 @@ int myMain()
                 switch (event.key.code) {//Selon la touche pressed on fait une action
                 
                 case sf::Keyboard::Left:
-                    joueur.Deplacer(duration.asSeconds() * b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour d�placer � la juste distance
+                    joueur.Move(duration.asSeconds() * b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour d�placer � la juste distance
                     joueur.UpdateDirection(b2Vec2(-1, 0));
                     printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Right:
-                    joueur.Deplacer(duration.asSeconds() * b2Vec2(1, 0));
+                    joueur.Move(duration.asSeconds() * b2Vec2(1, 0));
                     joueur.UpdateDirection(b2Vec2(1, 0));
                     printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Up:
-                    joueur.Deplacer(duration.asSeconds() * b2Vec2(0, 1));
+                    joueur.Move(duration.asSeconds() * b2Vec2(0, 1));
                     joueur.UpdateDirection(b2Vec2(0, 1));
                     printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Down:
-                    joueur.Deplacer(duration.asSeconds() * b2Vec2(0, -1));
+                    joueur.Move(duration.asSeconds() * b2Vec2(0, -1));
                     joueur.UpdateDirection(b2Vec2(0, -1));
                     printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Space:
-                    joueur.Attaquer(&world, &callback);
+                    joueur.Attack(&world, &callback);
                     
                     
                     break;

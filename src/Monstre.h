@@ -1,21 +1,23 @@
 #pragma once
 #include "Entite.h"
-#include <string>
+
 #include <vector>
 #include <memory>
+#include <string>
 
 class Monstre :
 	public Entite
 {
 public:
-	Monstre(b2World* world, int zoneActivation, std::string typeMonstre, float wrld_x, float wrld_y, int givenHealth, int givenForce);
+	Monstre(b2World* world, int zoneActivation, TypeMonstre type, float wrld_x, float wrld_y, int health, int force);
+	
 	void MouvementPredefini(std::vector<std::unique_ptr<struct mouvementAtomique>>, int zoneActivation);
 
-	std::string GetType() { return type; }
+	TypeMonstre GetType() { return type; }
 
 protected:
 	int zoneActivation;
-	std::string type; //le type de monstre
+	TypeMonstre type; //le type de monstre
 };
 
 struct mouvementAtomique {

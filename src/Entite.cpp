@@ -1,8 +1,8 @@
 #include "Entite.h"
 
-Entite::Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth, int givenForce) 
-	: health(givenHealth),
-	force(givenForce)
+Entite::Entite(b2World* world, float wrld_x, float wrld_y, int health, int force) : 
+	health(health),
+	force(force)
 {
 	//Création d'un body que l'on va pouvoir manipuler
 
@@ -28,8 +28,13 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth, int 
 
 
 
-void Entite::Lose_health(int damage) {
-	this->health = this->health - damage;
+void Entite::LoseHealth(int damage) {
+	health -= damage;
+}
+
+void Entite::LoseForce(int loss)
+{
+	force -= loss;
 }
 
 void Entite::UpdateWindowPosition()

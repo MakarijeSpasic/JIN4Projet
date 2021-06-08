@@ -14,14 +14,13 @@ class PersonnageJoueur : public Entite
 {
 public:
 	
-	PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int givenHealth,int givenForce, int initialCD, int initialVD, int initialPortee);
+	PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health,int force, int cooldown, int speed, int range);
 	
-	void Deplacer(b2Vec2 dir);
-	void Attaquer(b2World* world, PlayerQueryCallback* callback);
+	void Move(b2Vec2 dir);
+	void Attack(b2World* world, PlayerQueryCallback* callback);
 	
-	void Lose_range(std::string typeObstacle);
-	void Lose_damage(std::string typeObstacle);
-	void Hit(Monstre& monstre);
+	void LoseRange(TypeMonstre type);
+	void LoseForce(TypeMonstre type); //N'override pas la fonction LoseForce de Entite car l'utilise pour modifier la force
 
 	//M�thodes pour les attaques
 	void UpdateDirection(b2Vec2 dir);
@@ -33,9 +32,9 @@ public:
 	b2Vec2 GetDirection() { return direction; };
 
 protected:
-	int Cooldown;
-	int VitesseDeplacement;
-	int Portee;
+	int cooldown;
+	int speed;
+	int range;
 	
 	//Pour les attaques
 	b2Vec2 direction;
