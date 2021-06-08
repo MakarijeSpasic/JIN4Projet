@@ -23,7 +23,7 @@ public:
 	void Lose_damage(std::string typeObstacle);
 	void Hit(Monstre& monstre);
 
-	//Méthodes pour les attaques
+	//Mï¿½thodes pour les attaques
 	void UpdateDirection(b2Vec2 dir);
 	b2AABB GetAABB() { return attackBox; };
 	sf::RectangleShape GetSword() { return sword; };

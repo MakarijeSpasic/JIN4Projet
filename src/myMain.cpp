@@ -30,16 +30,32 @@ and must not be misrepresented as being the original software.
 source distribution.
 *********************************************************************/
 
+#include <iostream>
+#include <string>
+#include <filesystem>
+#include <direct.h>
 
+using std::cout; using std::cin;
+using std::endl; using std::string;
+using std::filesystem::current_path;
 
 #include "myMain.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "Menu.h"
 
 
 
 int myMain()
 {
+    //Pour avoir le chemin du working directory :
+    /*
+    char tmp[256];
+    getcwd(tmp, 256);
+    cout << "Current working directory: " << tmp << endl;
+
+    return EXIT_SUCCESS;
+    */
     sf::RenderWindow window(sf::VideoMode(800, 600), "SFML window");
 
     tmx::Map map;
@@ -54,12 +70,20 @@ int myMain()
     sf::CircleShape shape(50);
     shape.setFillColor(sf::Color::Blue);
 
-    b2Vec2 gravity(0.f, 0.f); //Pas de gravité
+    b2Vec2 gravity(0.f, 0.f); //Pas de gravitï¿½
     b2World world(gravity);
 
     PersonnageJoueur joueur(&world,30.f,60.f, 1, 1, 1, 1, 10);
-    //Les limites du monde sont donc 0 à 80 sur x et 0 à 60 sur y
+    //Les limites du monde sont donc 0 ï¿½ 80 sur x et 0 ï¿½ 60 sur y
 
+
+     //On crï¿½e le menu
+    Menu menu(window.getSize().x, window.getSize().y);
+
+    //On appelle d'abord le menu pour lancer le menu avant de lancer le jeu
+    menu.MenuWindow(&window);
+    window.clear(sf::Color::Black);
+    CustomQueryCallback query;
     PlayerQueryCallback callback;
 
     int i = 0;
@@ -72,7 +96,8 @@ int myMain()
 
         //printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
         //printf("player wrld pos = %f ; %f \n", joueur.GetBody()->GetPosition().x, joueur.GetBody()->GetPosition().y);
-        
+
+       
         sf::Event event;
         sf::Time duration = globalClock.getElapsedTime();
         while (window.pollEvent(event))
@@ -89,7 +114,7 @@ int myMain()
                 switch (event.key.code) {//Selon la touche pressed on fait une action
                 
                 case sf::Keyboard::Left:
-                    joueur.Deplacer(duration.asSeconds() * b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour déplacer à la juste distance
+                    joueur.Deplacer(duration.asSeconds() * b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour dï¿½placer ï¿½ la juste distance
                     joueur.UpdateDirection(b2Vec2(-1, 0));
                     printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
@@ -120,20 +145,21 @@ int myMain()
         }
 
 
-        
         layerZero.update(duration);
 
         world.Step(duration.asSeconds(), 6, 2);
-        if (i >= 100) {
-            window.clear(sf::Color::Black);
-            i = 0;
-        }
+
+        window.clear(sf::Color::Black);
+        menu.draw(window);
+        
+        /*
         window.draw(layerZero);
         window.draw(layerOne);
         window.draw(layerTwo);
 
         window.draw(shape);
-        
+        */
+
         window.draw(joueur.GetShape());
 
         if (joueur.isAttacking()) {
