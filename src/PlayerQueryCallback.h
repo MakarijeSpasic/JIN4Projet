@@ -10,6 +10,7 @@ class PlayerQueryCallback : public b2QueryCallback
 public:
     PlayerQueryCallback();
     PlayerQueryCallback(PersonnageJoueur* owner);
+    void SetOwner(PersonnageJoueur* new_owner);
     bool ReportFixture(b2Fixture* fixture) override;
 
 private:

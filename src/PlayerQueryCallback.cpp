@@ -7,6 +7,11 @@ PlayerQueryCallback::PlayerQueryCallback()
 
 PlayerQueryCallback::PlayerQueryCallback(PersonnageJoueur* owner):owner(owner){}
 
+void PlayerQueryCallback::SetOwner(PersonnageJoueur* new_owner)
+{
+    owner = new_owner;
+}
+
 bool PlayerQueryCallback::ReportFixture(b2Fixture* fixture)
 {
 
