@@ -1,6 +1,7 @@
 #include "Entite.h"
 
 Entite::Entite(b2World* world, float wrld_x, float wrld_y, int health, int force) : 
+	world(world),
 	health(health),
 	force(force)
 {

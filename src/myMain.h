@@ -15,6 +15,8 @@
 #include "Entite.h"
 #include "PersonnageJoueur.h"
 #include "PlayerQueryCallback.h"
+#include "Menu.h"
+#include <MyContactListener.h>
 
 
 

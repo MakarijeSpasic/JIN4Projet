@@ -37,6 +37,7 @@ protected:
 	sf::Vector2f convertCoord_fromWorld_toWindow(b2Vec2 wrld_coord);
 
 	//Box2D attributes
+	b2World* world;
 	b2BodyDef bodyDef;
 	b2Body* body;//Il faut un world pour le créer à partir de &bodyDef
 	b2PolygonShape dynamic_box;

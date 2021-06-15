@@ -13,7 +13,7 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 	range(range)
 
 {
-	//callback = PlayerQueryCallback(this);
+	callback = std::make_unique<PlayerQueryCallback>(PlayerQueryCallback(this));
 
 	shape = sf::CircleShape(convertCoord_fromWorld_toWindow(b2Vec2(1.f, 1.f)).x);//On converti la largeur du rectangle en rayon du cercle
 	shape.setFillColor(sf::Color::Green); //On met la couleur verte pour diff�rencier des monstres (on les mettra rouge ?)
@@ -34,7 +34,7 @@ void PersonnageJoueur::Move(b2Vec2 dir_dt) { //dir_dt serait not� u*dt en phys
 	
 
 }
-void PersonnageJoueur::Attack(b2World* world, PlayerQueryCallback* callback)
+void PersonnageJoueur::Attack()
 {
 	//On cr�er une zone rectangulaire devant le joueur (donc garder en t�te la direction vers laquelle il va) si il peut attaquer (cooldown complet)
 	//La taille de la zone rectangulaire d�pends du param�tre portee

@@ -26,11 +26,16 @@ PlayerQueryCallback callback;
 PersonnageJoueur joueur(&world, 40.f, 30.f, 1, 1, 1, 1, 100);//On met une très grande portee pour etre sur de toucher l'ennemi
 Monstre monstre_a(&world, 10, Monstre1, 41.f, 30.f, 1, 1); //On cree un monstre juste a coté et on le tape
 
+TEST(Player, AttackZone) {
+	joueur.Move(0.01 * b2Vec2(1, 0));
+
+}
+
 TEST(Player, Attack) {
 
 	
 	//On se rapproche d'un monstre et on attaque
-	joueur.Move(0.01 * b2Vec2(1, 0));
+	
 	joueur.Attack(&world, &callback);
 
 	EXPECT_EQ(monstre_a.GetHealth(), 0);

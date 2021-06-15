@@ -20,7 +20,7 @@ public:
 	PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health,int force, int cooldown, float speed, int range);
 	
 	void Move(b2Vec2 dir);
-	void Attack(b2World* world, PlayerQueryCallback* callback);
+	void Attack();
 	
 	void LoseRange(TypeMonstre type);
 	void LoseForce(TypeMonstre type); //N'override pas la fonction LoseForce de Entite car l'utilise pour modifier la force
@@ -47,6 +47,7 @@ protected:
 	int range;
 	
 	//Pour les attaques
+	std::unique_ptr<PlayerQueryCallback> callback;
 	b2Vec2 direction;
 	b2AABB attackBox;
 	sf::RectangleShape sword;

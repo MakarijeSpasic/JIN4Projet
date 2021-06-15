@@ -42,9 +42,7 @@ using std::filesystem::current_path;
 #include "myMain.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "Menu.h"
-#include <PlayerQueryCallback.h>
-#include <MyContactListener.h>
+
 
 
 
@@ -121,7 +119,7 @@ int myMain()
     menu.MenuWindow(&window);
     window.clear(sf::Color::Black);
     //Listeners
-    PlayerQueryCallback callback;
+    
     MyContactListener contactListener;
 
     joueur.initFont();
@@ -171,7 +169,7 @@ int myMain()
                     printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Space:
-                    joueur.Attack(&world, &callback);
+                    joueur.Attack(&world);
                     break;
 
                 //On lance le menu si la touche échap est utilisée
