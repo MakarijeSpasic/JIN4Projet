@@ -13,8 +13,7 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 	range(range)
 
 {
-	callback = std::make_unique<PlayerQueryCallback>(PlayerQueryCallback(this));
-
+	callback = PlayerQueryCallback(this);
 	shape = sf::CircleShape(convertCoord_fromWorld_toWindow(b2Vec2(1.f, 1.f)).x);//On converti la largeur du rectangle en rayon du cercle
 	shape.setFillColor(sf::Color::Green); //On met la couleur verte pour diff�rencier des monstres (on les mettra rouge ?)
 	shape.setPosition(convertCoord_fromWorld_toWindow(body->GetTransform().p));
@@ -57,7 +56,7 @@ void PersonnageJoueur::Attack()
 	
 	
 
-	world->QueryAABB(callback, attackBox); //id�alement, callback �tant un attribut de la classe! pas le cas ici parceque c'est impossible de trop modifier b2QueryCallback
+	world->QueryAABB(&callback, attackBox); 
 	
 	//On fait passer le bool�en en true pour signifier qu'on attaque et qu'on doit afficher le rectangle
 	attacking = true;

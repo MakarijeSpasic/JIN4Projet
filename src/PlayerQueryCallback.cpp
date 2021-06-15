@@ -1,5 +1,10 @@
 #include "PlayerQueryCallback.h"
 
+PlayerQueryCallback::PlayerQueryCallback()
+{
+    owner = NULL;
+}
+
 PlayerQueryCallback::PlayerQueryCallback(PersonnageJoueur* owner):owner(owner){}
 
 bool PlayerQueryCallback::ReportFixture(b2Fixture* fixture)

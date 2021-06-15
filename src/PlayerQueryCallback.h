@@ -8,6 +8,7 @@ class PersonnageJoueur;
 class PlayerQueryCallback : public b2QueryCallback
 {
 public:
+    PlayerQueryCallback();
     PlayerQueryCallback(PersonnageJoueur* owner);
     bool ReportFixture(b2Fixture* fixture) override;
 

@@ -47,7 +47,7 @@ protected:
 	int range;
 	
 	//Pour les attaques
-	std::unique_ptr<PlayerQueryCallback> callback;
+	PlayerQueryCallback callback;
 	b2Vec2 direction;
 	b2AABB attackBox;
 	sf::RectangleShape sword;

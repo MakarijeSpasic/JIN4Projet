@@ -169,7 +169,7 @@ int myMain()
                     printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Space:
-                    joueur.Attack(&world);
+                    joueur.Attack();
                     break;
 
                 //On lance le menu si la touche échap est utilisée
