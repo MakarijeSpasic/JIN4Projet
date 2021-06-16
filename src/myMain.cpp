@@ -74,7 +74,7 @@ int myMain()
     b2Vec2 gravity(0.f, 0.f); //Pas de gravit�
     b2World world(gravity);
 
-    PersonnageJoueur joueur(&world,40.f,30.f, 1, 1, 1, 0.2, 10);
+    PersonnageJoueur joueur(&world,40.f,30.f, 10, 1, 1, 0.2, 100);
     //Les limites du monde sont donc 0 a 80 sur x et 0 a 60,8 sur y
 
     //On va créer des murs
@@ -118,8 +118,8 @@ int myMain()
     //On ouvre d'abord le menu, il s'agit de la première fenêtre qui s'affiche avant le jeu
     menu.MenuWindow(&window);
     window.clear(sf::Color::Black);
-    //Listeners
     
+    //Listeners
     MyContactListener contactListener;
 
     joueur.initFont();

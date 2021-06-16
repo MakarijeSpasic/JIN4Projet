@@ -54,11 +54,9 @@ protected:
 	//Mais c'est un pointeur vers une entité et on ne peux pas savoir si l'Entite pointé
 	//Est un PersonnageJoueur ou un Monstre
 	//On va donc garder un booléen en stock pour pouvoir downCaster sans erreur.
-	//Entite étant une classe abstraite (en théorie, en pratique si elle est abstraite ça ne marche pas pour des raisons obscures,
-	//Disons qu'on est sûr qu'aucune entite n'est instantiée telle qu'elle )
+	//Entite étant une classe abstraite 
 	//Alors Entite est forcément un personnageJoueur ou un Monstre
 	//On pourrait essayer de faire une fonction DynamicCast<T> comme j'ai pu voir surinternet
-	//Mais je manque de temps
 
 };
 

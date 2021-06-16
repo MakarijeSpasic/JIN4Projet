@@ -46,7 +46,7 @@ b2Vec2 Entite::convertCoord_fromWindow_toWorld(sf::Vector2f win_coord)
 	//On va partir sur un écran de 600 par 800 de base et fixer ça pour pas s'emmerder pcq sinon c'est juste chiant
 	//Faudrait le mettre en variable de la méthode
 	//Ou bien trouver un moyen de stocker ça
-	//-> flemme
+	
 
 	b2Vec2 res(win_coord.x / 10, (608 - win_coord.y) / 10);
 
