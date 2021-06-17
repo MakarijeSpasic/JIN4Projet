@@ -1,33 +1,34 @@
 #pragma once
 #include "SFML/Graphics.hpp"
+#include <PersonnageJoueur.h>
 
 //variable globale définissant le nombre d'éléments de menu à afficher, permet de partager la fenêtre
 //pour faire un affichage propre et de suivre les éléments sélectionnés
-#define MAX_NUMBER_OF_ITEMS 2
 
 class Menu
 {
 public:
-	Menu(float width, float height);
 
 	//"Dessine" le menu sur la fenêtre
-	void draw(sf::RenderWindow* window);
+	virtual void draw(sf::RenderWindow* window) = 0;
 
 	//Gèrent les sélections de éléments de menus via les touches directionnelles "haut" et "bas"
-	void MoveUp();
-	void MoveDown();
+	virtual void MoveUp() = 0;
+	virtual void MoveDown() = 0;
 
 	//Retourne l'élément de menu actuellement sélectionné
 	int GetPressedItem();
+	void InitializeText(std::string text_to_write, int rank_of_display, sf::Color color);
 
 	//Lance la fenêtre du menu
-	void MenuWindow(sf::RenderWindow* window);
+	//Il s'agit de la fonction "template":
+	//virtual void MenuWindow(sf::RenderWindow* window) final;
+	virtual void MenuWindow(sf::RenderWindow* window, PersonnageJoueur* PJ) final;
 
-private:
+	//virtual bool ExecuteElement(int selectedItem, sf::RenderWindow* window) = 0;
+	virtual bool ExecuteElement(int selectedItem, sf::RenderWindow* window, PersonnageJoueur* PJ) = 0;
+protected:
 	//Permet de connaître l'élément de menu actuel sélectionné
 	int selectedItemIndex;
 	sf::Font font;
-	//Stocke les textes à afficher, ils sont modifiés pour avoir un suivi graphique de l'élément de menu
-	//séléctionné
-	sf::Text text[MAX_NUMBER_OF_ITEMS];
 };

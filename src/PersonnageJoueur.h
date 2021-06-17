@@ -38,6 +38,7 @@ public:
 
 	//gestion de la barre de vie:
 	
+	void SetStats(int cooldown_modif, float speed_modif, int range_modif);
 	void updateHPBar();
 	void renderHPBar(sf::RenderWindow* window);
 	void initFont();

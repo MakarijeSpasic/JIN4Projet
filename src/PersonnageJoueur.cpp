@@ -75,6 +75,11 @@ void PersonnageJoueur::Attack()
 }
 ;
 
+void PersonnageJoueur::SetStats(int cooldown_modif, float speed_modif, int range_modif) {
+	cooldown = cooldown + cooldown_modif;
+	speed = speed + speed_modif;
+	range = range + range_modif;
+}
 
 void PersonnageJoueur::LoseRange(TypeMonstre type) {
 	switch (type) {
