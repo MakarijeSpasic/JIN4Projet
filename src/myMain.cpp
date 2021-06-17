@@ -43,7 +43,7 @@ using std::filesystem::current_path;
 #include <stdio.h>
 #include <stdlib.h>
 
-
+#define ATTACK_FRAMES 100
 
 
 int myMain()
@@ -74,7 +74,7 @@ int myMain()
     b2Vec2 gravity(0.f, 0.f); //Pas de gravit�
     b2World world(gravity);
 
-    PersonnageJoueur joueur(&world,40.f,30.f, 10, 1, 1, 0.2, 10);
+    PersonnageJoueur joueur(&world,40.f,30.f, 10, 1, 1000, 0.2, 10); // world, wrld_x,wrld_y,health,force,cooldown,speed,range
     //Les limites du monde sont donc 0 a 80 sur x et 0 a 60,8 sur y
 
     //On va créer des murs
@@ -127,7 +127,6 @@ int myMain()
     
     int attack_countdown = 0;
 
-    joueur.isAttacking() ? printf("player can attack ! \n") : printf("player cannot attack ! \n");
 
     while (window.isOpen())
     {
@@ -171,8 +170,11 @@ int myMain()
                     printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Space:
-                    joueur.Attack();
-                    attack_countdown = 10;
+                    if (joueur.GetCanAttack()) {
+
+                        joueur.Attack();
+                        attack_countdown = joueur.GetCooldown();
+                    }
                     break;
 
                 //On lance le menu si la touche échap est utilisée
@@ -209,15 +211,18 @@ int myMain()
         joueur.renderHPBar(&window);
 
 
-        if (joueur.isAttacking() || attack_countdown > 0) {
-            printf("player attacks ! \n");
+        if (attack_countdown > 0) {
+            //printf("player attacks ! \n");
             window.draw(joueur.GetSword());
-            printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
-            printf("sword position = %f,%f \n", joueur.GetSword().getPosition().x, joueur.GetSword().getPosition().y);
-            printf("sword size = %f,%f \n", joueur.GetSword().getSize().x, joueur.GetSword().getSize().y);
-            joueur.setAttacking(false);
+            //printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+            //printf("sword position = %f,%f \n", joueur.GetSword().getPosition().x, joueur.GetSword().getPosition().y);
+            //printf("sword size = %f,%f \n", joueur.GetSword().getSize().x, joueur.GetSword().getSize().y);
+            
             attack_countdown--;
             
+        }
+        else {
+            joueur.setCanAttack(true);
         }
         
         window.draw(monstre_a.GetShape());

@@ -24,7 +24,7 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 	//this->initHPBar();
 
 	isPlayer = true;
-	attacking = false;
+	canAttack = true;
 }
 ;
 
@@ -60,7 +60,7 @@ void PersonnageJoueur::Attack()
 	world->QueryAABB(callback.get(), attackBox); //On utilise unique_ptr::get pour avoir un raw pointer parceque sinon c'était pas possible à convertir correctement
 	
 	//On fait passer le bool�en en true pour signifier qu'on attaque et qu'on doit afficher le rectangle
-	attacking = true;
+	canAttack = false;
 	//On positionne ensuite correctement le shape de l'�p�e : sword
 	b2Vec2 sword_shape_center_inWorld = bodyPosition + (ECART + HX + range / 2) * direction;
 	b2Vec2 sword_shape_size_inWorld = range * direction + 2 * HX * normal;

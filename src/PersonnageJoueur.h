@@ -31,10 +31,13 @@ public:
 	void UpdateDirection(b2Vec2 dir);
 	b2AABB GetAABB() { return attackBox; };
 	sf::RectangleShape GetSword() { return sword; };
-	bool isAttacking() { return attacking; };
-	void setAttacking(bool v) { attacking = v; };
+	bool GetCanAttack() { return canAttack; };
+	void setCanAttack(bool v) { canAttack = v; };
 
 	b2Vec2 GetDirection() { return direction; };
+
+	int GetCooldown() { return cooldown; };
+	int setCooldown(int c) { cooldown = c; };
 
 	//gestion de la barre de vie:
 	
@@ -53,7 +56,7 @@ protected:
 	b2Vec2 direction;
 	b2AABB attackBox;
 	sf::RectangleShape sword;
-	bool attacking;
+	bool canAttack;
 
 	
 private:
