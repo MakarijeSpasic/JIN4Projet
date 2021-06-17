@@ -17,7 +17,10 @@ bool PlayerQueryCallback::ReportFixture(b2Fixture* fixture)
 
     b2Body* body = fixture->GetBody();
     Monstre* hit = (Monstre*)body->GetUserData().pointer;
-    hit->LoseHealth(owner->GetForce());
+    if (hit != NULL) { //Si hit est NULL ça veut dire qu'on a touché un mur, on évite les bugs facilement
+        hit->LoseHealth(owner->GetForce());
+    }
+    
    
     return true;
 

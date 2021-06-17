@@ -1,6 +1,5 @@
 #include "MyContactListener.h"
-#include <Entite.h>
-#include <PersonnageJoueur.h>
+
 
 
 void MyContactListener::BeginContact(b2Contact* contact) {
@@ -16,7 +15,7 @@ void MyContactListener::BeginContact(b2Contact* contact) {
         //ça va contre l'intérêt de fair des classes qui hérite si ils faut qu'elle retienne de quelle classe elles sont
         //Mais je suis obligé de faire comme ça pour les différencier. 
         
-        if (A->GetIsPlayer()) { //Fonctionne car même si c'est une entité, en tant qu'autre chose qui en hérite cat attribut a été initialisé et est donc valable
+        if (A->GetIsPlayer()) { //Fonctionne car même si c'est une entité, en tant qu'autre chose qui en hérite cet attribut a été initialisé et est donc valable
             A = (PersonnageJoueur*)A;
         }
         else {

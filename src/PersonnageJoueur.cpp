@@ -13,7 +13,7 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 	range(range)
 
 {
-	callback = PlayerQueryCallback(this);
+	callback = std::make_unique<PlayerQueryCallback>(this);
 
 	shape = sf::CircleShape(convertCoord_fromWorld_toWindow(b2Vec2(1.f, 1.f)).x);//On converti la largeur du rectangle en rayon du cercle
 	shape.setFillColor(sf::Color::Green); //On met la couleur verte pour diff�rencier des monstres (on les mettra rouge ?)
@@ -24,6 +24,7 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 	//this->initHPBar();
 
 	isPlayer = true;
+	attacking = false;
 }
 ;
 
@@ -55,9 +56,8 @@ void PersonnageJoueur::Attack()
 	attackBox.upperBound.Set(attackbox_upperbound.x, attackbox_upperbound.y);
 
 	
-	
 
-	world->QueryAABB(&callback, attackBox); 
+	world->QueryAABB(callback.get(), attackBox); //On utilise unique_ptr::get pour avoir un raw pointer parceque sinon c'était pas possible à convertir correctement
 	
 	//On fait passer le bool�en en true pour signifier qu'on attaque et qu'on doit afficher le rectangle
 	attacking = true;

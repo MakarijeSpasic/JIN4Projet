@@ -4,6 +4,8 @@
 
 #include <string>
 #include <PlayerQueryCallback.h>
+class PlayerQueryCallback; //Faut que j'include et que je fasse ça à la fois pour que ça compile
+
 
 #include <SFML/Graphics/RectangleShape.hpp>
 #include <SFML/Graphics/Font.hpp>
@@ -47,11 +49,11 @@ protected:
 	int range;
 	
 	//Pour les attaques
-	PlayerQueryCallback callback;
+	std::unique_ptr<PlayerQueryCallback> callback; //Pour lancer les queries necessaire pour distribuer les attaques
 	b2Vec2 direction;
 	b2AABB attackBox;
 	sf::RectangleShape sword;
-	bool attacking = false;
+	bool attacking;
 
 	
 private:
