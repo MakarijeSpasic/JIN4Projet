@@ -24,6 +24,7 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 	//this->initHPBar();
 
 	isPlayer = true;
+	attacking = false;
 }
 ;
 

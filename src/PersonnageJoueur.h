@@ -53,7 +53,7 @@ protected:
 	b2Vec2 direction;
 	b2AABB attackBox;
 	sf::RectangleShape sword;
-	bool attacking = false;
+	bool attacking;
 
 	
 private:

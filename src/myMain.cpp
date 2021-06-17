@@ -74,7 +74,7 @@ int myMain()
     b2Vec2 gravity(0.f, 0.f); //Pas de gravit�
     b2World world(gravity);
 
-    PersonnageJoueur joueur(&world,40.f,30.f, 10, 1, 1, 0.2, 100);
+    PersonnageJoueur joueur(&world,40.f,30.f, 10, 1, 1, 0.2, 10);
     //Les limites du monde sont donc 0 a 80 sur x et 0 a 60,8 sur y
 
     //On va créer des murs
@@ -125,7 +125,9 @@ int myMain()
     joueur.initFont();
     joueur.initHPBar();
     
-    int i = 10;
+    int attack_countdown = 0;
+
+    joueur.isAttacking() ? printf("player can attack ! \n") : printf("player cannot attack ! \n");
 
     while (window.isOpen())
     {
@@ -170,6 +172,7 @@ int myMain()
                     break;
                 case sf::Keyboard::Space:
                     joueur.Attack();
+                    attack_countdown = 10;
                     break;
 
                 //On lance le menu si la touche échap est utilisée
@@ -206,20 +209,17 @@ int myMain()
         joueur.renderHPBar(&window);
 
 
-        if (joueur.isAttacking() || i >= 0) {
-            //printf("player attacks ! \n");
+        if (joueur.isAttacking() || attack_countdown > 0) {
+            printf("player attacks ! \n");
             window.draw(joueur.GetSword());
-            //printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
-            //printf("sword position = %f,%f \n", joueur.GetSword().getPosition().x, joueur.GetSword().getPosition().y);
-            //printf("sword size = %f,%f \n", joueur.GetSword().getSize().x, joueur.GetSword().getSize().y);
+            printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+            printf("sword position = %f,%f \n", joueur.GetSword().getPosition().x, joueur.GetSword().getPosition().y);
+            printf("sword size = %f,%f \n", joueur.GetSword().getSize().x, joueur.GetSword().getSize().y);
             joueur.setAttacking(false);
-            i--;
+            attack_countdown--;
             
         }
-        else {
-            //i est un compteur : au bout de 10 frames window ne draw plus ce shape là
-            i = 10;
-        }
+        
         window.draw(monstre_a.GetShape());
         window.draw(monstre_b.GetShape());
         window.draw(monstre_c.GetShape());
