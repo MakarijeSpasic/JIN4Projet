@@ -112,11 +112,14 @@ int myMain()
     Monstre monstre_b(&world, 10, Monstre2, 10.f, 20.f, 1, 1);
     Monstre monstre_c(&world, 10, Monstre3, 10.f, 40.f, 1, 1);
 
-    //On crée l'objet menu avec la taille de la fenêtre de jeu, pour assurer le bon affichage du texte
-    Menu menu(window.getSize().x, window.getSize().y);
+
+    //On crée les menus de la boutique, de l'écran de démarrage et de pause :
+    EcranAcceuil startWindow(window.getSize().x, window.getSize().y);
+    Pause pauseWindow(window.getSize().x, window.getSize().y);
+    Boutique shopWindow(window.getSize().x, window.getSize().y);
 
     //On ouvre d'abord le menu, il s'agit de la première fenêtre qui s'affiche avant le jeu
-    menu.MenuWindow(&window);
+    startWindow.MenuWindow(&window, &joueur);
     window.clear(sf::Color::Black);
     
     //Listeners
@@ -130,10 +133,6 @@ int myMain()
 
     while (window.isOpen())
     {
-        
-        
-        
-
         sf::Event event;
         sf::Time duration = globalClock.getElapsedTime();
         while (window.pollEvent(event))
@@ -179,7 +178,10 @@ int myMain()
 
                 //On lance le menu si la touche échap est utilisée
                 case sf::Keyboard::Escape:
-                    menu.MenuWindow(&window);
+                    pauseWindow.MenuWindow(&window, &joueur);
+                    break;
+                case sf::Keyboard::P:
+                    shopWindow.MenuWindow(&window, &joueur);
                     break;
                 }
                 break;
@@ -199,7 +201,7 @@ int myMain()
         world.Step(duration.asSeconds(), 6, 2);
 
         window.clear(sf::Color::Black);
-        menu.draw(&window);
+        //startWindow.draw(&window);
         
         //On dessine la carte .tsx chargée dans le layerZero
         window.draw(layerZero);

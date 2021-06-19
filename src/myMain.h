@@ -16,6 +16,9 @@
 #include "PersonnageJoueur.h"
 #include "PlayerQueryCallback.h"
 #include "Menu.h"
+#include "EcranAcceuil.h"
+#include "Pause.h"
+#include "Boutique.h"
 #include <MyContactListener.h>
 
 
