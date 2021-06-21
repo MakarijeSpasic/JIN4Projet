@@ -146,27 +146,28 @@ int myMain()
             
             
             case sf::Event::KeyPressed: //Si une touche est pressed
+
+                //printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
+                //printf("player real win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+                //printf("player calc win pos = %f ; %f \n", joueur.GetBody()->GetPosition().x * 10, 608 - 10 * joueur.GetBody()->GetPosition().y);
+
                 switch (event.key.code) {//Selon la touche pressed on fait une action
                 
                 case sf::Keyboard::Left:
                     joueur.Move(b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour d�placer � la juste distance
                     joueur.UpdateDirection(b2Vec2(-1, 0));
-                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Right:
                     joueur.Move(duration.asSeconds() * b2Vec2(1, 0));
                     joueur.UpdateDirection(b2Vec2(1, 0));
-                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Up:
                     joueur.Move(duration.asSeconds() * b2Vec2(0, 1));
                     joueur.UpdateDirection(b2Vec2(0, 1));
-                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Down:
                     joueur.Move(duration.asSeconds() * b2Vec2(0, -1));
                     joueur.UpdateDirection(b2Vec2(0, -1));
-                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Space:
                     if (joueur.GetCanAttack()) {
