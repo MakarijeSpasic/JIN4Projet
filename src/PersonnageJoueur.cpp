@@ -6,7 +6,7 @@
 //demilargeur, demilongueur et ecart de base pour le shape d'un personnage
 #define HX 1.f
 #define HY 1.f
-#define ECART 1.f
+#define ECART 0.1f
 
 PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health, int force, int cooldown, float speed, int range) :
 	Entite(world, wrld_x, wrld_y, health, force),
@@ -52,16 +52,24 @@ void PersonnageJoueur::Attack()
 	b2Vec2 normal(-direction.y,direction.x); //On fait une rotation du vecteur de pi/2 sens antihoraire
 	printf("normal = (%f,%f) \n", normal.x, normal.y);
 
-	b2Vec2 attackbox_lowerbound = bodyPosition + (-HY) * normal + (ECART + HX) * direction; 
-	b2Vec2 attackbox_upperbound = bodyPosition + HY * normal + (ECART + HX + range) * direction; // 1 => range
-	printf("attackbox_lowerbound = (%f,%f) \n", attackbox_lowerbound.x, attackbox_lowerbound.y);
-	printf("attackbox_upperbound = (%f,%f) \n", attackbox_upperbound.x, attackbox_upperbound.y);
+	b2Vec2 attackbox_corner1 = bodyPosition + (-HY) * normal + (ECART + HX) * direction; 
+	b2Vec2 attackbox_corner2 = bodyPosition + HY * normal + (ECART + HX + range) * direction;
+
+	//Un rectangle est defini par 2 coin. Mais il faut que ces coins soient bien alignés, c'est à dire que lowerbound_x(y) < upperbound_x(y)
+	
+	float lowerbound_x = std::min(attackbox_corner1.x, attackbox_corner2.x);
+	float lowerbound_y = std::min(attackbox_corner1.y, attackbox_corner2.y);
+	float upperbound_x = std::max(attackbox_corner1.x, attackbox_corner2.x);
+	float upperbound_y = std::max(attackbox_corner1.y, attackbox_corner2.y);
+	
+	printf("attackbox_lowerbound = (%f,%f) \n", lowerbound_x, lowerbound_y);
+	printf("attackbox_upperbound = (%f,%f) \n", upperbound_x, upperbound_y);
 
 	
 
 	//Calcul de coordonn�es
-	attackBox.lowerBound.Set(attackbox_lowerbound.x, attackbox_lowerbound.y);
-	attackBox.upperBound.Set(attackbox_upperbound.x, attackbox_upperbound.y);
+	attackBox.lowerBound.Set(lowerbound_x, lowerbound_y);
+	attackBox.upperBound.Set(upperbound_x, upperbound_y);
 
 	
 
@@ -70,8 +78,8 @@ void PersonnageJoueur::Attack()
 	//On fait passer le booleen en false pour signifier qu'on peut plus attaquer
 	canAttack = false;
 	//On positionne ensuite correctement le shape de l'epee : sword, pour l'affichage
-	b2Vec2 sword_shape_center_inWorld = bodyPosition + (ECART + HX + range / 2) * direction;
-	b2Vec2 sword_shape_size_inWorld = range * direction + 2 * HX * normal; //1 => range
+	b2Vec2 sword_shape_center_inWorld = attackBox.GetCenter();
+	b2Vec2 sword_shape_size_inWorld = 2 * attackBox.GetExtents();
 
 	printf("sword_shape_center_inworld = (%f,%f) \n", sword_shape_center_inWorld.x, sword_shape_center_inWorld.y);
 	printf("sword_shape_size_inworld = (%f,%f) \n", sword_shape_size_inWorld.x, sword_shape_size_inWorld.y);
