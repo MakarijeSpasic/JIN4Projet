@@ -149,7 +149,7 @@ int myMain()
                 switch (event.key.code) {//Selon la touche pressed on fait une action
                 
                 case sf::Keyboard::Left:
-                    joueur.Move(duration.asSeconds() * b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour d�placer � la juste distance
+                    joueur.Move(b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour d�placer � la juste distance
                     joueur.UpdateDirection(b2Vec2(-1, 0));
                     printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
@@ -173,6 +173,7 @@ int myMain()
 
                         joueur.Attack();
                         attack_countdown = joueur.GetCooldown();
+                        printf("monstre a = %d PV\n", monstre_a.GetHealth());
                     }
                     break;
 

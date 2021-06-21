@@ -12,7 +12,7 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int health, int force
 	bodyDef.allowSleep = true;//Aussi pour les performances : si le body ne bouge pas il est mis au repos => moins de CPU
 	bodyDef.awake = true;
 	bodyDef.fixedRotation = true;//On ne veut pas qu'il tourne
-	bodyDef.linearDamping = 0.1f;//TEST
+	bodyDef.linearDamping = 10.f;//TEST
 	bodyDef.userData.pointer = reinterpret_cast<uintptr_t>(this);
 	body = world->CreateBody(&bodyDef);
 

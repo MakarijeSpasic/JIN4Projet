@@ -30,7 +30,7 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 
 void PersonnageJoueur::Move(b2Vec2 dir_dt) { //dir_dt serait not� u*dt en physique avec u le vecteur de direction de l'attaque unitaire et dt le laps de temps
 
-	b2Vec2 force = body->GetMass() * (speed * dir_dt - body->GetLinearVelocity()); //F * dt = m * dv avec dv = vitesse voulue - vitesse actuelle => Faut diviser par dt !
+	b2Vec2 force = body->GetMass() / (1 / 60.f) * (speed * dir_dt - body->GetLinearVelocity()); //F  = mv/t
 	body->ApplyForceToCenter(force,true);
 	
 

@@ -1,4 +1,7 @@
 #include "PlayerQueryCallback.h"
+#include <stdio.h>
+#include <stdlib.h>
+
 
 PlayerQueryCallback::PlayerQueryCallback()
 {
@@ -19,6 +22,7 @@ bool PlayerQueryCallback::ReportFixture(b2Fixture* fixture)
     Monstre* hit = (Monstre*)body->GetUserData().pointer;
     if (hit != NULL) { //Si hit est NULL ça veut dire qu'on a touché un mur, on évite les bugs facilement
         hit->LoseHealth(owner->GetForce());
+        printf("touché\n");
     }
     
    
