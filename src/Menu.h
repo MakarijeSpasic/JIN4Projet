@@ -27,6 +27,8 @@ public:
 
 	//virtual bool ExecuteElement(int selectedItem, sf::RenderWindow* window) = 0;
 	virtual bool ExecuteElement(int selectedItem, sf::RenderWindow* window, PersonnageJoueur* PJ) = 0;
+
+	virtual void Update(sf::RenderWindow* window, PersonnageJoueur* PJ) = 0;
 protected:
 	//Permet de connaître l'élément de menu actuel sélectionné
 	int selectedItemIndex;
