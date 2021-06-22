@@ -2,7 +2,7 @@
 #include <iostream>
 #include <thread>         // std::this_thread::sleep_for
 #include <chrono>         // std::chrono::seconds
-
+#include <Windows.h>
 
 Boutique::Boutique(float width, float height, PersonnageJoueur* PJ)
 {
@@ -54,8 +54,8 @@ Boutique::Boutique(float width, float height, PersonnageJoueur* PJ)
 
 	//Il s'agit du texte préchargé pour le message de la méthode TryPay
 	text[6].setFont(font);
-	text[6].setColor(sf::Color::Yellow);
-	text[6].setPosition(sf::Vector2f(width / 6, (shop_Height / (MAX_NUMBER_OF_ITEMS + 1))));
+	text[6].setColor(sf::Color::Green);
+	text[6].setPosition(sf::Vector2f(width / 6, (shop_Height / (MAX_NUMBER_OF_ITEMS + 1)*5)));
 
 
 	//On initialise le premier "élément du menu" choisi a 0, c'est à dire à play (c'est le bouton qui brillera en premier)
@@ -107,60 +107,24 @@ bool Boutique::ExecuteElement(int selectedItem, sf::RenderWindow* window, Person
 
 	case 0:
 		//Arme plus longue (+1) mais moins de vitesse de déplacement
-		if (TryPay(100, PJ, window)) {
-			if (true) {
-				std::this_thread::sleep_for(std::chrono::seconds(1));
-			}
-			//text[6].setString("");
-			PJ->SetStats(0, -0.1, 5);
-			window->clear(sf::Color::Black);
-			return true;
-			break;
-		}
-		std::this_thread::sleep_for(std::chrono::seconds(1));
-		text[6].setString("");
+		ExecuteBuy(100, 0, -0.1, 5, PJ, window);
 		return false;
 		break;
 	case 1:
 		//Arme plus courte (-1) mais moins de cooldown
-		if (TryPay(100, PJ, window)) {
-			std::this_thread::sleep_for(std::chrono::seconds(1));
-			//text[6].setString("");
-			PJ->SetStats(-1, 0, -5);
-			window->clear(sf::Color::Black);
-			return true;
-			break;
-		}
-		std::this_thread::sleep_for(std::chrono::seconds(1));
-		text[6].setString("");
+		ExecuteBuy(100, -1, 0, -5, PJ, window);
 		return false;
 		break;
+
 	case 2:
 		//Arme plus longue (+2) mais plus de cooldown et moins de vitesse de déplacement
-		if (TryPay(100, PJ, window)) {
-			std::this_thread::sleep_for(std::chrono::seconds(1));
-			//text[6].setString("");
-			PJ->SetStats(1, -0.1, 10);
-			window->clear(sf::Color::Black);
-			return true;
-			break;
-		}
-		std::this_thread::sleep_for(std::chrono::seconds(1));
-		text[6].setString("");
+		ExecuteBuy(100, 1, -0.1, 10, PJ, window);
 		return false;
 		break;
+
 	case 3:
 		//Arme plus longue (+2) mais plus de cooldown sur l'arme (+2)
-		if (TryPay(100, PJ, window)) {
-			std::this_thread::sleep_for(std::chrono::seconds(1));
-			//text[6].setString("");
-			PJ->SetStats(2, 0, 10);
-			window->clear(sf::Color::Black);
-			return true;
-			break;
-		}
-		std::this_thread::sleep_for(std::chrono::seconds(1));
-		text[6].setString("");
+		ExecuteBuy(100, 2, 0, 10, PJ, window);
 		return false;
 		break;
 	}
@@ -181,10 +145,28 @@ bool Boutique::TryPay(int prix, PersonnageJoueur* PJ, sf::RenderWindow* window) 
 	else {
 		text[6].setString("Vous n'avez pas assez de pieces");
 		window->draw(text[6]);
+		//SetTimer()
+		//std::this_thread::sleep_for(std::chrono::seconds(1));
+		//sf::sleep(sf::Time(sf::microseconds(1000)));
+		//text[6].setString("");
+		//window->draw(text[6]);
 		return false;
 	}
 }
 
 void Boutique::Update(sf::RenderWindow* window, PersonnageJoueur* PJ) {
 	text[5].setString("Pieces: " + std::to_string(PJ->getPieces()));
+}
+
+void Boutique::ExecuteBuy(int price, int range, int speed, int cooldown, PersonnageJoueur* PJ, sf::RenderWindow* window) {
+	if (TryPay(price, PJ, window)) {
+		//std::this_thread::sleep_for(std::chrono::seconds(1));
+		//text[6].setString("");
+		PJ->SetStats(range, speed, cooldown);
+		window->clear(sf::Color::Black);
+	}
+	else {
+		//std::this_thread::sleep_for(std::chrono::seconds(1));
+		//text[6].setString("");
+	}
 }

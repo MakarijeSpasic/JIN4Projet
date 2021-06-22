@@ -22,6 +22,8 @@ public:
 
 	void Update(sf::RenderWindow* window, PersonnageJoueur* PJ) override;
 
+	void ExecuteBuy(int price, int range, int speed, int cooldown, PersonnageJoueur* PJ, sf::RenderWindow* window);
+
 	bool TryPay(int prix, PersonnageJoueur* PJ, sf::RenderWindow* window);
 
 private:
