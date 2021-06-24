@@ -75,7 +75,7 @@ int myMain()
     b2World world(gravity);
 
     // wrldx, wrldy, health, force, cooldown, speed, range, pieces
-    PersonnageJoueur joueur(&world,40.f,30.f, 10, 1, 2, 0.2, 10, 100);
+    PersonnageJoueur joueur(&world,40.f,30.f, 10, 1, 1000, 0.2, 10, 100);
     //Les limites du monde sont donc 0 a 80 sur x et 0 a 60,8 sur y
 
     //On va créer des murs
@@ -125,6 +125,7 @@ int myMain()
     
     //Listeners
     MyContactListener contactListener;
+    world.SetContactListener(&contactListener);
 
     joueur.initFont();
     joueur.initHPBar();

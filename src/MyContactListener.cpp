@@ -1,13 +1,18 @@
 #include "MyContactListener.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 
 
 void MyContactListener::BeginContact(b2Contact* contact) {
     
     if (contact && contact->IsTouching()){
 
+        printf("touché \n");
         Entite* A = (Entite*) contact->GetFixtureA()->GetBody()->GetUserData().pointer;
         Entite* B = (Entite*) contact->GetFixtureB()->GetBody()->GetUserData().pointer;
+
+        PersonnageJoueur* joueur = NULL;
+        Monstre* monstre = NULL;
 
         //Vérifier si A ou B est un PersonnageJoueur
         //Vérifier si l'autre est un Monstre
@@ -16,29 +21,24 @@ void MyContactListener::BeginContact(b2Contact* contact) {
         //Mais je suis obligé de faire comme ça pour les différencier. 
         
         if (A->GetIsPlayer()) { //Fonctionne car même si c'est une entité, en tant qu'autre chose qui en hérite cet attribut a été initialisé et est donc valable
-            A = (PersonnageJoueur*)A;
+            joueur = (PersonnageJoueur*)A;
         }
         else {
-            A = (Monstre*)A;
+            monstre = (Monstre*)A;
         }
 
         if (B->GetIsPlayer()) {
-            B = (PersonnageJoueur*)B;
+            joueur = (PersonnageJoueur*)B;
         }
         else {
-            B = (Monstre*)B;
+            monstre = (Monstre*)B;
         }
 
-        if (A->GetIsPlayer() && !B->GetIsPlayer()) {
+        
 
-            A->LoseHealth(B->GetForce());
-            A->GetBody()->ApplyForceToCenter(-100 * A->GetBody()->GetLinearVelocity(),true); //Une force qui repousse notre objet
-        }
-        if (B->GetIsPlayer() && !A->GetIsPlayer()) {
-
-            B->LoseHealth(A->GetForce());
-            B->GetBody()->ApplyForceToCenter(-100 * B->GetBody()->GetLinearVelocity(), true);
-        }
+        joueur->LoseHealth(monstre->GetForce());
+        joueur->GetBody()->SetLinearVelocity(-10000 * joueur->GetDirection()); //Une force qui repousse notre objet
+        
 
     }
 }

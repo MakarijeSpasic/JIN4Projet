@@ -23,7 +23,7 @@ b2Vec2 gravity(0.f, 0.f); //Pas de gravite
 b2World world(gravity);
 
 PlayerQueryCallback callback;
-PersonnageJoueur joueur(&world, 40.f, 30.f, 1, 1, 1, 1, 100);//On met une très grande portee pour etre sur de toucher l'ennemi
+PersonnageJoueur joueur(&world, 40.f, 30.f, 1, 1, 1, 1, 100,100);//On met une très grande portee pour etre sur de toucher l'ennemi
 Monstre monstre_a(&world, 10, Monstre1, 41.f, 30.f, 1, 1); //On cree un monstre juste a coté et on le tape
 
 TEST(Player, AttackZone) {
@@ -36,7 +36,7 @@ TEST(Player, Attack) {
 	
 	//On se rapproche d'un monstre et on attaque
 	
-	joueur.Attack(&world, &callback);
+	joueur.Attack();
 
 	EXPECT_EQ(monstre_a.GetHealth(), 0);
 }

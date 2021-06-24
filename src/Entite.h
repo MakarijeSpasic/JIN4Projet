@@ -27,8 +27,7 @@ public:
 
 	int GetHealth() { return health; }
 	int GetForce() { return force; }
-	int GetIsPlayer() { return isPlayer; }; //Syntaxe moche et pas raccord avec la fonction isAttacking() dans PersonnageJoueur.hpp mais on fera avec
-
+	int GetIsPlayer() { return isPlayer; }; //Syntaxe laide
 protected:
 
 	

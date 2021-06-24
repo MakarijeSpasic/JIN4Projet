@@ -6,7 +6,7 @@
 //demilargeur, demilongueur et ecart de base pour le shape d'un personnage
 #define HX 1.f
 #define HY 1.f
-#define ECART 0.1f
+#define ECART 0.5f
 
 PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health, int force, int cooldown, float speed, int range, int pieces) :
 	Entite(world, wrld_x, wrld_y, health, force),
@@ -27,7 +27,7 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 	//this->initHPBar();
 
 	isPlayer = true;
-	attacking = false;
+	canAttack = true;
 	
 }
 ;
@@ -49,10 +49,10 @@ void PersonnageJoueur::Attack()
 	
 
 	b2Vec2 bodyPosition = body->GetPosition();
-	printf("bodyPosition = (%f,%f) \n", bodyPosition.x, bodyPosition.y);
+	//printf("bodyPosition = (%f,%f) \n", bodyPosition.x, bodyPosition.y);
 
 	b2Vec2 normal(-direction.y,direction.x); //On fait une rotation du vecteur de pi/2 sens antihoraire
-	printf("normal = (%f,%f) \n", normal.x, normal.y);
+	//printf("normal = (%f,%f) \n", normal.x, normal.y);
 
 	b2Vec2 attackbox_corner1 = bodyPosition + (-HY) * normal + (ECART + HX) * direction; 
 	b2Vec2 attackbox_corner2 = bodyPosition + HY * normal + (ECART + HX + range) * direction;
@@ -64,8 +64,8 @@ void PersonnageJoueur::Attack()
 	float upperbound_x = std::max(attackbox_corner1.x, attackbox_corner2.x);
 	float upperbound_y = std::max(attackbox_corner1.y, attackbox_corner2.y);
 	
-	printf("attackbox_lowerbound = (%f,%f) \n", lowerbound_x, lowerbound_y);
-	printf("attackbox_upperbound = (%f,%f) \n", upperbound_x, upperbound_y);
+	//printf("attackbox_lowerbound = (%f,%f) \n", lowerbound_x, lowerbound_y);
+	//printf("attackbox_upperbound = (%f,%f) \n", upperbound_x, upperbound_y);
 
 	
 
@@ -83,14 +83,14 @@ void PersonnageJoueur::Attack()
 	b2Vec2 sword_shape_center_inWorld = attackBox.GetCenter();
 	b2Vec2 sword_shape_size_inWorld = 2 * attackBox.GetExtents();
 
-	printf("sword_shape_center_inworld = (%f,%f) \n", sword_shape_center_inWorld.x, sword_shape_center_inWorld.y);
-	printf("sword_shape_size_inworld = (%f,%f) \n", sword_shape_size_inWorld.x, sword_shape_size_inWorld.y);
+	//printf("sword_shape_center_inworld = (%f,%f) \n", sword_shape_center_inWorld.x, sword_shape_center_inWorld.y);
+	//printf("sword_shape_size_inworld = (%f,%f) \n", sword_shape_size_inWorld.x, sword_shape_size_inWorld.y);
 	
 
 	sword.setPosition(convertCoord_fromWorld_toWindow(sword_shape_center_inWorld));
 	sword.setSize(sf::Vector2f(abs(sword_shape_size_inWorld.x * 10), abs(sword_shape_size_inWorld.y * 10) ) );
 
-	printf("sword position = (%f,%f) \n", sword.getPosition().x / 10, (608 - sword.getPosition().y) / 10 );
+	//printf("sword position = (%f,%f) \n", sword.getPosition().x / 10, (608 - sword.getPosition().y) / 10 );
 
 
 
