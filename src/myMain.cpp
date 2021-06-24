@@ -42,6 +42,7 @@ using std::filesystem::current_path;
 #include "myMain.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <TiledMapInterpretor.h>
 
 #define ATTACK_FRAMES 100
 
@@ -62,7 +63,7 @@ int myMain()
     tmx::Map map;
     map.load("../../resources/embedmap.tmx");
     
-    //On charge le layer afin de le dessiner plus tard
+    //On charge le layer à dessiner plus tard
     MapLayer layerZero(map, 0);
 
     sf::Clock globalClock;
@@ -70,6 +71,8 @@ int myMain()
     //Test pour voir si quelque chose s'affiche
     sf::CircleShape shape(50);
     shape.setFillColor(sf::Color::Blue);
+    window.draw(shape);
+
 
     b2Vec2 gravity(0.f, 0.f); //Pas de gravit�
     b2World world(gravity);
@@ -78,9 +81,14 @@ int myMain()
     PersonnageJoueur joueur(&world,40.f,30.f, 10, 1, 1000, 0.2, 10, 100);
     //Les limites du monde sont donc 0 a 80 sur x et 0 a 60,8 sur y
 
+
+
+    //Fonction de création des murs à partir de la map tmx:
+    TiledMapConverter wallCreator(&world,&window);
+    wallCreator.createWalls(&map);
     //On va créer des murs
 
-    
+    /*
     b2BodyDef murOuestBodyDef;
     murOuestBodyDef.position.Set(0.0f, 30.0f);
     b2Body* murOuestBody = world.CreateBody(&murOuestBodyDef);
@@ -108,7 +116,8 @@ int myMain()
     b2PolygonShape murSudBox;
     murSudBox.SetAsBox(60.0f, 10.0f);
     murSudBody->CreateFixture(&murSudBox, 0.0f);
-    
+    */
+
     Monstre monstre_a(&world, 10, Monstre1,29.f, 30.f, 1, 1);
     Monstre monstre_b(&world, 10, Monstre2, 10.f, 20.f, 1, 1);
     Monstre monstre_c(&world, 10, Monstre3, 10.f, 40.f, 1, 1);
@@ -158,18 +167,22 @@ int myMain()
                 case sf::Keyboard::Left:
                     joueur.Move(b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour d�placer � la juste distance
                     joueur.UpdateDirection(b2Vec2(-1, 0));
+                    //printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Right:
                     joueur.Move(duration.asSeconds() * b2Vec2(1, 0));
                     joueur.UpdateDirection(b2Vec2(1, 0));
+                    //printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Up:
                     joueur.Move(duration.asSeconds() * b2Vec2(0, 1));
                     joueur.UpdateDirection(b2Vec2(0, 1));
+                    //printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Down:
                     joueur.Move(duration.asSeconds() * b2Vec2(0, -1));
                     joueur.UpdateDirection(b2Vec2(0, -1));
+                    //printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Space:
                     if (joueur.GetCanAttack()) {
@@ -201,7 +214,6 @@ int myMain()
         monstre_c.UpdateWindowPosition();
 
         layerZero.update(duration);
-
         world.Step(duration.asSeconds(), 6, 2);
 
         window.clear(sf::Color::Black);
@@ -216,6 +228,8 @@ int myMain()
         //On dessine la barre de vie du joueur
         joueur.renderHPBar(&window);
 
+        //On dessine les hitbox pour vérifier si besoin:
+        //wallCreator.renderHitbox();
 
         if (attack_countdown > 0) {
             //printf("player attacks ! \n");

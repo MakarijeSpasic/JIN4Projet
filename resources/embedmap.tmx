@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="50" height="38" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="50" height="38" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="5">
  <tileset firstgid="1" name="mainlevbuild" tilewidth="16" tileheight="16" tilecount="2560" columns="64">
   <image source="images/RF_Catacombs_v1.0/mainlevbuild.png" width="1024" height="640"/>
  </tileset>
@@ -45,4 +45,10 @@
 453,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,454,464
 </data>
  </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" x="0" y="1.42109e-14" width="16" height="608"/>
+  <object id="2" x="784" y="0" width="16" height="608"/>
+  <object id="3" x="16" y="0" width="768" height="16"/>
+  <object id="4" x="16" y="592" width="768" height="16"/>
+ </objectgroup>
 </map>
