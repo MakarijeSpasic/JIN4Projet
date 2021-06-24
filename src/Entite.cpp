@@ -29,6 +29,10 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int health, int force
 
 void Entite::LoseHealth(int damage) {
 	health -= damage;
+	if (health <= 0) { //On clamp health au dessus de 0 pour ne pas avoir d'absurdité
+		health = 0;
+	}
+	
 }
 
 void Entite::LoseForce(int loss)

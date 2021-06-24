@@ -7,9 +7,10 @@
 class PlayerQueryCallback; //Faut que j'include et que je fasse ça à la fois pour que ça compile
 
 
-#include <SFML/Graphics/RectangleShape.hpp>
+
 #include <SFML/Graphics/Font.hpp>
 #include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/Graphics/RectangleShape.hpp>
 
 #define MAX_HEALTH 100;
 
