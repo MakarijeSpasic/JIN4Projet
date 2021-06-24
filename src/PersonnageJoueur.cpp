@@ -1,10 +1,12 @@
 
 #include "PersonnageJoueur.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 //demilargeur, demilongueur et ecart de base pour le shape d'un personnage
 #define HX 1.f
 #define HY 1.f
-#define ECART 1.f
+#define ECART 0.1f
 
 PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health, int force, int cooldown, float speed, int range, int pieces) :
 	Entite(world, wrld_x, wrld_y, health, force),
@@ -32,7 +34,7 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 
 void PersonnageJoueur::Move(b2Vec2 dir_dt) { //dir_dt serait not� u*dt en physique avec u le vecteur de direction de l'attaque unitaire et dt le laps de temps
 
-	b2Vec2 force = body->GetMass() * (speed * dir_dt - body->GetLinearVelocity()); //F * dt = m * dv avec dv = vitesse voulue - vitesse actuelle => Faut diviser par dt !
+	b2Vec2 force = body->GetMass() / (1 / 60.f) * (speed * dir_dt - body->GetLinearVelocity()); //F  = mv/t
 	body->ApplyForceToCenter(force,true);
 	
 
@@ -47,33 +49,55 @@ void PersonnageJoueur::Attack()
 	
 
 	b2Vec2 bodyPosition = body->GetPosition();
+	printf("bodyPosition = (%f,%f) \n", bodyPosition.x, bodyPosition.y);
 
-	b2Vec2 normal(direction.y,-direction.x); //On fait une rotation du vecteur de pi/2 sens antihoraire
+	b2Vec2 normal(-direction.y,direction.x); //On fait une rotation du vecteur de pi/2 sens antihoraire
+	printf("normal = (%f,%f) \n", normal.x, normal.y);
 
-	b2Vec2 attackbox_lowerbound = bodyPosition + (-HY) * normal + (ECART + HX) * direction; 
-	b2Vec2 attackbox_upperbound = bodyPosition + HY * normal + (ECART + HX + range) * direction;
+	b2Vec2 attackbox_corner1 = bodyPosition + (-HY) * normal + (ECART + HX) * direction; 
+	b2Vec2 attackbox_corner2 = bodyPosition + HY * normal + (ECART + HX + range) * direction;
+
+	//Un rectangle est defini par 2 coin. Mais il faut que ces coins soient bien alignés, c'est à dire que lowerbound_x(y) < upperbound_x(y)
+	
+	float lowerbound_x = std::min(attackbox_corner1.x, attackbox_corner2.x);
+	float lowerbound_y = std::min(attackbox_corner1.y, attackbox_corner2.y);
+	float upperbound_x = std::max(attackbox_corner1.x, attackbox_corner2.x);
+	float upperbound_y = std::max(attackbox_corner1.y, attackbox_corner2.y);
+	
+	printf("attackbox_lowerbound = (%f,%f) \n", lowerbound_x, lowerbound_y);
+	printf("attackbox_upperbound = (%f,%f) \n", upperbound_x, upperbound_y);
+
+	
+
 	//Calcul de coordonn�es
-
-	attackBox.lowerBound.Set(attackbox_lowerbound.x, attackbox_lowerbound.y);
-	attackBox.upperBound.Set(attackbox_upperbound.x, attackbox_upperbound.y);
+	attackBox.lowerBound.Set(lowerbound_x, lowerbound_y);
+	attackBox.upperBound.Set(upperbound_x, upperbound_y);
 
 	
 
-	world->QueryAABB(callback.get(), attackBox); //On utilise unique_ptr::get pour avoir un raw pointer parceque sinon c'était pas possible à convertir correctement
+	world->QueryAABB(callback.get(), attackBox); //On utilise unique_ptr::get pour avoir un raw pointer parceque sinon c'était pas possible à convertir correctement (peut être avec un move ?)
 	
-	//On fait passer le bool�en en true pour signifier qu'on attaque et qu'on doit afficher le rectangle
-	attacking = true;
-	//On positionne ensuite correctement le shape de l'�p�e : sword
-	b2Vec2 sword_shape_center_inWorld = bodyPosition + (ECART + HX + range / 2) * direction;
-	b2Vec2 sword_shape_size_inWorld = range * direction + 2 * HX * normal;
+	//On fait passer le booleen en false pour signifier qu'on peut plus attaquer
+	canAttack = false;
+	//On positionne ensuite correctement le shape de l'epee : sword, pour l'affichage
+	b2Vec2 sword_shape_center_inWorld = attackBox.GetCenter();
+	b2Vec2 sword_shape_size_inWorld = 2 * attackBox.GetExtents();
 
+	printf("sword_shape_center_inworld = (%f,%f) \n", sword_shape_center_inWorld.x, sword_shape_center_inWorld.y);
+	printf("sword_shape_size_inworld = (%f,%f) \n", sword_shape_size_inWorld.x, sword_shape_size_inWorld.y);
 	
 
 	sword.setPosition(convertCoord_fromWorld_toWindow(sword_shape_center_inWorld));
 	sword.setSize(sf::Vector2f(abs(sword_shape_size_inWorld.x * 10), abs(sword_shape_size_inWorld.y * 10) ) );
+
+	printf("sword position = (%f,%f) \n", sword.getPosition().x / 10, (608 - sword.getPosition().y) / 10 );
+
+
+
 	//On peut pas utiliser la fonction de conversion, qui convient aux positions mais pas aux longueurs : il suffit n�amoins de multiplier par 10 :)
 	//En effet le changement de systeme de coordonn�e entre world et window
 	//ressemble a Ax + B avec A = 10*I, I = mat identit� : bref. On fait juste Ax pour conserver les longueurs
+	//On prend aussi les valeurs absolu parcequ'une longueur négative ne veut rien dire
 }
 ;
 

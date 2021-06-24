@@ -43,7 +43,7 @@ using std::filesystem::current_path;
 #include <stdio.h>
 #include <stdlib.h>
 
-
+#define ATTACK_FRAMES 100
 
 
 int myMain()
@@ -131,7 +131,6 @@ int myMain()
     
     int attack_countdown = 0;
 
-    joueur.isAttacking() ? printf("player can attack ! \n") : printf("player cannot attack ! \n");
 
     while (window.isOpen())
     {
@@ -148,31 +147,36 @@ int myMain()
             
             
             case sf::Event::KeyPressed: //Si une touche est pressed
+
+                //printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
+                //printf("player real win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+                //printf("player calc win pos = %f ; %f \n", joueur.GetBody()->GetPosition().x * 10, 608 - 10 * joueur.GetBody()->GetPosition().y);
+
                 switch (event.key.code) {//Selon la touche pressed on fait une action
                 
                 case sf::Keyboard::Left:
-                    joueur.Move(duration.asSeconds() * b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour d�placer � la juste distance
+                    joueur.Move(b2Vec2(-1, 0)); //Il faut transmettre le timestep dans la fonction pour d�placer � la juste distance
                     joueur.UpdateDirection(b2Vec2(-1, 0));
-                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Right:
                     joueur.Move(duration.asSeconds() * b2Vec2(1, 0));
                     joueur.UpdateDirection(b2Vec2(1, 0));
-                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Up:
                     joueur.Move(duration.asSeconds() * b2Vec2(0, 1));
                     joueur.UpdateDirection(b2Vec2(0, 1));
-                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Down:
                     joueur.Move(duration.asSeconds() * b2Vec2(0, -1));
                     joueur.UpdateDirection(b2Vec2(0, -1));
-                    printf("player direction = %f ; %f \n", joueur.GetDirection().x, joueur.GetDirection().y);
                     break;
                 case sf::Keyboard::Space:
-                    joueur.Attack();
-                    attack_countdown = 10;
+                    if (joueur.GetCanAttack()) {
+
+                        joueur.Attack();
+                        attack_countdown = joueur.GetCooldown();
+                        printf("monstre a = %d PV\n", monstre_a.GetHealth());
+                    }
                     break;
 
                 //On lance le menu si la touche échap est utilisée
@@ -212,15 +216,18 @@ int myMain()
         joueur.renderHPBar(&window);
 
 
-        if (joueur.isAttacking() || attack_countdown > 0) {
-            printf("player attacks ! \n");
+        if (attack_countdown > 0) {
+            //printf("player attacks ! \n");
             window.draw(joueur.GetSword());
-            printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
-            printf("sword position = %f,%f \n", joueur.GetSword().getPosition().x, joueur.GetSword().getPosition().y);
-            printf("sword size = %f,%f \n", joueur.GetSword().getSize().x, joueur.GetSword().getSize().y);
-            joueur.setAttacking(false);
+            //printf("player win pos = %f ; %f \n", joueur.GetShape().getPosition().x, joueur.GetShape().getPosition().y);
+            //printf("sword position = %f,%f \n", joueur.GetSword().getPosition().x, joueur.GetSword().getPosition().y);
+            //printf("sword size = %f,%f \n", joueur.GetSword().getSize().x, joueur.GetSword().getSize().y);
+            
             attack_countdown--;
             
+        }
+        else {
+            joueur.setCanAttack(true);
         }
         
         window.draw(monstre_a.GetShape());
