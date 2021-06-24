@@ -19,13 +19,14 @@ class PersonnageJoueur : public Entite
 {
 public:
 	
-	PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health,int force, int cooldown, float speed, int range);
+	PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health,int force, int cooldown, float speed, int range, int pieces);
 	
 	void Move(b2Vec2 dir);
 	void Attack();
 	
 	void LoseRange(TypeMonstre type);
 	void LoseForce(TypeMonstre type); //N'override pas la fonction LoseForce de Entite car l'utilise pour modifier la force
+
 
 	//M�thodes pour les attaques
 	void UpdateDirection(b2Vec2 dir);
@@ -47,6 +48,10 @@ public:
 	void initFont();
 	void initHPBar();
 	
+
+	int getPieces();
+	void setPieces(int newPieces);
+
 protected:
 	int cooldown;
 	float speed;
@@ -64,6 +69,7 @@ private:
 	sf::Font font;
 	sf::RectangleShape hpBarBack;
 	sf::RectangleShape hpBarInside;
-
+	//il s'agit de l'argent que le joueur possède
+	int pieces;
 };
 

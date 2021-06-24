@@ -4,12 +4,12 @@
 
 //variable globale définissant le nombre d'éléments de menu à afficher, permet de partager la fenêtre
 //pour faire un affichage propre et de suivre les éléments sélectionnés
-#define MAX_NUMBER_OF_ITEMS 2
+#define MAX_NUMBER_OF_ITEMS 3
 
 class Pause : public Menu
 {
 public:
-	Pause(float width, float height);
+	Pause(float width, float height, PersonnageJoueur* PJ);
 
 	//"Dessine" le menu sur la fenêtre
 	void draw(sf::RenderWindow* window) override;
@@ -19,6 +19,9 @@ public:
 	void MoveDown() override;
 
 	bool ExecuteElement(int selectedItem, sf::RenderWindow* window, PersonnageJoueur* PJ) override;
+
+	void Update(sf::RenderWindow* window, PersonnageJoueur* PJ) override;
+
 
 private:
 	//Stocke les textes à afficher, ils sont modifiés pour avoir un suivi graphique de l'élément de menu

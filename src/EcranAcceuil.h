@@ -19,6 +19,7 @@ public:
 	void MoveDown() override;
 
 	bool ExecuteElement(int selectedItem, sf::RenderWindow* window, PersonnageJoueur* PJ) override;
+	void Update(sf::RenderWindow* window, PersonnageJoueur* PJ);
 
 private:
 	//Stocke les textes à afficher, ils sont modifiés pour avoir un suivi graphique de l'élément de menu

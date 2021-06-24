@@ -74,7 +74,8 @@ int myMain()
     b2Vec2 gravity(0.f, 0.f); //Pas de gravit�
     b2World world(gravity);
 
-    PersonnageJoueur joueur(&world,40.f,30.f, 10, 1, 1000, 0.2, 10); // world, wrld_x,wrld_y,health,force,cooldown,speed,range
+    // wrldx, wrldy, health, force, cooldown, speed, range, pieces
+    PersonnageJoueur joueur(&world,40.f,30.f, 10, 1, 2, 0.2, 10, 100);
     //Les limites du monde sont donc 0 a 80 sur x et 0 a 60,8 sur y
 
     //On va créer des murs
@@ -115,8 +116,8 @@ int myMain()
 
     //On crée les menus de la boutique, de l'écran de démarrage et de pause :
     EcranAcceuil startWindow(window.getSize().x, window.getSize().y);
-    Pause pauseWindow(window.getSize().x, window.getSize().y);
-    Boutique shopWindow(window.getSize().x, window.getSize().y);
+    Pause pauseWindow(window.getSize().x, window.getSize().y, &joueur);
+    Boutique shopWindow(window.getSize().x, window.getSize().y, &joueur);
 
     //On ouvre d'abord le menu, il s'agit de la première fenêtre qui s'affiche avant le jeu
     startWindow.MenuWindow(&window, &joueur);

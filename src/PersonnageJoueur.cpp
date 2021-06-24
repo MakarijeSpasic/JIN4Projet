@@ -8,11 +8,12 @@
 #define HY 1.f
 #define ECART 0.1f
 
-PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health, int force, int cooldown, float speed, int range) :
+PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, int health, int force, int cooldown, float speed, int range, int pieces) :
 	Entite(world, wrld_x, wrld_y, health, force),
 	cooldown(cooldown),
 	speed(speed),
-	range(range)
+	range(range),
+	pieces(pieces)
 
 {
 	callback = std::make_unique<PlayerQueryCallback>(this);
@@ -26,7 +27,8 @@ PersonnageJoueur::PersonnageJoueur(b2World* world, float wrld_x, float wrld_y, i
 	//this->initHPBar();
 
 	isPlayer = true;
-	canAttack = true;
+	attacking = false;
+	
 }
 ;
 
@@ -104,6 +106,16 @@ void PersonnageJoueur::SetStats(int cooldown_modif, float speed_modif, int range
 	speed = speed + speed_modif;
 	range = range + range_modif;
 }
+
+int PersonnageJoueur::getPieces() {
+	return pieces;
+}
+
+void PersonnageJoueur::setPieces(int newPieces) {
+	pieces = newPieces;
+}
+
+
 
 void PersonnageJoueur::LoseRange(TypeMonstre type) {
 	switch (type) {

@@ -112,7 +112,7 @@ void Menu::MenuWindow(sf::RenderWindow* window, PersonnageJoueur* PJ)
 			}
 			//On redessine à chaque frame le menu, afin d'avoir les modifications graphiques en temps réel
 			window->clear(sf::Color::Black);
-
+			this->Update(window, PJ);
 			this->draw(window);
 
 			window->display();

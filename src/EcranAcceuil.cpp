@@ -79,3 +79,7 @@ bool EcranAcceuil::ExecuteElement(int selectedItem, sf::RenderWindow* window, Pe
 		break;
 	}
 }
+
+void EcranAcceuil::Update(sf::RenderWindow* window, PersonnageJoueur* PJ) {
+
+}

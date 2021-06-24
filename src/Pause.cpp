@@ -4,7 +4,7 @@
 
 
 
-Pause::Pause(float width, float height)
+Pause::Pause(float width, float height, PersonnageJoueur* PJ)
 {
 	//On charge d'abord la police d'écriture depuis le dossier resources, afin d'afficher du texte.
 	if (!font.loadFromFile("../../resources/mangat.ttf"))
@@ -25,6 +25,10 @@ Pause::Pause(float width, float height)
 	text[1].setString("Exit Game");
 	text[1].setPosition(sf::Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 2));
 
+	text[2].setFont(font);
+	text[2].setColor(sf::Color::Yellow);
+	text[2].setString("Pieces: " + std::to_string(PJ->getPieces()));
+	text[2].setPosition(sf::Vector2f(10, 10));
 	//On initialise le premier "élément du menu" choisi a 0, c'est à dire à play (c'est le bouton qui brillera en premier)
 	selectedItemIndex = 0;
 }
@@ -55,7 +59,7 @@ void Pause::MoveUp()
 void Pause::MoveDown()
 {
 	// De même que pour MoveUp
-	if (selectedItemIndex + 1 <= MAX_NUMBER_OF_ITEMS)
+	if (selectedItemIndex + 1 <= MAX_NUMBER_OF_ITEMS - 1)
 	{
 		text[selectedItemIndex].setColor(sf::Color::White);
 		selectedItemIndex++;
@@ -78,4 +82,8 @@ bool Pause::ExecuteElement(int selectedItem, sf::RenderWindow* window, Personnag
 		return false;
 		break;
 	}
+}
+
+void Pause::Update(sf::RenderWindow* window, PersonnageJoueur* PJ) {
+	text[2].setString("Pieces: " + std::to_string(PJ->getPieces()));
 }
