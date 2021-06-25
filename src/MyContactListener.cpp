@@ -1,6 +1,7 @@
 #include "MyContactListener.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
 
 
 void MyContactListener::BeginContact(b2Contact* contact) {
@@ -47,6 +48,7 @@ void MyContactListener::BeginContact(b2Contact* contact) {
         
 
         joueur->LoseHealth(monstre->GetForce());
+        std::cout << "Vie restante :" << joueur->GetHealth() << std::endl;
         joueur->GetBody()->SetLinearVelocity(-10000 * joueur->GetDirection()); //Une force qui repousse notre objet
         
 

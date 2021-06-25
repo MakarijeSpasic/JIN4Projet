@@ -166,6 +166,7 @@ int myMain()
                 case sf::Keyboard::Escape:
                     pauseWindow.MenuWindow(&window, &joueur);
                     break;
+                //On lance la boutique si la touche P est utilisée
                 case sf::Keyboard::P:
                     shopWindow.MenuWindow(&window, &joueur);
                     break;
@@ -176,7 +177,6 @@ int myMain()
         }
 
         //On update la position du joueur à chaque frame
-        joueur.updateHPBar();
         joueur.UpdateWindowPosition();
         monstre_a.UpdateWindowPosition();
         monstre_b.UpdateWindowPosition();
@@ -194,7 +194,8 @@ int myMain()
         //On dessine le joueur en récupérant sa forme
         window.draw(joueur.GetShape());
 
-        //On dessine la barre de vie du joueur
+        //On dessine la barre de vie du joueur après l'avoir mise à jour
+        joueur.updateHPBar();
         joueur.renderHPBar(&window);
 
         //On dessine les hitbox pour vérifier si besoin:

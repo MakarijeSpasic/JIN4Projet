@@ -159,7 +159,7 @@ void PersonnageJoueur::UpdateDirection(b2Vec2 dir)
 
 void PersonnageJoueur::updateHPBar()
 {
-	hpBarBack.setSize(sf::Vector2f(health, 20));
+	hpBarInside.setSize(sf::Vector2f(health*10, 20));
 }
 
 void PersonnageJoueur::renderHPBar(sf::RenderWindow* window)
