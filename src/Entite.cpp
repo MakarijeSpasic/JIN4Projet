@@ -31,6 +31,9 @@ void Entite::LoseHealth(int damage) {
 	health -= damage;
 	if (health <= 0) { //On clamp health au dessus de 0 pour ne pas avoir d'absurdité
 		health = 0;
+		//Destruction de l'object
+		//Et faire en sorte qu'il ne s'affiche plus
+		//à faire ...
 	}
 	
 }
