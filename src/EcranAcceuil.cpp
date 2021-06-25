@@ -15,16 +15,22 @@ EcranAcceuil::EcranAcceuil(float width, float height)
 
 		//On initialise les différents textes à afficher sur la page du menu :
 
-		text[0].setFont(font);
-		text[0].setColor(sf::Color::Red);
-		text[0].setString("Play");
-		text[0].setPosition(sf::Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 1));
+		setText(text,
+			height / (MAX_NUMBER_OF_ITEMS + 1),
+			width / 2,
+			"Play",
+			0,
+			sf::Color::Red,
+			30);
 
-		text[1].setFont(font);
-		text[1].setColor(sf::Color::White);
-		text[1].setString("Exit");
-		text[1].setPosition(sf::Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 2));
-
+		setText(text,
+			height / (MAX_NUMBER_OF_ITEMS + 1) * 2,
+			width / 2,
+			"Exit",
+			1,
+			sf::Color::White,
+			30);
+		
 		//On initialise le premier "élément du menu" choisi a 0, c'est à dire à play (c'est le bouton qui brillera en premier)
 		selectedItemIndex = 0;
 }
@@ -82,4 +88,14 @@ bool EcranAcceuil::ExecuteElement(int selectedItem, sf::RenderWindow* window, Pe
 
 void EcranAcceuil::Update(sf::RenderWindow* window, PersonnageJoueur* PJ) {
 
+}
+
+void EcranAcceuil::setText(sf::Text* text, float heightPosition, float widthPosition, std::string textToWrite,
+	int rankInText, sf::Color color, int size) {
+	text[rankInText].setFont(font);
+	text[rankInText].setColor(color);
+	text[rankInText].setCharacterSize(size);
+	text[rankInText].setString(textToWrite);
+	text[rankInText].setPosition(sf::Vector2f(widthPosition, heightPosition));
+	text[rankInText].setOrigin(text[rankInText].getLocalBounds().width / 2, text[rankInText].getLocalBounds().height / 2);
 }

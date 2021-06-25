@@ -89,7 +89,7 @@ void PersonnageJoueur::Attack()
 
 	sword.setPosition(convertCoord_fromWorld_toWindow(sword_shape_center_inWorld));
 	sword.setSize(sf::Vector2f(abs(sword_shape_size_inWorld.x * 10), abs(sword_shape_size_inWorld.y * 10) ) );
-
+	sword.setPosition(sword.getPosition().x - 3, sword.getPosition().y);
 	//printf("sword position = (%f,%f) \n", sword.getPosition().x / 10, (608 - sword.getPosition().y) / 10 );
 
 

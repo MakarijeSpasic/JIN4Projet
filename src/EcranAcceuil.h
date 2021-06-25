@@ -21,6 +21,10 @@ public:
 	bool ExecuteElement(int selectedItem, sf::RenderWindow* window, PersonnageJoueur* PJ) override;
 	void Update(sf::RenderWindow* window, PersonnageJoueur* PJ);
 
+	//Initialise l'objet sf::text avec les paramètres suivants : 
+// (sf::Text* text, float heightPosition, float widthPosition, std::string textToWrite, int rankInText, sf::Color color, int size)
+	void setText(sf::Text* text, float heightPosition, float widthPosition, std::string textToWrite, int rankInText, sf::Color color, int size) override;
+
 private:
 	//Stocke les textes à afficher, ils sont modifiés pour avoir un suivi graphique de l'élément de menu
 	//séléctionné

@@ -16,46 +16,65 @@ Boutique::Boutique(float width, float height, PersonnageJoueur* PJ)
 	//On initialise les différents textes à afficher sur la page du menu :
 	int shop_Height = (height - (height / 4));
 
-	text[5].setFont(font);
-	text[5].setColor(sf::Color::Yellow);
-	text[5].setString("Pieces: " + std::to_string(PJ->getPieces()));
-	text[5].setPosition(sf::Vector2f(10, 10));
+	setText(text,
+		10 ,
+		10 ,
+		"Pieces: " + std::to_string(PJ->getPieces()),
+		5,
+		sf::Color::Yellow,
+		25);
+
+	//On s'assure que les pieces sont affichées en haut à gauche : 
+	text[5].setOrigin(0, 0);
+
+	setText(text,
+		(shop_Height / (MAX_NUMBER_OF_ITEMS + 1)),
+		width/2,
+		"100: Arme plus longue (+1) mais moins de vitesse de déplacement",
+		0,
+		sf::Color::Red, 
+		15);
 
 
-	text[0].setFont(font);
-	text[0].setColor(sf::Color::Red);
-	text[0].setCharacterSize(15);
-	text[0].setString("100: Arme plus longue (+1) mais moins de vitesse de déplacement");
-	text[0].setPosition(sf::Vector2f(width / 4, shop_Height / (MAX_NUMBER_OF_ITEMS + 1) * 1));
+	setText(text,
+		(shop_Height / (MAX_NUMBER_OF_ITEMS + 1) * 2),
+		width / 2,
+		"100: Arme plus courte (-1) mais moins de cooldown",
+		1,
+		sf::Color::White,
+		15);
 
-	text[1].setFont(font);
-	text[1].setCharacterSize(15);
-	text[1].setColor(sf::Color::White);
-	text[1].setString("100: Arme plus courte (-1) mais moins de cooldown");
-	text[1].setPosition(sf::Vector2f(width / 4, shop_Height / (MAX_NUMBER_OF_ITEMS + 1) * 2));
-	//text[1].setOrigin(text[1].getLocalBounds().left / 2,text[1].getLocalBounds().top/2);
+	setText(text,
+		(shop_Height / (MAX_NUMBER_OF_ITEMS + 1) * 3),
+		width / 2,
+		"100: Arme plus longue (+2) mais plus de cooldwon et moins de vitesse de déplacement",
+		2,
+		sf::Color::White,
+		15);
 
-	text[2].setFont(font);
-	text[2].setColor(sf::Color::White);
-	text[2].setCharacterSize(15);
-	text[2].setString("100: Arme plus longue (+2) mais plus de cooldwon et moins de vitesse de déplacement");
-	text[2].setPosition(sf::Vector2f(width / 4, shop_Height / (MAX_NUMBER_OF_ITEMS + 1) * 3));
+	setText(text,
+		(shop_Height / (MAX_NUMBER_OF_ITEMS + 1) * 4),
+		width / 2,
+		"100: Arme plus longue (+2) mais plus de cooldown sur l'arme (+2)",
+		3,
+		sf::Color::White,
+		15);
 
-	text[3].setFont(font);
-	text[3].setColor(sf::Color::White);
-	text[3].setCharacterSize(15);
-	text[3].setString("100: Arme plus longue (+2) mais plus de cooldown sur l'arme (+2)");
-	text[3].setPosition(sf::Vector2f(width / 4, shop_Height / (MAX_NUMBER_OF_ITEMS + 1) * 4));
+	setText(text,
+		(height / 6) * 5,
+		width / 2,
+		"Retour au jeu",
+		4,
+		sf::Color::White,
+		20);
 
-	text[4].setFont(font);
-	text[4].setColor(sf::Color::White);
-	text[4].setString("Retour au jeu");
-	text[4].setPosition(sf::Vector2f(width / 4, (height/6) * 5));
-
-	//Il s'agit du texte préchargé pour le message de la méthode TryPay
-	text[6].setFont(font);
-	text[6].setColor(sf::Color::Green);
-	text[6].setPosition(sf::Vector2f(width / 6, (shop_Height / (MAX_NUMBER_OF_ITEMS + 1)*5)));
+	setText(text,
+		(shop_Height / (MAX_NUMBER_OF_ITEMS + 1) * 5),
+		width / 2,
+		"",
+		6,
+		sf::Color::Green,
+		25);
 
 
 	//On initialise le premier "élément du menu" choisi a 0, c'est à dire à play (c'est le bouton qui brillera en premier)
@@ -135,6 +154,7 @@ bool Boutique::TryPay(int prix, PersonnageJoueur* PJ, sf::RenderWindow* window) 
 	if (PJPieces >= prix)
 	{
 		text[6].setString("Achat effectué");
+		text[6].setOrigin(text[6].getLocalBounds().width / 2, text[6].getLocalBounds().height / 2);
 		PJ->setPieces(PJPieces - prix);
 		text[5].setString("Pieces: " + std::to_string(PJ->getPieces()));
 		window->clear(sf::Color::Black);
@@ -144,12 +164,8 @@ bool Boutique::TryPay(int prix, PersonnageJoueur* PJ, sf::RenderWindow* window) 
 	}
 	else {
 		text[6].setString("Vous n'avez pas assez de pieces");
+		text[6].setOrigin(text[6].getLocalBounds().width / 2, text[6].getLocalBounds().height / 2);
 		window->draw(text[6]);
-		//SetTimer()
-		//std::this_thread::sleep_for(std::chrono::seconds(1));
-		//sf::sleep(sf::Time(sf::microseconds(1000)));
-		//text[6].setString("");
-		//window->draw(text[6]);
 		return false;
 	}
 }
@@ -160,13 +176,18 @@ void Boutique::Update(sf::RenderWindow* window, PersonnageJoueur* PJ) {
 
 void Boutique::ExecuteBuy(int price, int range, int speed, int cooldown, PersonnageJoueur* PJ, sf::RenderWindow* window) {
 	if (TryPay(price, PJ, window)) {
-		//std::this_thread::sleep_for(std::chrono::seconds(1));
-		//text[6].setString("");
 		PJ->SetStats(range, speed, cooldown);
 		window->clear(sf::Color::Black);
 	}
-	else {
-		//std::this_thread::sleep_for(std::chrono::seconds(1));
-		//text[6].setString("");
-	}
+
+}
+
+void Boutique::setText(sf::Text* text, float heightPosition, float widthPosition, std::string textToWrite,
+	int rankInText, sf::Color color, int size) {
+	text[rankInText].setFont(font);
+	text[rankInText].setColor(color);
+	text[rankInText].setCharacterSize(size);
+	text[rankInText].setString(textToWrite);
+	text[rankInText].setPosition(sf::Vector2f(widthPosition, heightPosition));
+	text[rankInText].setOrigin(text[rankInText].getLocalBounds().width / 2, text[rankInText].getLocalBounds().height / 2);
 }

@@ -15,20 +15,33 @@ Pause::Pause(float width, float height, PersonnageJoueur* PJ)
 
 	//On initialise les différents textes à afficher sur la page du menu :
 
-	text[0].setFont(font);
-	text[0].setColor(sf::Color::Red);
-	text[0].setString("Resume Game");
-	text[0].setPosition(sf::Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 1));
+	setText(text,
+		height / (MAX_NUMBER_OF_ITEMS + 1),
+		width / 2,
+		"Resume Game",
+		0,
+		sf::Color::Red,
+		30);
 
-	text[1].setFont(font);
-	text[1].setColor(sf::Color::White);
-	text[1].setString("Exit Game");
-	text[1].setPosition(sf::Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 2));
+	setText(text,
+		height / (MAX_NUMBER_OF_ITEMS + 1) * 2,
+		width / 2,
+		"Exit Game",
+		1,
+		sf::Color::White,
+		30);
 
-	text[2].setFont(font);
-	text[2].setColor(sf::Color::Yellow);
-	text[2].setString("Pieces: " + std::to_string(PJ->getPieces()));
-	text[2].setPosition(sf::Vector2f(10, 10));
+	setText(text,
+		10,
+		10,
+		"Pieces: " + std::to_string(PJ->getPieces()),
+		2,
+		sf::Color::Yellow,
+		30);
+
+	//On s'assure que les pieces sont affichées en haut à gauche : 
+	text[2].setOrigin(0, 0);
+
 	//On initialise le premier "élément du menu" choisi a 0, c'est à dire à play (c'est le bouton qui brillera en premier)
 	selectedItemIndex = 0;
 }
@@ -86,4 +99,14 @@ bool Pause::ExecuteElement(int selectedItem, sf::RenderWindow* window, Personnag
 
 void Pause::Update(sf::RenderWindow* window, PersonnageJoueur* PJ) {
 	text[2].setString("Pieces: " + std::to_string(PJ->getPieces()));
+}
+
+void Pause::setText(sf::Text* text, float heightPosition, float widthPosition, std::string textToWrite,
+	int rankInText, sf::Color color, int size) {
+	text[rankInText].setFont(font);
+	text[rankInText].setColor(color);
+	text[rankInText].setCharacterSize(size);
+	text[rankInText].setString(textToWrite);
+	text[rankInText].setPosition(sf::Vector2f(widthPosition, heightPosition));
+	text[rankInText].setOrigin(text[rankInText].getLocalBounds().width / 2, text[rankInText].getLocalBounds().height / 2);
 }

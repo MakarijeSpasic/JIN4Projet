@@ -129,17 +129,14 @@ void Menu::MenuWindow(sf::RenderWindow* window, PersonnageJoueur* PJ)
 
 }
 
+void Menu::setText(sf::Text* text, float heightPosition, float widthPosition, std::string textToWrite, int rankInText, sf::Color color, int size)
+{
+}
+
 int Menu::GetPressedItem()
 {
 	//Permet de récupérer l'élément de menu sélectionné, pour pouvoir par la suite les traiter dans la fenêtre du menu
 	return selectedItemIndex;
 }
 
-/*
-void InitializeText(std::string text_to_write, int rank_of_display, sf::Color color, sf::Text* text, sf::Font font) {
-	text[0].setFont(font);
-	text[0].setColor(sf::Color::Red);
-	text[0].setString("Arme plus longue (+1) mais moins de vie");
-	text[0].setPosition(sf::Vector2f(width / 4, shop_Height / (MAX_NUMBER_OF_ITEMS + 1) * 1));
-}
-*/
+
