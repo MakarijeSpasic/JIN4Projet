@@ -86,37 +86,6 @@ int myMain()
     //Fonction de création des murs à partir de la map tmx:
     TiledMapConverter wallCreator(&world,&window);
     wallCreator.createWalls(&map);
-    //On va créer des murs
-
-    /*
-    b2BodyDef murOuestBodyDef;
-    murOuestBodyDef.position.Set(0.0f, 30.0f);
-    b2Body* murOuestBody = world.CreateBody(&murOuestBodyDef);
-    b2PolygonShape murOuestBox;
-    murOuestBox.SetAsBox(1.0f, 50.0f);
-    murOuestBody->CreateFixture(&murOuestBox, 0.0f);
-    
-    b2BodyDef murEstBodyDef;
-    murEstBodyDef.position.Set(87.0f, 30.0f);
-    b2Body* murEstBody = world.CreateBody(&murEstBodyDef);
-    b2PolygonShape murEstBox;
-    murEstBox.SetAsBox(10.0f, 50.0f);
-    murEstBody->CreateFixture(&murEstBox, 0.0f);
-    
-    b2BodyDef murNordBodyDef;
-    murNordBodyDef.position.Set(40.0f, 70.0f);
-    b2Body* murNordBody = world.CreateBody(&murNordBodyDef);
-    b2PolygonShape murNordBox;
-    murNordBox.SetAsBox(50.0f, 10.0f);
-    murNordBody->CreateFixture(&murNordBox, 0.0f);
-    
-    b2BodyDef murSudBodyDef;
-    murSudBodyDef.position.Set(40.0f, -7.0f);
-    b2Body* murSudBody = world.CreateBody(&murSudBodyDef);
-    b2PolygonShape murSudBox;
-    murSudBox.SetAsBox(60.0f, 10.0f);
-    murSudBody->CreateFixture(&murSudBox, 0.0f);
-    */
 
     Monstre monstre_a(&world, 10, Monstre1,29.f, 30.f, 1, 1);
     Monstre monstre_b(&world, 10, Monstre2, 10.f, 20.f, 1, 1);
