@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <iostream>
 
-
 void MyContactListener::BeginContact(b2Contact* contact) {
     
     if (contact && contact->IsTouching()){
@@ -45,7 +44,6 @@ void MyContactListener::BeginContact(b2Contact* contact) {
             monstre = (Monstre*)B;
         }
 
-        
 
         joueur->LoseHealth(monstre->GetForce());
         std::cout << "Vie restante :" << joueur->GetHealth() << std::endl;

@@ -43,6 +43,7 @@ using std::filesystem::current_path;
 #include <stdio.h>
 #include <stdlib.h>
 #include <TiledMapInterpretor.h>
+#include <GameOver.h>
 
 #define ATTACK_FRAMES 100
 
@@ -68,12 +69,6 @@ int myMain()
 
     sf::Clock globalClock;
 
-    //Test pour voir si quelque chose s'affiche
-    sf::CircleShape shape(50);
-    shape.setFillColor(sf::Color::Blue);
-    window.draw(shape);
-
-
     b2Vec2 gravity(0.f, 0.f); //Pas de gravit�
     b2World world(gravity);
 
@@ -91,11 +86,13 @@ int myMain()
     Monstre monstre_b(&world, 10, Monstre2, 10.f, 20.f, 1, 1);
     Monstre monstre_c(&world, 10, Monstre3, 10.f, 40.f, 1, 1);
 
+    //On récupère la taille de la fenêtre afin de la réutiliser plus tard :
+    int windowHeight = window.getSize().y; int windowWidth = window.getSize().x;
 
     //On crée les menus de la boutique, de l'écran de démarrage et de pause :
-    EcranAcceuil startWindow(window.getSize().x, window.getSize().y);
-    Pause pauseWindow(window.getSize().x, window.getSize().y, &joueur);
-    Boutique shopWindow(window.getSize().x, window.getSize().y, &joueur);
+    EcranAcceuil startWindow(windowWidth, windowHeight);
+    Pause pauseWindow(windowWidth, windowHeight, &joueur);
+    Boutique shopWindow(windowWidth, windowHeight, &joueur);
 
     //On ouvre d'abord le menu, il s'agit de la première fenêtre qui s'affiche avant le jeu
     startWindow.MenuWindow(&window, &joueur);
@@ -197,7 +194,11 @@ int myMain()
         //On dessine la barre de vie du joueur après l'avoir mise à jour
         joueur.updateHPBar();
         joueur.renderHPBar(&window);
-
+        
+        if (joueur.GetHealth() == 0) {
+            GameOver GOScreen(windowWidth, windowHeight,&joueur);
+            GOScreen.MenuWindow(&window,&joueur);
+        }
         //On dessine les hitbox pour vérifier si besoin:
         //wallCreator.renderHitbox();
 
