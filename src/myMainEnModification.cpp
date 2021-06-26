@@ -30,6 +30,7 @@ and must not be misrepresented as being the original software.
 source distribution.
 *********************************************************************/
 
+/*
 #include <iostream>
 #include <string>
 #include <filesystem>
@@ -60,7 +61,7 @@ int myMain()
     cout << "Current working directory: " << tmp << endl;
 
     return EXIT_SUCCESS;
-    */
+    *//*
     sf::RenderWindow window(sf::VideoMode(800, 608), "SFML window");
 
     LevelDirector leveldirector{};
@@ -101,7 +102,7 @@ int myMain()
     //Les limites du monde sont donc 0 a 80 sur x et 0 a 60,8 sur y
 
 
-
+    /*
     //Fonction de création des murs à partir de la map tmx:
     TiledMapConverter wallCreator(&world,&window);
     wallCreator.createWalls(currentLevel->Map);
@@ -233,3 +234,4 @@ int myMain()
 
     return 0;
 }
+*/
