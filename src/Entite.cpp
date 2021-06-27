@@ -25,6 +25,18 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int health, int force
 
 }
 
+void Entite::Kill()
+{
+	//Il faudrait détruire l'objet complètement , et donc écrire un destructor
+	//Mais il faut d'abord implémenter correctement la liste d'affichage des objets sur l'écran
+	//Pour les enlever
+	//C'est pas encore fait donc on va faire comme ça pour l'instant
+	shape.setFillColor(sf::Color::Transparent);
+	body->GetWorld()->DestroyBody(body);
+}
+
+
+
 
 
 void Entite::LoseHealth(int damage) {
@@ -33,7 +45,7 @@ void Entite::LoseHealth(int damage) {
 		health = 0;
 		//Destruction de l'object
 		//Et faire en sorte qu'il ne s'affiche plus
-		//à faire ...
+		Kill();
 	}
 	
 }

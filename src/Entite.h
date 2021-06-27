@@ -10,7 +10,8 @@ class Entite
 {
 public:
 	Entite(b2World* world, float wrld_x, float wrld_y, int givenHealth, int giverForce);
-	//On prend un monde en argument pour créer l'entité dedans => Peut être prendre un pointeur ??
+	
+	void Kill();
 	
 	void LoseHealth(int damage);
 	void LoseForce(int loss);
@@ -25,6 +26,7 @@ public:
 
 	sf::CircleShape GetShape() { return shape; }
 
+//Autre
 	int GetHealth() { return health; }
 	int GetForce() { return force; }
 	int GetIsPlayer() { return isPlayer; }; //Syntaxe laide
