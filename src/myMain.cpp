@@ -82,9 +82,9 @@ int myMain()
     TiledMapConverter wallCreator(&world,&window);
     wallCreator.createWalls(&map);
 
-    Monstre monstre_a(&world, 10, Monstre1,29.f, 30.f, 1, 3);
-    Monstre monstre_b(&world, 10, Monstre2, 10.f, 20.f, 1, 3);
-    Monstre monstre_c(&world, 10, Monstre3, 10.f, 40.f, 1, 3);
+    Monstre monstre_a(&world, 10, Monstre1,29.f, 30.f, 1, 1);
+    Monstre monstre_b(&world, 10, Monstre2, 10.f, 20.f, 1, 1);
+    Monstre monstre_c(&world, 10, Monstre3, 10.f, 40.f, 1, 1);
 
     //On récupère la taille de la fenêtre afin de la réutiliser plus tard :
     int windowHeight = window.getSize().y; int windowWidth = window.getSize().x;
@@ -195,7 +195,7 @@ int myMain()
         joueur.updateHPBar();
         joueur.renderHPBar(&window);
         
-        if (joueur.GetHealth() == 0) {
+        if (joueur.GetHealth() <= 0) {
             GameOver GOScreen(windowWidth, windowHeight,&joueur);
             GOScreen.MenuWindow(&window,&joueur);
         }

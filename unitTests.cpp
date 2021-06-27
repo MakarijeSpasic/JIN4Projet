@@ -29,13 +29,17 @@ TEST(Player, AttackZone) {
 	b2World world(gravity);
 
 	                             // wrldx, wrldy, health, force, cooldown, speed, range, pieces
-	PersonnageJoueur joueur(&world, 40.f, 30.f, 10, 1, 1000, 0.2, 10, 100);
-	Monstre monstre_a(&world, 10, Monstre1, 29.f, 30.f, 1, 3);
+	PersonnageJoueur joueur(&world, 0.f, 0.f, 10, 1, 1000, 0.2, 10, 100);
+	Monstre monstre(&world, 10, Monstre1, 2.f, 30.f, 1, 1);
 
 	MyContactListener contactListener;
 	world.SetContactListener(&contactListener);
 
-
+	joueur.Move(1 / 60 * b2Vec2(1, 0));
+	joueur.Move(1 / 60 * b2Vec2(1, 0));//Histoire d'être sûr que le joueur touche le monstre
+	joueur.Attack();
+	EXPECT_EQ(monstre.GetHealth(), 0);
+	EXPECT_EQ(joueur.GetHealth, 0);
 
 }
 
