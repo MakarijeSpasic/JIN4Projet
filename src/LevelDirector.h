@@ -7,16 +7,9 @@
 class LevelDirector
 {
 public:
-	void setBuilder(LevelBuilder* givenBuilder) {
-		this->builder = givenBuilder;
-	}
+	void setBuilder(LevelBuilder* givenBuilder);
 
-	void BuildLevel(b2World* world) {
-		builder->setMap();
-		builder->setPlayerPosition();
-		builder->setMonsters(world);
-
-	}
+	void BuildLevel(b2World* world);
 
 
 

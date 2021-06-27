@@ -29,7 +29,7 @@ and must not be misrepresented as being the original software.
 3. This notice may not be removed or altered from any
 source distribution.
 *********************************************************************/
-
+/*
 #include <iostream>
 #include <string>
 #include <filesystem>
@@ -57,7 +57,7 @@ int myMain()
     cout << "Current working directory: " << tmp << endl;
 
     return EXIT_SUCCESS;
-    */
+    *//*
     sf::RenderWindow window(sf::VideoMode(800, 608), "SFML window");
 
     //On crée un objet map qu'on charge avec le fichier .tmx qui contient la carte à afficher
@@ -229,3 +229,4 @@ int myMain()
 
     return 0;
 }
+*/

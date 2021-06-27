@@ -24,7 +24,7 @@ void MyContactListener::BeginContact(b2Contact* contact) {
         //Si l'un des deux est un mur alors on quitte la méthode
 
         if (A == NULL || B == NULL) return;
-
+        if (((!A->GetIsPlayer()) && (!B->GetIsPlayer())) || ((A->GetIsPlayer()) && (B->GetIsPlayer()))) return;
         //Si le test passe alors on détermine qui est qui dans le contact
 
         PersonnageJoueur* joueur = NULL;
@@ -44,9 +44,8 @@ void MyContactListener::BeginContact(b2Contact* contact) {
             monstre = (Monstre*)B;
         }
 
-
         joueur->LoseHealth(monstre->GetForce());
-        std::cout << "Vie restante :" << joueur->GetHealth() << std::endl;
+        //std::cout << "Vie restante :" << joueur->GetHealth() << std::endl;
         joueur->GetBody()->SetLinearVelocity(-10000 * joueur->GetDirection()); //Une force qui repousse notre objet
         
 

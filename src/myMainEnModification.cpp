@@ -30,7 +30,7 @@ and must not be misrepresented as being the original software.
 source distribution.
 *********************************************************************/
 
-/*
+
 #include <iostream>
 #include <string>
 #include <filesystem>
@@ -61,7 +61,7 @@ int myMain()
     cout << "Current working directory: " << tmp << endl;
 
     return EXIT_SUCCESS;
-    *//*
+    */
     sf::RenderWindow window(sf::VideoMode(800, 608), "SFML window");
 
     LevelDirector leveldirector{};
@@ -102,7 +102,7 @@ int myMain()
     //Les limites du monde sont donc 0 a 80 sur x et 0 a 60,8 sur y
 
 
-    /*
+
     //Fonction de création des murs à partir de la map tmx:
     TiledMapConverter wallCreator(&world,&window);
     wallCreator.createWalls(currentLevel->Map);
@@ -207,12 +207,14 @@ int myMain()
         //On dessine la barre de vie du joueur après l'avoir mise à jour
         joueur.updateHPBar();
         joueur.renderHPBar(&window);
-        
+
+        //std::cout << "Vie actuelle du joueur : " << joueur.GetHealth() << std::endl;
+
         if (joueur.GetHealth() == 0) {
             GameOver GOScreen(windowWidth, windowHeight,&joueur);
             GOScreen.MenuWindow(&window,&joueur);
         }
-        //On dessine les hitbox pour vérifier si besoin:
+        //On dessine les hitbox des murs pour vérifier si besoin:
         //wallCreator.renderHitbox();
 
         if (attack_countdown > 0) {
@@ -234,4 +236,3 @@ int myMain()
 
     return 0;
 }
-*/

@@ -1,4 +1,5 @@
 #include "Entite.h"
+#include <iostream>
 
 Entite::Entite(b2World* world, float wrld_x, float wrld_y, int health, int force) : 
 	world(world),
@@ -15,7 +16,7 @@ Entite::Entite(b2World* world, float wrld_x, float wrld_y, int health, int force
 	bodyDef.linearDamping = 10.f;//TEST
 	bodyDef.userData.pointer = reinterpret_cast<uintptr_t>(this);
 	body = world->CreateBody(&bodyDef);
-
+	std::cout << "Hitbox position : " << bodyDef.position.x << " " << bodyDef.position.y << std::endl;
 	dynamic_box.SetAsBox(1.0f, 1.0f);//On fait une boite de cette taille là pour l'instant
 
 	fixtureDef.shape = &dynamic_box;
