@@ -120,28 +120,29 @@ void PersonnageJoueur::setPieces(int newPieces) {
 void PersonnageJoueur::LoseRange(TypeMonstre type) {
 	switch (type) {
 	case Monstre1:
-		range -= 3;
-		break;
-	case Monstre2:
 		range -= 2;
 		break;
-	case Monstre3:
+	case Monstre2:
 		range -= 1;
 		break;
+	case Monstre3:
+		range -= 0;
+		break;
 	}
+	if (range <= 0) range = 0;
 }
 
 void PersonnageJoueur::LoseForce(TypeMonstre type)
 {
 	switch (type) {
 	case Monstre1:
-		Entite::LoseForce(1);
+		Entite::LoseForce(0);
 		break;
 	case Monstre2:
-		Entite::LoseForce(2);
+		Entite::LoseForce(1);
 		break;
 	case Monstre3:
-		Entite::LoseForce(3);
+		Entite::LoseForce(2);
 		break;
 	}
 }

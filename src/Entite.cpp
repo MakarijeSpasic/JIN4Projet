@@ -53,6 +53,7 @@ void Entite::LoseHealth(int damage) {
 void Entite::LoseForce(int loss)
 {
 	force -= loss;
+	if (force <= 0) force = 0;
 }
 
 void Entite::UpdateWindowPosition()
