@@ -31,8 +31,11 @@ void Entite::Kill()
 	//Mais il faut d'abord implémenter correctement la liste d'affichage des objets sur l'écran
 	//Pour les enlever
 	//C'est pas encore fait donc on va faire comme ça pour l'instant
-	shape.setFillColor(sf::Color::Transparent);
-	body->GetWorld()->DestroyBody(body);
+
+	if (!isPlayer) {//Il ne faut pas détruire le joueur car sinon il y a des problèmes d'accès en mémoire et le menu gameOver ne s'affiche pas
+		shape.setFillColor(sf::Color::Transparent);
+		body->GetWorld()->DestroyBody(body);
+	}
 }
 
 
