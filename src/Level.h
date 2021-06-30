@@ -16,9 +16,12 @@
 class Level
 {
 public:
+	//Chaque niveau est défini par sa map, la position initiale du joueur sur la map, les monstres qui sont dessus et la carte à dessiner.
+
 	tmx::Map* Map;
 	float InitPlayerX;
 	float InitPlayerY;
 	std::vector<Monstre> monsters;
 	MapLayer* MapToDraw;
+
 };

@@ -2,8 +2,8 @@
 #include "SFML/Graphics.hpp"
 #include <Level.h>
 
-//variable globale définissant le nombre d'éléments de menu à afficher, permet de partager la fenêtre
-//pour faire un affichage propre et de suivre les éléments sélectionnés
+//Classe abstraite qui permet de structurer les builder de niveaux, les classes qui en héritent sont les classes
+//à appeler lorsqu'on voudra faire un niveau du "style" de la classe à appeler.
 
 class LevelBuilder
 {
