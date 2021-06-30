@@ -28,6 +28,10 @@ public:
 	int GetHealth() { return health; }
 	int GetForce() { return force; }
 	int GetIsPlayer() { return isPlayer; }; //Syntaxe laide
+
+
+
+	b2Body* body;//Il faut un world pour le créer à partir de &bodyDef
 protected:
 
 	
@@ -38,7 +42,6 @@ protected:
 	//Box2D attributes
 	b2World* world;
 	b2BodyDef bodyDef;
-	b2Body* body;//Il faut un world pour le créer à partir de &bodyDef
 	b2PolygonShape dynamic_box;
 	b2FixtureDef fixtureDef;
 

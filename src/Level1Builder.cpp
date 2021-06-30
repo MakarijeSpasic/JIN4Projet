@@ -16,7 +16,8 @@ Level1Builder::~Level1Builder() {
 }
 
 void Level1Builder::setMap() {
-	level->Map = new tmx::Map();
+	tmx::Map map{};
+	level->Map = &map;
 	level->Map->load("../../resources/embedmap.tmx");
 
 	//On charge le layer à dessiner plus tard

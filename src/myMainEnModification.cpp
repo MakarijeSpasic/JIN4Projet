@@ -73,12 +73,8 @@ int myMain()
     sf::Clock globalClock;
 
     Level1Builder level1builder{};
-    leveldirector.setBuilder(&level1builder);
-    leveldirector.BuildLevel(&world);
 
     Level2Builder level2builder{};
-    leveldirector.setBuilder(&level2builder);
-    leveldirector.BuildLevel(&world);
 
     Level* currentLevel{};
 
@@ -86,14 +82,23 @@ int myMain()
     {
     case 1:
     {
+        leveldirector.setBuilder(&level1builder);
+        leveldirector.BuildLevel(&world);
         currentLevel = level1builder.getLevel();
         break;
     }
     case 2:
     {
+        leveldirector.setBuilder(&level2builder);
+        leveldirector.BuildLevel(&world);
         currentLevel = level2builder.getLevel();
         break;
     }
+    default:
+        leveldirector.setBuilder(&level1builder);
+        leveldirector.BuildLevel(&world);
+        currentLevel = level2builder.getLevel();
+        break;
     }
 
 
@@ -102,7 +107,7 @@ int myMain()
     //Les limites du monde sont donc 0 a 80 sur x et 0 a 60,8 sur y
 
 
-
+    std::cout << currentLevel->Map->getLayers().size() << std::endl;
     //Fonction de création des murs à partir de la map tmx:
     TiledMapConverter wallCreator(&world,&window);
     wallCreator.createWalls(currentLevel->Map);
@@ -194,12 +199,12 @@ int myMain()
         }
         
         currentLevel->MapToDraw->update(duration);
-        world.Step(duration.asSeconds(), 6, 2);
+        world.Step(duration.asSeconds(), 3, 2);
 
         window.clear(sf::Color::Black);
         
         //On dessine la carte .tsx chargée dans le MapToDraw
-        window.draw(*currentLevel->MapToDraw);
+        window.draw(*(currentLevel->MapToDraw));
 
         //On dessine le joueur en récupérant sa forme
         window.draw(joueur.GetShape());
