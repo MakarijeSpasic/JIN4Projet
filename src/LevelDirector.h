@@ -7,16 +7,11 @@
 class LevelDirector
 {
 public:
-	void setBuilder(LevelBuilder* givenBuilder) {
-		this->builder = givenBuilder;
-	}
+	//Permet de définir le builder de niveau qu'il faut.
+	void setBuilder(LevelBuilder* givenBuilder);
 
-	void BuildLevel(b2World* world) {
-		builder->setMap();
-		builder->setPlayerPosition();
-		builder->setMonsters(world);
-
-	}
+	//La méthode contenant l'algorithme de construction du niveau
+	void BuildLevel(b2World* world);
 
 
 

@@ -184,6 +184,7 @@ void Boutique::ExecuteBuy(int price, int range, int speed, int cooldown, Personn
 
 void Boutique::setText(sf::Text* text, float heightPosition, float widthPosition, std::string textToWrite,
 	int rankInText, sf::Color color, int size) {
+	//Il s'agit des fonctions à appeler pour initialiser le texte, cela rend le code un peu plus lisible peut être plus haut.
 	text[rankInText].setFont(font);
 	text[rankInText].setColor(color);
 	text[rankInText].setCharacterSize(size);
