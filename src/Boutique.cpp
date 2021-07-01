@@ -126,7 +126,7 @@ bool Boutique::ExecuteElement(int selectedItem, sf::RenderWindow* window, Person
 
 	case 0:
 		//Arme plus longue (+1) mais moins de vitesse de déplacement
-		ExecuteBuy(100, 0, -0.1, 5, PJ, window);
+		ExecuteBuy(100, 1, -0.1, 0, PJ, window);
 		return false;
 		break;
 	case 1:
@@ -176,7 +176,7 @@ void Boutique::Update(sf::RenderWindow* window, PersonnageJoueur* PJ) {
 
 void Boutique::ExecuteBuy(int price, int range, int speed, int cooldown, PersonnageJoueur* PJ, sf::RenderWindow* window) {
 	if (TryPay(price, PJ, window)) {
-		PJ->SetStats(range, speed, cooldown);
+		PJ->SetStats(cooldown, speed, range);
 		window->clear(sf::Color::Black);
 	}
 
